@@ -1,0 +1,1293 @@
+Name	Rune Name	complete	server	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	*runes	Rune1	Rune2	Rune3	Rune4	Rune5	Rune6	T1Code1	T1Param1	T1Min1	T1Max1	T1Code2	T1Param2	T1Min2	T1Max2	T1Code3	T1Param3	T1Min3	T1Max3	T1Code4	T1Param4	T1Min4	T1Max4	T1Code5	T1Param5	T1Min5	T1Max5	T1Code6	T1Param6	T1Min6	T1Max6	T1Code7	T1Param7	T1Min7	T1Max7	eol
+Runeword1	Ancient's Pledge	1		shld										r08	r09	r07				res-cold		30	30	res-all		13	13	ac%		50	50	dmg-to-mana		10	10													0
+Runeword6	Black	1		club	hamm	mace								r10	r16	r04				crush		8	8	dmg%		120	120	swing2		15	15	red-mag		2	2	att		200	200	oskill	74	12	12	splash	proc_SplashDamage	100	1	0
+Runeword44	Fury	1		mele										r31	r25	r05				dmg%		209	209	swing2		40	40	noheal		1	1	openwounds		66	66	lifesteal		6	6	splash	proc_SplashDamage	100	1	skill	147	5	5	0
+Runeword54	Holy Thunder	1		scep										r05	r08	r09	r07			dmg%		60	60	dmg-ltng		20	60	splash	proc_SplashDamage	100	1	res-ltng		60	60	res-ltng-max		5	5	skill	118	3	3	oskill	53	10	10	0
+Runeword55	Honor	1		mele										r11	r01	r06	r03	r12		dmg%		160	160	regen		10	10	allskills		1	1	att		200	200	deadly		25	25	str		10	10	splash	proc_SplashDamage	100	1	0
+Runeword65	King's Grace	1		swor	scep									r11	r08	r10				dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100	splash	proc_SplashDamage	100	1	0
+Runeword72	Leaf	1		staf										r03	r08					fireskill		3	3	ac/lvl		16	16	res-cold		33	33	skill	41	3	3	skill	36	3	3	skill	37	3	3	splash	proc_SplashDamage	100	1	0
+Runeword74	Lionheart	1		tors	cloa									r15	r17	r19				str		15	15	vit		20	20	dex		15	15	dmg%		20	20	hp		50	50	res-all		30	30					0
+Runeword75	Lore	1		helm										r09	r12					enr		10	10	allskills		1	1	light		2	2	mana-kill		2	2													0
+Runeword81	Malice	1		mele										r06	r01	r05				openwounds		100	100	dmg-ac		-100	-100	noheal		1	1	dmg%		33	33	light		1	1	regen		-5	-5	splash	proc_SplashDamage	100	1	0
+Runeword82	Melody	1		miss										r13	r18	r04				dmg%		50	50	skilltab	0	3	3	skill	9	3	3	skill	13	3	3	skill	17	3	3	dmg-undead		300	300					0
+Runeword83	Memory	1		staf										r17	r16	r12	r05			mana%		20	20	splash	proc_SplashDamage	100	1	ac%		50	50	cast2		33	33	sor		3	3	skill	58	3	3	skill	42	2	2	0
+Runeword88	Nadir	1		helm										r04	r03					ac%		50	50	ac		10	10	light		1	1	oskill	264	13	13	gold%		-33	-33	str		5	5					0
+Runeword116	Radiance	1		helm										r04	r12	r06				light		5	5	enr		10	10	vit		10	10	red-mag		3	3	mana		33	33	ac%		75	75					0
+Runeword120	Rhyme	1		shld										r13	r05					block2		20	20	block		20	20	res-all		25	25	nofreeze		1	1	gold%		50	50	mag%		25	25					0
+Runeword126	Silence	1		weap										r14	r02	r15	r24	r03	r26	manasteal		4	4	stupidity		33	33	dmg%		200	200	swing2		20	20	res-all		75	75	allskills		2	2	splash	proc_SplashDamage	100	1	0
+Runeword128	Smoke	1		tors	cloa									r04	r17					ac-miss		250	250	ac%		75	75	res-all		50	50	balance2		20	20	light		1	1	oskill	72	18	18					0
+Runeword133	Stealth	1		tors	cloa									r07	r05					red-mag		3	3	dex		6	6	vit		5	5	move2		25	25	cast2		25	25	balance2		25	25					0
+Runeword134	Steel	1		swor	axe	mace								r03	r01					swing2		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		50	50	dmg%		20	20	splash	proc_SplashDamage	100	1					0
+Runeword139	Strength	1		mele										r11	r03					str		20	20	dmg%		35	35	vit		10	10	crush		5	5	splash	proc_SplashDamage	100	1									0
+Runeword154	Venom	1		weap										r07	r14	r23				dmg-pois	175	312	312	ignore-ac		1	1	oskill	83	15	15	oskill	92	13	13	manasteal		7	7	splash	proc_SplashDamage	100	1					0
+Runeword160	Wealth	1		tors	cloa									r20	r18	r03				gold%		250	250	mag%		100	100																					0
+Runeword162	White	1		wand										r14	r16					skilltab	7	3	3	red-mag		4	4	cast2		20	20	splash	proc_SplashDamage	100	1	skill	68	3	3	skill	84	2	2	skill	69	4	4	0
+Runeword170	Zephyr	1		miss										r09	r05					move2		25	25	swing2		25	25	dmg%		33	33	att		66	66	gethit-skill	240	7	1	ac		25	25					0
+Runeword14	Chains of Honor	1		tors	cloa								DolUmBerIst	r14	r22	r30	r24			res-all		65	65	ac%		70	70	dmg-demon		200	200	dmg-undead		100	100	lifesteal		8	8	allskills		2	2	str		20	20	0
+Runeword9	Bramble	1		tors	cloa								RalOhmSurEth	r08	r27	r29	r05			balance2		50	50	ac		300	300	aura	Thorns	1	1	heal-kill		13	13	extra-pois		25	50	res-pois		100	100	oskill	Spirit of Barbs	1	1	0
+Runeword11	Breath of the Dying	1		weap									VexHelElEldZodEth	r26	r15	r01	r02	r33	r05	swing2		60	60	dmg-undead		125	125	lifesteal		12	15	splash	proc_SplashDamage	100	1	kill-skill	Poison Nova	50	20	dmg%		350	400	all-stats		30	30	0
+Runeword13	Call to Arms	1		weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		swing2		40	40	dmg%		200	240	allskills		1	1	oskill	Battle Command	1	1	oskill	Battle Orders	1	6	oskill	Battle Cry	1	4	splash	proc_SplashDamage	100	1	0
+Runeword17	Crescent Moon	1		axe	swor	pole							ShaelUmTir	r13	r22	r03				pierce-ltng		35	35	ignore-ac		1	1	dmg%		180	220	abs-mag		9	11	oskill	Summon Spirit Wolf	18	18	splash	proc_SplashDamage	100	1	hit-skill	Chain Lightning	10	17	0
+Runeword22	Delirium	1		helm									LemIstIo	r20	r24	r16				hit-skill	Confuse	23	20	oskill	Attract	2	2	gethit-skill	Terror	5	2	ac		261	261	gethit-skill	Mind Blast	5	14	gethit-skill	Delerium Change	5	50	allskills		2	2	0
+Runeword26	Doomsayer	1		axe	pole	hamm							HelOhmUmLoCham	r15	r27	r22	r28	r32		dmg%		280	320	aura	Holy Freeze	12	12	swing2		45	45	splash	proc_SplashDamage	100	1	pierce-cold		40	60	allskills		2	2	hit-skill	Volcano	5	18	0
+Runeword33	Enigma	1		tors	cloa								JahIthBer	r31	r06	r30				ac%		200	250	vit		15	20	move2		45	50	str/lvl	6			allskills		2	2	mag%/lvl	15			oskill	Teleport	1	1	0
+Runeword137	Stone	1		tors	cloa								ShaelUmPulLum	r13	r22	r21	r17			ac%		220	260	oskill	Clay Golem	16	16	ac-miss		300	300	oskill	Molten Boulder	16	16	str		16	16	vit		16	16	balance2		40	40	0
+Runeword36	Eternity	1		mele									AmnBerIstSolSur	r11	r30	r24	r12	r29		dmg%		260	310	indestruct		1	1	slow		33	33	oskill	Revive	10	10	splash	proc_SplashDamage	100	1	regen-mana		16	16	nofreeze		1	1	0
+Runeword37	Exile's Path	1		pala									VexOhmIstDol	r26	r27	r24	r14			block2		30	30	freeze		1	1	ac%		220	260	aura	Defiance	13	16	skilltab	10	2	2	hit-skill	Life Tap	15	5	rep-dur	25			0
+Runeword39	Famine	1		axe	hamm								FalOhmOrtJah	r19	r27	r09	r31			dmg%		270	320	lifesteal		12	12	swing2		30	30	splash	proc_SplashDamage	100	1	dmg-mag		180	200	dmg-elem	100	50	200	ethereal		1	1	0
+Runeword48	Hand of Justice	1		weap									SurChamAmnLo	r29	r32	r11	r28			splash	proc_SplashDamage	100	1	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	Blaze	100	36	death-skill	Meteor	100	48	ignore-ac		1	1	pierce-fire		20	20	0
+Runeword51	Heart of the Oak	1		staf	mace	swor	weap						KoVexPulThul	r18	r26	r21	r10			cast2		40	40	oskill	Oak Sage	5	5	mana%		15	15	allskills		3	3	splash	proc_SplashDamage	100	1	res-all		30	40	oskill	Raven	14	14	0
+Runeword66	Kingslayer	1		swor	axe								MalUmGulFal	r23	r22	r25	r19			swing2		30	30	dmg%		230	270	splash	proc_SplashDamage	100	1	crush		6	6	openwounds		25	25	oskill	Vengeance	1	1	gold%		40	40	0
+Runeword95	Passion	1		weap									DolOrtEldLem	r14	r09	r02	r20			dmg%		160	210	oskill	Zeal	1	1	att%		50	80	oskill	Berserk	1	1	swing2		25	25	oskill	Heart of Wolverine	5	5	splash	proc_SplashDamage	100	1	0
+Runeword45	Gloom	1		tors	cloa								FalUmPul	r19	r22	r21				ac%		170	230	res-all		30	30	gethit-skill	Dim Vision	15	3	balance2		10	10	dmg-to-mana		5	5	light		1	1	half-freeze		1	1	0
+Runeword122	Sanctuary	1		shld									KoKoMal	r18	r18	r23				block		20	20	block2		20	20	ac%		130	160	ac-miss		250	250	res-all		50	70	balance2		20	20	oskill	Slow Missiles	12	12	0
+Runeword16	Chaos	1		h2h									FalOhmUm	r19	r27	r22				demon-heal		15	15	dmg%		240	290	dmg-mag		216	471	oskill	Whirlwind	1	1	swing2		35	35	hit-skill	Frozen Orb	9	11	splash	proc_SplashDamage	100	1	0
+Runeword4	The Beast	1		axe	scep	hamm								r30	r03	r22	r23	r17		swing2		40	40	aura	Fanaticism	9	9	dmg%		240	270	splash	proc_SplashDamage	100	1	oskill	Summon Grizzly	13	13	oskill	Wearbear	3	3	oskill	Shape Shifting	3	3	0
+Runeword123	Serendipity																																															0
+Runeword124	Shadow																																															0
+Runeword125	Shadow of Doubt																																															0
+Runeword127	Siren's Song																																															0
+Runeword129	Sorrow																																															0
+Runeword130	Spirit	1		weap	shld								TalThulOrtAmn	r07	r10	r09	r11			balance3		55	55	mana		100	120	ac-miss		250	250	hp		40	50	cast3		30	35	splash	proc_SplashDamage	100	1	allskills		2	2	0
+Runeword131	Splendor	1		shld										r05	r17					light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	block2		20	20	cast2		10	10	allskills		1	1	0
+Runeword132	Starlight																																															0
+Runeword135	Still Water	1		shld									ZodCham	r33	r32					aura	Prayer	10	15	allskills		2	2	block		25	25	block2		25	25	res-all-max		5	5	red-dmg%		25	30	oskill	Frozen Armor	1	3	0
+Runeword30	Duress	1		tors	cloa								ShaelUmThul	r13	r22	r10				dmg-cold	50	37	133	dmg%		10	20	ac%		150	200	balance2		20	20	openwounds		33	33	crush		3	3	vit		10	10	0
+Runeword138	Storm																																															0
+Runeword140	Tempest																																															0
+Runeword141	Temptation																																															0
+Runeword142	Terror																																															0
+Runeword90	Nightfall																																															0
+Runeword91	Oath	1		swor	axe	mace							ShaelPulMalLum	r13	r21	r23	r17			dmg%		210	340	swing1		30	30	hit-skill	Bone Spirit	30	20	oskill	IronGolem	17	17	oskill	Heart of Wolverine	20	20	splash	proc_SplashDamage	100	1	indestruct		1	1	0
+Runeword92	Obedience	1		pole									HelKoThulEthFal	r15	r18	r10	r05	r19		dmg%		370	370	crush		8	8	kill-skill	enchant	30	21	pierce-fire		25	25	splash	proc_SplashDamage	100	1	balance3		40	40	res-all		20	30	0
+Runeword93	Oblivion	1		helm									ZodElVexGul	r33	r01	r26	r25			mana		-50000	-50000	res-mag		200	200	regen		-250	-250	move2		-50	-50	red-dmg		500	500	red-mag		500	500	res-all		200	200	0
+Runeword94	Obsession																																															0
+Runeword49	Harmony	1		miss									TirIthSolKo	r03	r06	r12	r18			dmg%		200	275	dmg-elem		55	160	oskill	Revive	20	20	aura	Vigor	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
+Runeword50	Hatred																																															0
+Runeword40	Flickering Flame																																															0
+Runeword41	Fortitude	1		weap	tors	cloa							ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	300	cast3		25	25	gethit-skill	Chilling Armor	20	15	dmg-to-mana		10	10	splash	proc_SplashDamage	100	1	res-all		25	30	0
+Runeword42	Fortune's Favor																																															0
+Runeword89	Nature's Kingdom																																															0
+Runeword46	Glory																																															0
+Runeword38	Faith	1		miss									OhmJahLemEld	r27	r31	r20	r02			dmg%		280	280	att%		300	300	dmg-fire		120	120	res-all		15	15	aura	fanaticism	12	15	reanimate	1	10	10	allskills		1	2	0
+Runeword43	Amity																																															0
+Runeword2	Armageddon																																															0
+Runeword3	Authority																																															0
+Runeword5	Beauty																																															0
+Runeword7	Blood			helm																																												0
+Runeword8	Bone	1		tors	cloa								SolUmUm	r12	r22	r22				hit-skill	Bone Spear	15	10	gethit-skill	Bone Armor	15	10	nec		2	2	mana		100	150													0
+Runeword10	Brand	1		miss									JahLoMalGul	r31	r28	r23	r25			dmg%		260	340	dmg-demon		280	330	hit-skill	Bone Spear	52	18	gethit-skill	Amplify Damage	35	14	knock		1	1	noheal		1	1	explosivearrow		15	15	0
+Runeword12	Broken Promise																																															0
+Runeword15	Chance																																															0
+Runeword136	Sting																																															0
+Runeword18	Darkness																																															0
+Runeword19	Daylight																																															0
+Runeword20	Death	1		swor	axe	mace							HelElVexOrtGul	r15	r01	r26	r09	r25		dmg%		300	385	splash	proc_SplashDamage	100	1	oskill	BloodGolem	20	20	att-skill	Glacial Spike	25	18	death-skill	Chain Lightning	100	44	crush		10	10	indestruct		1	1	0
+Runeword21	Deception																																															0
+Runeword23	Desire																																															0
+Runeword24	Despair																																															0
+Runeword32	Destiny's Daughter																																															0
+Runeword25	Destruction	1		pole	swor								VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		350	350	dmg-mag		100	180	hit-skill	Molten Boulder	5	23	death-skill	Meteor	100	45	att-skill	Nova	15	22	hit-skill	Volcano	23	12	splash	proc_SplashDamage	100	1	0
+Runeword27	Dragon	1		tors	cloa								SurLoSol	r29	r28	r12				ac		360	360	ac-miss		230	230	str/lvl	3			hit-skill	Hydra	12	15	gethit-skill	Venom	20	18	aura	Holy Fire	14	14	all-stats		3	5	0
+Runeword28	Dread																																															0
+Runeword29	Dream	1		helm									IoJahPul	r16	r31	r21				ac		150	220	gethit-skill	Confuse	10	15	mana/lvl	5			res-all		5	20	balance3		20	30	aura	Holy Shock	15	15	mag%		12	25	0
+Runeword56	Dweomer																																															0
+Runeword31	Edge	1		miss									TirTalAmn	r03	r07	r11				dmg-demon		320	380	dmg-undead		280	280	swing2		35	35	noheal		1	1	aura	Thorns	1	1	all-stats		5	10	cheap		15	15	0
+Runeword34	Enlightenment	1		tors	cloa								PulRalSur	r21	r08	r12				hit-skill	Fire Ball	5	15	gethit-skill	Blaze	5	15	sor		2	2	oskill	Warmth	1	1													0
+Runeword35	Envy																																															0
+Runeword52	Heaven's Will																																															0
+Runeword53	Holy Tears	1		helm									TalRalOrtThul	r07	r08	r09	r10			res-all		20	20	red-dmg		5	5	red-mag		5	5																	0
+Runeword57	Humility																																															0
+Runeword58	Hunger																																															0
+Runeword59	Ice	1		miss									AmnShaelJahLo	r11	r13	r31	r28			dmg%		140	210	aura	Holy Freeze	18	28	extra-cold		25	50	hit-skill	Frost Nova	25	20	levelup-skill	Blizzard	100	40	pierce-cold		20	50	mag%/lvl	8			0
+Runeword60	Infinity	1		pole	miss	spea	shld	staf					BerMalBerIst	r30	r23	r30	r24			dmg%		295	325	splash	proc_SplashDamage	100	1	hp		200	200	aura	Conviction	17	17	pierce-fire		5	15	pierce-ltng		5	15	pierce-cold		5	15	0
+Runeword61	Innocence	1		belt									ThulEl	r10	r01					regen		5	5	red-dmg		5	7	hp		25	25	ac/lvl	24			nofreeze		1	1									0
+Runeword62	Insight	1		staf	pole								RalTirTalSol	r08	r03	r07	r12			dmg%		200	260	att%		180	250	mag%		23	23	oskill	Critical Strike	1	6	cast2		35	35	aura	Meditation	1	11	splash	proc_SplashDamage	100	1	0
+Runeword63	Jealousy																																															0
+Runeword64	Judgment																																															0
+Runeword67	Knight's Vigil	1		boot									KoUm	r18	r22					aura	115	2	5	light		5	5	str		5	5	ac%		20	20	res-all		3	3	nofreeze		1	1					0
+Runeword69	Last Wish	1		swor	hamm	axe							JahMalJahSurJahBer	r31	r23	r31	r29	r31	r30	dmg%		330	375	splash	proc_SplashDamage	100	1	hit-skill	Life Tap	10	18	gethit-skill	Fade	6	11	crush		8	10	mag%/lvl	4			aura	Might	17	17	0
+Runeword70	Law																																															0
+Runeword71	Lawbringer	1		swor	hamm	scep							AmnLemKo	r11	r20	r18				dmg-cold		130	180	dmg-fire		150	210	aura	Sanctuary	16	18	hit-skill	Decrepify	20	15	ac-miss		200	250	rip		1	1	splash	proc_SplashDamage	100	1	0
+Runeword73	Lightning																																															0
+Runeword77	Loyalty																																															0
+Runeword78	Lust																																															0
+Runeword79	Madness																																															0
+Runeword84	Mist																																															0
+Runeword85	Morning Dew																																															0
+Runeword86	Mystery																																															0
+Runeword87	Myth	1		tors	cloa								HelAmnNef	r15	r11	r04				hit-skill	Taunt	10	1	gethit-skill	Howl	5	1	bar		2	2	regen		10	10													0
+Runeword95	Patience																																															0
+Runeword97	Pattern			h2h										r07	r09	r03				att%		10	10	dmg%		40	80	dmg-fire		12	32	res-all		15	15	splash	proc_SplashDamage	100	1	dex		6	6	block2		30	30	0
+Runeword98	Peace	1		tors	cloa								ShaelThulAmn	r13	r10	r11				hit-skill	Inner Sight	5	10	gethit-skill	Slow Missiles	5	5	ama		2	2	oskill	Critical Strike	2	2													0
+Runeword100	Penitence																																															0
+Runeword101	Peril	1		glov									FalKo	r19	r18					lifesteal		5	5	swing2		20	20	str		8	8	dex		8	8	manasteal		5	5	ignore-ac		1	1					0
+Runeword102	Pestilence																																															0
+Runeword103	Phoenix	1		weap	shld								VexVexLoJah	r26	r26	r28	r31			dmg%		350	400	ac-miss		350	400	abs-fire		30	30	allskills		1	1	pierce-fire		30	30	aura	Redemption	15	15	splash	proc_SplashDamage	100	1	0
+Runeword104	Piety																																															0
+Runeword105	Pillar of Faith																																															0
+Runeword106	Plague			weap									ChamFalUm	r32	r19	r22				dmg-demon		260	380	gethit-skill	Lower Resist	20	12	hit-skill	Poison Nova	25	15	pierce-pois		23	23	splash	proc_SplashDamage	100	1	aura	Cleansing	13	17	allskills		1	2	0
+Runeword107	Praise																																															0
+Runeword108	Prayer	1		scep									RalTalSolDol	r08	r07	r12	r14			skill	Prayer	5	7	skill	Cleansing	3	5	red-dmg		5	15	red-mag		5	15	dex		15	15	block		25	25	splash	proc_SplashDamage	100	1	0
+Runeword109	Pride	1		pole									ChamSurIoLo	r32	r29	r16	r28			dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	Fire Wall	25	17	regen		8	8	splash	proc_SplashDamage	100	1	0
+Runeword110	Principle	1		tors	cloa								RalGulEld	r08	r25	r02				hit-skill	Holy Bolt	50	5	pal		2	2	hp		100	150	dmg-undead		50	50													0
+Runeword111	Prowess in Battle																																															0
+Runeword112	Prudence	1		tors	cloa									r23	r03					ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance2		25	25	rep-dur	1			light		2	2	0
+Runeword113	Punishment																																															0
+Runeword114	Purity																																															0
+Runeword115	Question																																															0
+Runeword117	Rain	1		tors	cloa								OrtMalIth	r09	r23	r06				hit-skill	Twister	5	15	gethit-skill	Cyclone Armor	5	15	dru		2	2	mana		100	150													0
+Runeword118	Reason																																															0
+Runeword119	Red																																															0
+Runeword121	Rift	1		pole	scep								HelKoLemGul	r15	r18	r20	r25			dmg-mag		160	250	dmg-fire		60	180	dmg-to-mana		10	10	hit-skill	Tornado	20	16	att-skill	Frozen Orb	16	21	oskill	Iron Maiden	1	1	splash	proc_SplashDamage	100	1	0
+Runeword76	The Lovers																																															0
+Runeword143	Thirst																																															0
+Runeword68	Thirst for Knowledge																																															0
+Runeword144	Thought																																															0
+Runeword145	Thunder																																															0
+Runeword146	Time																																															0
+Runeword147	Tradition																																															0
+Runeword148	Treachery	1		tors	cloa								ShaelThulLem	r13	r10	r20				hit-skill	Venom	25	15	gethit-skill	Fade	5	15	ass		2	2	swing2		45	45													0
+Runeword149	Trust																																															0
+Runeword150	Truth																																															0
+Runeword151	Unbending Will																																															0
+Runeword152	Valor																																															0
+Runeword153	Vengeance			weap										r06	r11	r01				splash	proc_SplashDamage	100	1																									0
+Runeword155	Victory																																															0
+Runeword156	Voice			helm										r03	r06																																	0
+Runeword157	Void																																															0
+Runeword158	War																																															0
+Runeword159	Water																																															0
+Runeword161	Whisper																																															0
+Runeword47	Widowmaker	1		swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		splash	proc_SplashDamage	100	1	dmg		340	400	swing3		30	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
+Runeword163	Wind	1		mele										r29	r01					dmg%		120	160	swing2		40	40	move2		20	20	splash	proc_SplashDamage	100	1	hit-skill	245	10	9	oskill	240	15	15	balance2		15	15	0
+Runeword164	Wings of Hope																																															0
+Runeword99	Winter	1		swor	mace								LemKoElEld	r20	r18	r01	r02			splash	proc_SplashDamage	100	1	dmg%		100	250	dmg-cold		100	220	pierce-cold		24	24	hit-skill	Ice Blast	18	20	hit-skill	Frozen Orb	15	13	nofreeze		1	1	0
+Runeword165	Wisdom			shld	staf	wand														splash	proc_SplashDamage	100	1																									0
+Runeword166	Woe			weap	miss															splash	proc_SplashDamage	100	1																									0
+Runeword167	Wonder			wand										r04	r12	r24				splash	proc_SplashDamage	100	1																									0
+Runeword168	Wrath	1		miss									PulLumBerMal	r21	r17	r30	r23			dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	Life Tap	5	10	hit-skill	decrepify	30	1	nofreeze		1	1	0
+Runeword169	Youth																																															0
+Runeword171	Dreamless	1		shld									IoJahPul	r16	r31	r21				ac		150	220	gethit-skill	Confuse	10	15	mana/lvl	5			res-all		5	20	balance3		20	30	aura	Holy Shock1	20	20	mag%		12	25	0
+Runeword172	Dragonless	1		shld									SurLoSol	r29	r28	r12				ac		360	360	ac-miss		230	230	str/lvl	3			hit-skill	Hydra	12	15	gethit-skill	Venom	20	18	aura	Holy Fire1	14	14	all-stats		3	5	0
+Runeword173	InfinityM	0		miss									BerMalSurIst	r30	r23	r29	r24			dmg%		265	325	move3		35	36	hp/lvl	12			aura	Conviction	16	16	pierce-fire		41	50	pierce-ltng		41	50	pierce-cold		41	50	0
+ChippedAmethystRuneword		0		weap										gcv						dmg-min		1	1	dmg-max		1	1	dmg%		6	10	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		1		weap										gcv	gcv					dmg-min		2	2	dmg-max		2	2	dmg%		10	17	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		1		weap										gcv	gcv	gcv				dmg-min		3	4	dmg-max		3	4	dmg%		14	23	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		1		weap										gcv	gcv	gcv	gcv			dmg-min		3	5	dmg-max		3	5	dmg%		18	29	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		1		weap										gcv	gcv	gcv	gcv	gcv		dmg-min		4	6	dmg-max		4	6	dmg%		23	38	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		1		weap										gcv	gcv	gcv	gcv	gcv	gcv	dmg-min		5	7	dmg-max		5	7	dmg%		27	44	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		0		weap										gfv						dmg-min		2	2	dmg-max		2	2	dmg%		10	17	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		1		weap										gfv	gfv					dmg-min		3	5	dmg-max		3	5	dmg%		14	23	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		1		weap										gfv	gfv	gfv				dmg-min		5	7	dmg-max		5	7	dmg%		19	32	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		1		weap										gfv	gfv	gfv	gfv			dmg-min		7	10	dmg-max		7	10	dmg%		25	42	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		1		weap										gfv	gfv	gfv	gfv	gfv		dmg-min		8	12	dmg-max		8	12	dmg%		29	48	splash	proc_SplashDamage	100	1													0
+FlawedAmethystRuneword		1		weap										gfv	gfv	gfv	gfv	gfv	gfv	dmg-min		10	14	dmg-max		10	14	dmg%		34	57	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		0		weap										gsv						dmg-min		3	5	dmg-max		3	5	dmg%		23	38	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		1		weap										gsv	gsv					dmg-min		7	10	dmg-max		7	10	dmg%		30	50	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		1		weap										gsv	gsv	gsv				dmg-min		10	14	dmg-max		10	14	dmg%		38	63	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		1		weap										gsv	gsv	gsv	gsv			dmg-min		12	17	dmg-max		12	17	dmg%		49	82	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		1		weap										gsv	gsv	gsv	gsv	gsv		dmg-min		15	22	dmg-max		15	22	dmg%		57	94	splash	proc_SplashDamage	100	1													0
+NormalAmethystRuneword		1		weap										gsv	gsv	gsv	gsv	gsv	gsv	dmg-min		18	26	dmg-max		18	26	dmg%		64	107	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		0		weap										gzv						dmg-min		4	6	dmg-max		4	6	dmg%		66	110	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		1		weap										gzv	gzv					dmg-min		8	12	dmg-max		8	12	dmg%		75	125	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		1		weap										gzv	gzv	gzv				dmg-min		13	18	dmg-max		13	18	dmg%		87	144	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		1		weap										gzv	gzv	gzv	gzv			dmg-min		17	24	dmg-max		17	24	dmg%		94	157	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		1		weap										gzv	gzv	gzv	gzv	gzv		dmg-min		21	30	dmg-max		21	30	dmg%		104	173	splash	proc_SplashDamage	100	1													0
+FlawlessAmethystRuneword		1		weap										gzv	gzv	gzv	gzv	gzv	gzv	dmg-min		25	36	dmg-max		25	36	dmg%		113	188	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		0		weap										gpv						dmg-min		6	8	dmg-max		6	8	dmg%		94	157	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		1		weap										gpv	gpv					dmg-min		12	17	dmg-max		12	17	dmg%		109	182	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		1		weap										gpv	gpv	gpv				dmg-min		18	25	dmg-max		18	25	dmg%		120	200	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		1		weap										gpv	gpv	gpv	gpv			dmg-min		23	34	dmg-max		23	34	dmg%		134	223	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		1		weap										gpv	gpv	gpv	gpv	gpv		dmg-min		29	42	dmg-max		29	42	dmg%		147	244	splash	proc_SplashDamage	100	1													0
+PerfectAmethystRuneword		1		weap										gpv	gpv	gpv	gpv	gpv	gpv	dmg-min		35	50	dmg-max		35	50	dmg%		162	269	splash	proc_SplashDamage	100	1													0
+ChippedAmethystRuneword		0		glov										gcv						dmg-min		1	1	dmg-max		1	1	dmg%		1	2	light		1	1													0
+ChippedAmethystRuneword		1		glov										gcv	gcv					dmg-min		2	2	dmg-max		2	2	dmg%		2	4	light		1	1													0
+ChippedAmethystRuneword		1		glov										gcv	gcv	gcv				dmg-min		3	4	dmg-max		3	4	dmg%		4	6	light		2	2													0
+ChippedAmethystRuneword		1		glov										gcv	gcv	gcv	gcv			dmg-min		3	5	dmg-max		3	5	dmg%		5	8	light		3	3													0
+FlawedAmethystRuneword		0		glov										gfv						dmg-min		2	2	dmg-max		2	2	dmg%		2	3	light		1	1													0
+FlawedAmethystRuneword		1		glov										gfv	gfv					dmg-min		3	5	dmg-max		3	5	dmg%		4	6	light		1	1													0
+FlawedAmethystRuneword		1		glov										gfv	gfv	gfv				dmg-min		5	7	dmg-max		5	7	dmg%		5	9	light		2	2													0
+FlawedAmethystRuneword		1		glov										gfv	gfv	gfv	gfv			dmg-min		7	10	dmg-max		7	10	dmg%		7	11	light		3	3													0
+NormalAmethystRuneword		0		glov										gsv						dmg-min		3	5	dmg-max		3	5	dmg%		2	4	light		1	1													0
+NormalAmethystRuneword		1		glov										gsv	gsv					dmg-min		7	10	dmg-max		7	10	dmg%		5	8	light		1	1													0
+NormalAmethystRuneword		1		glov										gsv	gsv	gsv				dmg-min		10	14	dmg-max		10	14	dmg%		7	11	light		2	2													0
+NormalAmethystRuneword		1		glov										gsv	gsv	gsv	gsv			dmg-min		12	17	dmg-max		12	17	dmg%		9	15	light		3	3													0
+FlawlessAmethystRuneword		0		glov										gzv						dmg-min		4	6	dmg-max		4	6	dmg%		4	6	light		1	1													0
+FlawlessAmethystRuneword		1		glov										gzv	gzv					dmg-min		7	10	dmg-max		7	10	dmg%		7	11	light		1	1													0
+FlawlessAmethystRuneword		1		glov										gzv	gzv	gzv				dmg-min		10	14	dmg-max		10	14	dmg%		10	17	light		2	2													0
+FlawlessAmethystRuneword		1		glov										gzv	gzv	gzv	gzv			dmg-min		13	19	dmg-max		13	19	dmg%		14	23	light		3	3													0
+PerfectAmethystRuneword		0		glov										gpv						dmg-min		6	8	dmg-max		6	8	dmg%		10	17	light		1	1													0
+PerfectAmethystRuneword		1		glov										gpv	gpv					dmg-min		10	14	dmg-max		10	14	dmg%		14	23	light		1	1													0
+PerfectAmethystRuneword		1		glov										gpv	gpv	gpv				dmg-min		13	19	dmg-max		13	19	dmg%		17	28	light		2	2													0
+PerfectAmethystRuneword		1		glov										gpv	gpv	gpv	gpv			dmg-min		17	24	dmg-max		17	24	dmg%		18	30	light		3	3													0
+ChippedAmethystRunewordArmor		0		tors	cloa									gcv						ac		1	5	ac%		7	14	light		1	1																	0
+ChippedAmethystRunewordArmor		1		tors	cloa									gcv	gcv					ac		2	10	ac%		10	19	light		1	1																	0
+ChippedAmethystRunewordArmor		1		tors	cloa									gcv	gcv	gcv				ac		3	15	ac%		12	24	light		2	2																	0
+ChippedAmethystRunewordArmor		1		tors	cloa									gcv	gcv	gcv	gcv			ac		4	20	ac%		15	30	light		3	3																	0
+ChippedAmethystRunewordArmor		1		tors	cloa									gcv	gcv	gcv	gcv	gcv		ac		5	25	ac%		18	35	light		4	4																	0
+ChippedAmethystRunewordArmor		1		tors	cloa									gcv	gcv	gcv	gcv	gcv	gcv	ac		6	30	ac%		20	40	light		5	5																	0
+FlawedAmethystRunewordArmor		0		tors	cloa									gfv						ac		2	7	ac%		14	27	light		1	1																	0
+FlawedAmethystRunewordArmor		1		tors	cloa									gfv	gfv					ac		3	14	ac%		19	38	light		1	1																	0
+FlawedAmethystRunewordArmor		1		tors	cloa									gfv	gfv	gfv				ac		4	20	ac%		24	48	light		2	2																	0
+FlawedAmethystRunewordArmor		1		tors	cloa									gfv	gfv	gfv	gfv			ac		6	27	ac%		30	59	light		3	3																	0
+FlawedAmethystRunewordArmor		1		tors	cloa									gfv	gfv	gfv	gfv	gfv		ac		7	34	ac%		35	70	light		4	4																	0
+FlawedAmethystRunewordArmor		1		tors	cloa									gfv	gfv	gfv	gfv	gfv	gfv	ac		8	40	ac%		40	80	light		5	5																	0
+NormalAmethystRunewordArmor		0		tors	cloa									gsv						ac		2	9	ac%		20	40	light		1	1																	0
+NormalAmethystRunewordArmor		1		tors	cloa									gsv	gsv					ac		4	17	ac%		28	56	light		1	1																	0
+NormalAmethystRunewordArmor		1		tors	cloa									gsv	gsv	gsv				ac		5	25	ac%		36	72	light		2	2																	0
+NormalAmethystRunewordArmor		1		tors	cloa									gsv	gsv	gsv	gsv			ac		7	34	ac%		44	88	light		3	3																	0
+NormalAmethystRunewordArmor		1		tors	cloa									gsv	gsv	gsv	gsv	gsv		ac		9	42	ac%		52	104	light		4	4																	0
+NormalAmethystRunewordArmor		1		tors	cloa									gsv	gsv	gsv	gsv	gsv	gsv	ac		10	50	ac%		60	120	light		5	5																	0
+FlawlessAmethystRunewordArmor		0		tors	cloa									gzv						ac		2	10	ac%		27	54	light		1	1																	0
+FlawlessAmethystRunewordArmor		1		tors	cloa									gzv	gzv					ac		4	20	ac%		38	75	light		1	1																	0
+FlawlessAmethystRunewordArmor		1		tors	cloa									gzv	gzv	gzv				ac		6	30	ac%		48	96	light		2	2																	0
+FlawlessAmethystRunewordArmor		1		tors	cloa									gzv	gzv	gzv	gzv			ac		8	40	ac%		59	118	light		3	3																	0
+FlawlessAmethystRunewordArmor		1		tors	cloa									gzv	gzv	gzv	gzv	gzv		ac		10	50	ac%		70	139	light		4	4																	0
+FlawlessAmethystRunewordArmor		1		tors	cloa									gzv	gzv	gzv	gzv	gzv	gzv	ac		12	60	ac%		80	160	light		5	5																	0
+PerfectAmethystRunewordArmor		0		tors	cloa									gpv						ac		3	12	ac%		34	67	light		1	1																	0
+PerfectAmethystRunewordArmor		1		tors	cloa									gpv	gpv					ac		5	24	ac%		47	94	light		1	1																	0
+PerfectAmethystRunewordArmor		1		tors	cloa									gpv	gpv	gpv				ac		7	35	ac%		60	120	light		2	2																	0
+PerfectAmethystRunewordArmor		1		tors	cloa									gpv	gpv	gpv	gpv			ac		10	47	ac%		74	147	light		3	3																	0
+PerfectAmethystRunewordArmor		1		tors	cloa									gpv	gpv	gpv	gpv	gpv		ac		12	59	ac%		80	160	light		4	4																	0
+PerfectAmethystRunewordArmor		1		tors	cloa									gpv	gpv	gpv	gpv	gpv	gpv	ac		14	70	ac%		100	200	light		5	5																	0
+ChippedAmethystRunewordArmor		0		helm										gcv						ac		1	5	ac%		7	14	light		1	1																	0
+ChippedAmethystRunewordArmor		1		helm										gcv	gcv					ac		2	10	ac%		12	23	light		1	1																	0
+ChippedAmethystRunewordArmor		1		helm										gcv	gcv	gcv				ac		3	15	ac%		16	32	light		2	2																	0
+ChippedAmethystRunewordArmor		1		helm										gcv	gcv	gcv	gcv			ac		4	20	ac%		20	40	light		3	3																	0
+FlawedAmethystRunewordArmor		0		helm										gfv						ac		2	7	ac%		14	27	light		1	1																	0
+FlawedAmethystRunewordArmor		1		helm										gfv	gfv					ac		3	14	ac%		22	44	light		1	1																	0
+FlawedAmethystRunewordArmor		1		helm										gfv	gfv	gfv				ac		4	20	ac%		31	62	light		2	2																	0
+FlawedAmethystRunewordArmor		1		helm										gfv	gfv	gfv	gfv			ac		6	27	ac%		40	80	light		3	3																	0
+NormalAmethystRunewordArmor		0		helm										gsv						ac		2	9	ac%		20	40	light		1	1																	0
+NormalAmethystRunewordArmor		1		helm										gsv	gsv					ac		4	17	ac%		34	67	light		1	1																	0
+NormalAmethystRunewordArmor		1		helm										gsv	gsv	gsv				ac		5	25	ac%		47	94	light		2	2																	0
+NormalAmethystRunewordArmor		1		helm										gsv	gsv	gsv	gsv			ac		7	34	ac%		60	120	light		3	3																	0
+FlawlessAmethystRunewordArmor		0		helm										gzv						ac		2	10	ac%		27	54	light		1	1																	0
+FlawlessAmethystRunewordArmor		1		helm										gzv	gzv					ac		4	20	ac%		45	90	light		1	1																	0
+FlawlessAmethystRunewordArmor		1		helm										gzv	gzv	gzv				ac		6	30	ac%		63	126	light		2	2																	0
+FlawlessAmethystRunewordArmor		1		helm										gzv	gzv	gzv	gzv			ac		8	40	ac%		80	160	light		3	3																	0
+PerfectAmethystRunewordArmor		0		helm										gpv						ac		3	12	ac%		34	67	light		1	1																	0
+PerfectAmethystRunewordArmor		1		helm										gpv	gpv					ac		5	24	ac%		56	111	light		1	1																	0
+PerfectAmethystRunewordArmor		1		helm										gpv	gpv	gpv				ac		7	35	ac%		78	155	light		2	2																	0
+PerfectAmethystRunewordArmor		1		helm										gpv	gpv	gpv	gpv			ac		10	47	ac%		100	200	light		3	3																	0
+ChippedAmethystRunewordArmor		0		belt										gcv						ac		2	9	ac%		7	14	light		1	1																	0
+ChippedAmethystRunewordArmor		1		belt										gcv	gcv					ac		4	17	ac%		14	27	light		1	1																	0
+FlawedAmethystRunewordArmor		0		belt										gfv						ac		3	15	ac%		20	40	light		1	1																	0
+FlawedAmethystRunewordArmor		1		belt										gfv	gfv					ac		6	30	ac%		27	54	light		1	1																	0
+NormalAmethystRunewordArmor		0		belt										gsv						ac		5	22	ac%		34	67	light		1	1																	0
+NormalAmethystRunewordArmor		1		belt										gsv	gsv					ac		9	44	ac%		40	80	light		1	1																	0
+FlawlessAmethystRunewordArmor		0		belt										gzv						ac		6	27	ac%		47	94	light		1	1																	0
+FlawlessAmethystRunewordArmor		1		belt										gzv	gzv					ac		11	54	ac%		54	107	light		1	1																	0
+PerfectAmethystRunewordArmor		0		belt										gpv						ac		7	34	ac%		60	120	light		1	1																	0
+PerfectAmethystRunewordArmor		1		belt										gpv	gpv					ac		14	67	ac%		67	134	light		1	1																	0
+ChippedAmethystRunewordShield		0		shld										gcv						ac%		6	11	block		1	1	light		1	1																	0
+ChippedAmethystRunewordShield		1		shld										gcv	gcv					ac%		9	18	block		2	2	light		1	1																	0
+ChippedAmethystRunewordShield		1		shld										gcv	gcv	gcv				ac%		12	24	block		3	3	light		2	2																	0
+ChippedAmethystRunewordShield		1		shld										gcv	gcv	gcv	gcv			ac%		16	31	block		4	4	light		3	3																	0
+ChippedAmethystRunewordShield		1		shld										gcv	gcv	gcv	gcv	gcv		ac%		20	40	block		5	5	light		4	4																	0
+ChippedAmethystRunewordShield		1		shld										gcv	gcv	gcv	gcv	gcv	gcv	ac%		24	47	block		6	6	light		5	5																	0
+FlawedAmethystRunewordShield		0		shld										gfv						ac%		9	18	block		2	2	light		1	1																	0
+FlawedAmethystRunewordShield		1		shld										gfv	gfv					ac%		12	24	block		4	4	light		1	1																	0
+FlawedAmethystRunewordShield		1		shld										gfv	gfv	gfv				ac%		17	34	block		6	6	light		2	2																	0
+FlawedAmethystRunewordShield		1		shld										gfv	gfv	gfv	gfv			ac%		22	44	block		8	8	light		3	3																	0
+FlawedAmethystRunewordShield		1		shld										gfv	gfv	gfv	gfv	gfv		ac%		26	51	block		10	10	light		4	4																	0
+FlawedAmethystRunewordShield		1		shld										gfv	gfv	gfv	gfv	gfv	gfv	ac%		30	60	block		12	12	light		5	5																	0
+NormalAmethystRunewordShield		0		shld										gsv						ac%		20	40	block		3	3	light		1	1																	0
+NormalAmethystRunewordShield		1		shld										gsv	gsv					ac%		27	54	block		6	6	light		1	1																	0
+NormalAmethystRunewordShield		1		shld										gsv	gsv	gsv				ac%		34	67	block		9	9	light		2	2																	0
+NormalAmethystRunewordShield		1		shld										gsv	gsv	gsv	gsv			ac%		44	87	block		12	12	light		3	3																	0
+NormalAmethystRunewordShield		1		shld										gsv	gsv	gsv	gsv	gsv		ac%		50	100	block		15	15	light		4	4																	0
+NormalAmethystRunewordShield		1		shld										gsv	gsv	gsv	gsv	gsv	gsv	ac%		57	114	block		18	18	light		5	5																	0
+FlawlessAmethystRunewordShield		0		shld										gzv						ac%		59	118	block		4	4	light		1	1																	0
+FlawlessAmethystRunewordShield		1		shld										gzv	gzv					ac%		67	134	block		8	8	light		1	1																	0
+FlawlessAmethystRunewordShield		1		shld										gzv	gzv	gzv				ac%		77	154	block		12	12	light		2	2																	0
+FlawlessAmethystRunewordShield		1		shld										gzv	gzv	gzv	gzv			ac%		84	167	block		16	16	light		3	3																	0
+FlawlessAmethystRunewordShield		1		shld										gzv	gzv	gzv	gzv	gzv		ac%		92	184	block		20	20	light		4	4																	0
+FlawlessAmethystRunewordShield		1		shld										gzv	gzv	gzv	gzv	gzv	gzv	ac%		100	200	block		24	24	light		5	5																	0
+PerfectAmethystRunewordShield		0		shld										gpv						ac%		84	167	block		5	5	light		1	1																	0
+PerfectAmethystRunewordShield		1		shld										gpv	gpv					ac%		97	194	block		10	10	light		1	1																	0
+PerfectAmethystRunewordShield		1		shld										gpv	gpv	gpv				ac%		107	214	block		15	15	light		2	2																	0
+PerfectAmethystRunewordShield		1		shld										gpv	gpv	gpv	gpv			ac%		119	238	block		20	20	light		3	3																	0
+PerfectAmethystRunewordShield		1		shld										gpv	gpv	gpv	gpv	gpv		ac%		130	260	block		25	25	light		4	4																	0
+PerfectAmethystRunewordShield		1		shld										gpv	gpv	gpv	gpv	gpv	gpv	ac%		144	287	block		30	30	light		5	5																	0
+ChippedAmethystRunewordShield		0		boot										gcv						ac%		7	14	block		2	2	light		1	1																	0
+ChippedAmethystRunewordShield		1		boot										gcv	gcv					ac%		14	27	block		4	4	light		1	1																	0
+ChippedAmethystRunewordShield		1		boot										gcv	gcv	gcv				ac%		20	40	block		6	6	light		2	2																	0
+ChippedAmethystRunewordShield		1		boot										gcv	gcv	gcv	gcv			ac%		27	54	block		8	8	light		3	3																	0
+FlawedAmethystRunewordShield		0		boot										gfv						ac%		11	22	block		4	4	light		1	1																	0
+FlawedAmethystRunewordShield		1		boot										gfv	gfv					ac%		22	43	block		6	6	light		1	1																	0
+FlawedAmethystRunewordShield		1		boot										gfv	gfv	gfv				ac%		31	62	block		8	8	light		2	2																	0
+FlawedAmethystRunewordShield		1		boot										gfv	gfv	gfv	gfv			ac%		40	80	block		10	10	light		3	3																	0
+NormalAmethystRunewordShield		0		boot										gsv						ac%		14	27	block		6	6	light		1	1																	0
+NormalAmethystRunewordShield		1		boot										gsv	gsv					ac%		27	54	block		8	8	light		1	1																	0
+NormalAmethystRunewordShield		1		boot										gsv	gsv	gsv				ac%		40	80	block		10	10	light		2	2																	0
+NormalAmethystRunewordShield		1		boot										gsv	gsv	gsv	gsv			ac%		54	107	block		12	12	light		3	3																	0
+FlawlessAmethystRunewordShield		0		boot										gzv						ac%		20	40	block		8	8	light		1	1																	0
+FlawlessAmethystRunewordShield		1		boot										gzv	gzv					ac%		40	80	block		10	10	light		1	1																	0
+FlawlessAmethystRunewordShield		1		boot										gzv	gzv	gzv				ac%		60	120	block		12	12	light		2	2																	0
+FlawlessAmethystRunewordShield		1		boot										gzv	gzv	gzv	gzv			ac%		80	160	block		14	14	light		3	3																	0
+PerfectAmethystRunewordShield		0		boot										gpv						ac%		60	120	block		10	10	light		1	1																	0
+PerfectAmethystRunewordShield		1		boot										gpv	gpv					ac%		80	160	block		12	12	light		1	1																	0
+PerfectAmethystRunewordShield		1		boot										gpv	gpv	gpv				ac%		100	200	block		14	14	light		2	2																	0
+PerfectAmethystRunewordShield		1		boot										gpv	gpv	gpv	gpv			ac%		107	214	block		16	16	light		3	3																	0
+ChippedSaphireRuneword		0		weap										gcb						freeze		1	1	mana-kill		1	1	dmg-cold		3	5	pierce-cold		1	1	dmg%		10	10	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		1		weap										gcb	gcb					freeze		2	2	mana-kill		2	2	dmg-cold		7	9	pierce-cold		2	2	dmg%		12	12	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		1		weap										gcb	gcb	gcb				freeze		3	3	mana-kill		3	3	dmg-cold		10	14	pierce-cold		3	3	dmg%		14	14	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		1		weap										gcb	gcb	gcb	gcb			freeze		4	4	mana-kill		4	4	dmg-cold		12	20	pierce-cold		4	4	dmg%		16	16	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		1		weap										gcb	gcb	gcb	gcb	gcb		freeze		5	5	mana-kill		5	5	dmg-cold		16	24	pierce-cold		5	5	dmg%		18	18	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		1		weap										gcb	gcb	gcb	gcb	gcb	gcb	freeze		6	6	mana-kill		6	6	dmg-cold		20	28	pierce-cold		6	6	dmg%		20	20	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		0		weap										gfb						freeze		2	2	mana-kill		2	2	dmg-cold		5	8	pierce-cold		2	2	dmg%		20	20	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		1		weap										gfb	gfb					freeze		4	4	mana-kill		3	3	dmg-cold		10	14	pierce-cold		3	3	dmg%		24	24	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		1		weap										gfb	gfb	gfb				freeze		6	6	mana-kill		4	4	dmg-cold		16	20	pierce-cold		4	4	dmg%		28	28	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		1		weap										gfb	gfb	gfb	gfb			freeze		8	8	mana-kill		5	5	dmg-cold		20	28	pierce-cold		5	5	dmg%		32	32	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		1		weap										gfb	gfb	gfb	gfb	gfb		freeze		10	10	mana-kill		6	6	dmg-cold		26	34	pierce-cold		6	6	dmg%		36	36	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawedSaphireRuneword		1		weap										gfb	gfb	gfb	gfb	gfb	gfb	freeze		12	12	mana-kill		7	7	dmg-cold		32	40	pierce-cold		7	7	dmg%		40	40	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		0		weap										gsb						freeze		3	3	mana-kill		3	3	dmg-cold		6	10	pierce-cold		3	3	dmg%		30	30	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		1		weap										gsb	gsb					freeze		6	6	mana-kill		4	4	dmg-cold		12	20	pierce-cold		4	4	dmg%		36	36	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		1		weap										gsb	gsb	gsb				freeze		9	9	mana-kill		5	5	dmg-cold		20	28	pierce-cold		5	5	dmg%		42	42	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		1		weap										gsb	gsb	gsb	gsb			freeze		12	12	mana-kill		6	6	dmg-cold		28	36	pierce-cold		6	6	dmg%		48	48	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		1		weap										gsb	gsb	gsb	gsb	gsb		freeze		15	15	mana-kill		7	7	dmg-cold		32	48	pierce-cold		7	7	dmg%		54	54	swing2		10	10	splash	proc_SplashDamage	100	1	0
+NormalSaphireRuneword		1		weap										gsb	gsb	gsb	gsb	gsb	gsb	freeze		18	18	mana-kill		8	8	dmg-cold		40	56	pierce-cold		8	8	dmg%		60	60	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		0		weap										glb						freeze		4	4	mana-kill		4	4	dmg-cold		8	12	pierce-cold		4	4	dmg%		40	40	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		1		weap										glb	glb					freeze		8	8	mana-kill		5	5	dmg-cold		16	24	pierce-cold		5	5	dmg%		48	48	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		1		weap										glb	glb	glb				freeze		12	12	mana-kill		6	6	dmg-cold		24	36	pierce-cold		6	6	dmg%		56	56	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		1		weap										glb	glb	glb	glb			freeze		16	16	mana-kill		7	7	dmg-cold		36	44	pierce-cold		7	7	dmg%		64	64	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		1		weap										glb	glb	glb	glb	glb		freeze		20	20	mana-kill		8	8	dmg-cold		42	58	pierce-cold		8	8	dmg%		72	72	swing2		10	10	splash	proc_SplashDamage	100	1	0
+FlawlessSaphireRuneword		1		weap										glb	glb	glb	glb	glb	glb	freeze		24	24	mana-kill		9	9	dmg-cold		52	68	pierce-cold		9	9	dmg%		80	80	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		0		weap										gpb						freeze		5	5	mana-kill		5	5	dmg-cold		10	14	pierce-cold		5	5	dmg%		50	50	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		1		weap										gpb	gpb					freeze		10	10	mana-kill		6	6	dmg-cold		20	28	pierce-cold		6	6	dmg%		60	60	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		1		weap										gpb	gpb	gpb				freeze		15	15	mana-kill		7	7	dmg-cold		30	42	pierce-cold		7	7	dmg%		70	70	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		1		weap										gpb	gpb	gpb	gpb			freeze		20	20	mana-kill		8	8	dmg-cold		40	56	pierce-cold		8	8	dmg%		80	80	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		1		weap										gpb	gpb	gpb	gpb	gpb		freeze		25	25	mana-kill		9	9	dmg-cold		52	68	pierce-cold		9	9	dmg%		90	90	swing2		10	10	splash	proc_SplashDamage	100	1	0
+PerfectSaphireRuneword		1		weap										gpb	gpb	gpb	gpb	gpb	gpb	freeze		30	30	mana-kill		10	10	dmg-cold		64	80	pierce-cold		10	10	dmg%		100	100	swing2		10	10	splash	proc_SplashDamage	100	1	0
+ChippedSaphireRuneword		0		glov										gcb						freeze		1	1	mana-kill		1	1	dmg-cold		3	5	light		1	1													0
+ChippedSaphireRuneword		1		glov										gcb	gcb					freeze		2	2	mana-kill		1	1	dmg-cold		6	10	light		1	1													0
+ChippedSaphireRuneword		1		glov										gcb	gcb	gcb				freeze		3	3	mana-kill		1	1	dmg-cold		10	14	light		2	2													0
+ChippedSaphireRuneword		1		glov										gcb	gcb	gcb	gcb			freeze		4	4	mana-kill		1	1	dmg-cold		12	20	light		3	3													0
+FlawedSaphireRuneword		0		glov										gfb						freeze		2	2	mana-kill		2	2	dmg-cold		4	8	light		1	1													0
+FlawedSaphireRuneword		1		glov										gfb	gfb					freeze		4	4	mana-kill		2	2	dmg-cold		10	14	light		1	1													0
+FlawedSaphireRuneword		1		glov										gfb	gfb	gfb				freeze		6	6	mana-kill		2	2	dmg-cold		12	20	light		2	2													0
+FlawedSaphireRuneword		1		glov										gfb	gfb	gfb	gfb			freeze		8	8	mana-kill		2	2	dmg-cold		20	28	light		3	3													0
+NormalSaphireRuneword		0		glov										gsb						freeze		3	3	mana-kill		2	2	dmg-cold		6	10	light		1	1													0
+NormalSaphireRuneword		1		glov										gsb	gsb					freeze		6	6	mana-kill		3	3	dmg-cold		12	20	light		1	1													0
+NormalSaphireRuneword		1		glov										gsb	gsb	gsb				freeze		9	9	mana-kill		3	3	dmg-cold		20	28	light		2	2													0
+NormalSaphireRuneword		1		glov										gsb	gsb	gsb	gsb			freeze		12	12	mana-kill		3	3	dmg-cold		24	30	light		3	3													0
+FlawlessSaphireRuneword		0		glov										glb						freeze		4	4	mana-kill		3	3	dmg-cold		8	12	light		1	1													0
+FlawlessSaphireRuneword		1		glov										glb	glb					freeze		8	8	mana-kill		4	4	dmg-cold		16	24	light		1	1													0
+FlawlessSaphireRuneword		1		glov										glb	glb	glb				freeze		12	12	mana-kill		4	4	dmg-cold		24	36	light		2	2													0
+FlawlessSaphireRuneword		1		glov										glb	glb	glb	glb			freeze		16	16	mana-kill		4	4	dmg-cold		36	44	light		3	3													0
+PerfectSaphireRuneword		0		glov										gpb						freeze		5	5	mana-kill		4	4	dmg-cold		10	14	light		1	1													0
+PerfectSaphireRuneword		1		glov										gpb	gpb					freeze		10	10	mana-kill		5	5	dmg-cold		20	28	light		1	1													0
+PerfectSaphireRuneword		1		glov										gpb	gpb	gpb				freeze		15	15	mana-kill		5	5	dmg-cold		30	40	light		2	2													0
+PerfectSaphireRuneword		1		glov										gpb	gpb	gpb	gpb			freeze		20	20	mana-kill		5	5	dmg-cold		40	56	light		3	3													0
+ChippedSaphireRunewordArmor		0		tors	cloa									gcb						mana%		1	1	att-demon		3	7	mana-kill		1	1	light		1	1													0
+ChippedSaphireRunewordArmor		1		tors	cloa									gcb	gcb					mana%		1	1	att-demon		5	12	mana-kill		2	2	light		1	1													0
+ChippedSaphireRunewordArmor		1		tors	cloa									gcb	gcb	gcb				mana%		1	2	att-demon		7	17	mana-kill		3	3	light		2	2													0
+ChippedSaphireRunewordArmor		1		tors	cloa									gcb	gcb	gcb	gcb			mana%		2	2	att-demon		9	21	mana-kill		4	4	light		3	3													0
+ChippedSaphireRunewordArmor		1		tors	cloa									gcb	gcb	gcb	gcb	gcb		mana%		2	3	att-demon		12	28	mana-kill		5	5	light		4	4													0
+ChippedSaphireRunewordArmor		1		tors	cloa									gcb	gcb	gcb	gcb	gcb	gcb	mana%		2	3	att-demon		14	33	mana-kill		6	6	light		5	5													0
+FlawedSaphireRunewordArmor		0		tors	cloa									gfb						mana%		2	2	att-demon		5	12	mana-kill		2	2	light		1	1													0
+FlawedSaphireRunewordArmor		1		tors	cloa									gfb	gfb					mana%		2	3	att-demon		7	17	mana-kill		3	3	light		1	1													0
+FlawedSaphireRunewordArmor		1		tors	cloa									gfb	gfb	gfb				mana%		3	4	att-demon		10	23	mana-kill		4	4	light		2	2													0
+FlawedSaphireRunewordArmor		1		tors	cloa									gfb	gfb	gfb	gfb			mana%		3	4	att-demon		13	30	mana-kill		5	5	light		3	3													0
+FlawedSaphireRunewordArmor		1		tors	cloa									gfb	gfb	gfb	gfb	gfb		mana%		4	5	att-demon		15	35	mana-kill		6	6	light		4	4													0
+FlawedSaphireRunewordArmor		1		tors	cloa									gfb	gfb	gfb	gfb	gfb	gfb	mana%		4	6	att-demon		18	42	mana-kill		7	7	light		5	5													0
+NormalSaphireRunewordArmor		0		tors	cloa									gsb						mana%		3	3	att-demon		12	28	mana-kill		3	3	light		1	1													0
+NormalSaphireRunewordArmor		1		tors	cloa									gsb	gsb					mana%		4	4	att-demon		16	37	mana-kill		4	4	light		1	1													0
+NormalSaphireRunewordArmor		1		tors	cloa									gsb	gsb	gsb				mana%		4	5	att-demon		20	46	mana-kill		5	5	light		2	2													0
+NormalSaphireRunewordArmor		1		tors	cloa									gsb	gsb	gsb	gsb			mana%		5	7	att-demon		26	60	mana-kill		6	6	light		3	3													0
+NormalSaphireRunewordArmor		1		tors	cloa									gsb	gsb	gsb	gsb	gsb		mana%		5	8	att-demon		30	69	mana-kill		7	7	light		4	4													0
+NormalSaphireRunewordArmor		1		tors	cloa									gsb	gsb	gsb	gsb	gsb	gsb	mana%		6	9	att-demon		34	79	mana-kill		8	8	light		5	5													0
+FlawlessSaphireRunewordArmor		0		tors	cloa									glb						mana%		4	4	att-demon		35	81	mana-kill		4	4	light		1	1													0
+FlawlessSaphireRunewordArmor		1		tors	cloa									glb	glb					mana%		5	6	att-demon		40	92	mana-kill		5	5	light		1	1													0
+FlawlessSaphireRunewordArmor		1		tors	cloa									glb	glb	glb				mana%		6	7	att-demon		45	104	mana-kill		6	6	light		2	2													0
+FlawlessSaphireRunewordArmor		1		tors	cloa									glb	glb	glb	glb			mana%		6	9	att-demon		50	115	mana-kill		7	7	light		3	3													0
+FlawlessSaphireRunewordArmor		1		tors	cloa									glb	glb	glb	glb	glb		mana%		7	10	att-demon		55	127	mana-kill		8	8	light		4	4													0
+FlawlessSaphireRunewordArmor		1		tors	cloa									glb	glb	glb	glb	glb	glb	mana%		8	12	att-demon		60	138	mana-kill		9	9	light		5	5													0
+PerfectSaphireRunewordArmor		0		tors	cloa									gpb						mana%		5	5	att-demon		50	115	mana-kill		5	5	light		1	1													0
+PerfectSaphireRunewordArmor		1		tors	cloa									gpb	gpb					mana%		6	7	att-demon		57	132	mana-kill		6	6	light		1	1													0
+PerfectSaphireRunewordArmor		1		tors	cloa									gpb	gpb	gpb				mana%		7	9	att-demon		64	148	mana-kill		7	7	light		2	2													0
+PerfectSaphireRunewordArmor		1		tors	cloa									gpb	gpb	gpb	gpb			mana%		8	11	att-demon		71	164	mana-kill		8	8	light		3	3													0
+PerfectSaphireRunewordArmor		1		tors	cloa									gpb	gpb	gpb	gpb	gpb		mana%		9	13	att-demon		78	180	mana-kill		9	9	light		4	4													0
+PerfectSaphireRunewordArmor		1		tors	cloa									gpb	gpb	gpb	gpb	gpb	gpb	mana%		10	15	att-demon		85	196	mana-kill		10	10	light		5	5													0
+ChippedSaphireRunewordArmor		0		helm										gcb						mana%		4	4	att-demon		3	6	mana-kill		1	1	light		1	1													0
+ChippedSaphireRunewordArmor		1		helm										gcb	gcb					mana%		6	6	att-demon		4	9	mana-kill		2	2	light		1	1													0
+ChippedSaphireRunewordArmor		1		helm										gcb	gcb	gcb				mana%		9	9	att-demon		6	13	mana-kill		3	3	light		2	2													0
+ChippedSaphireRunewordArmor		1		helm										gcb	gcb	gcb	gcb			mana%		12	12	att-demon		7	16	mana-kill		4	4	light		3	3													0
+FlawedSaphireRunewordArmor		0		helm										gfb						mana%		6	6	att-demon		4	9	mana-kill		2	2	light		1	1													0
+FlawedSaphireRunewordArmor		1		helm										gfb	gfb					mana%		9	9	att-demon		6	13	mana-kill		3	3	light		1	1													0
+FlawedSaphireRunewordArmor		1		helm										gfb	gfb	gfb				mana%		12	12	att-demon		8	18	mana-kill		4	4	light		2	2													0
+FlawedSaphireRunewordArmor		1		helm										gfb	gfb	gfb	gfb			mana%		15	15	att-demon		10	23	mana-kill		5	5	light		3	3													0
+NormalSaphireRunewordArmor		0		helm										gsb						mana%		9	9	att-demon		9	21	mana-kill		3	3	light		1	1													0
+NormalSaphireRunewordArmor		1		helm										gsb	gsb					mana%		12	12	att-demon		12	28	mana-kill		4	4	light		1	1													0
+NormalSaphireRunewordArmor		1		helm										gsb	gsb	gsb				mana%		15	15	att-demon		15	35	mana-kill		5	5	light		2	2													0
+NormalSaphireRunewordArmor		1		helm										gsb	gsb	gsb	gsb			mana%		18	18	att-demon		20	45	mana-kill		6	6	light		3	3													0
+FlawlessSaphireRunewordArmor		0		helm										glb						mana%		12	12	att-demon		27	61	mana-kill		4	4	light		1	1													0
+FlawlessSaphireRunewordArmor		1		helm										glb	glb					mana%		15	15	att-demon		30	69	mana-kill		5	5	light		1	1													0
+FlawlessSaphireRunewordArmor		1		helm										glb	glb	glb				mana%		18	18	att-demon		34	78	mana-kill		6	6	light		2	2													0
+FlawlessSaphireRunewordArmor		1		helm										glb	glb	glb	glb			mana%		21	21	att-demon		38	87	mana-kill		7	7	light		3	3													0
+PerfectSaphireRunewordArmor		0		helm										gpb						mana%		15	15	att-demon		38	87	mana-kill		5	5	light		1	1													0
+PerfectSaphireRunewordArmor		1		helm										gpb	gpb					mana%		19	19	att-demon		43	99	mana-kill		6	6	light		1	1													0
+PerfectSaphireRunewordArmor		1		helm										gpb	gpb	gpb				mana%		22	22	att-demon		48	111	mana-kill		7	7	light		2	2													0
+PerfectSaphireRunewordArmor		1		helm										gpb	gpb	gpb	gpb			mana%		25	25	att-demon		54	123	mana-kill		8	8	light		3	3													0
+ChippedSaphireRunewordArmor		0		belt										gcb						mana%		1	3	att-demon		3	6	mana-kill		1	1	light		1	1													0
+ChippedSaphireRunewordArmor		1		belt										gcb	gcb					mana%		4	4	att-demon		4	9	mana-kill		2	2	light		1	1													0
+FlawedSaphireRunewordArmor		0		belt										gfb						mana%		2	3	att-demon		4	9	mana-kill		2	2	light		1	1													0
+FlawedSaphireRunewordArmor		1		belt										gfb	gfb					mana%		5	5	att-demon		6	13	mana-kill		3	3	light		1	1													0
+NormalSaphireRunewordArmor		0		belt										gsb						mana%		3	3	att-demon		9	21	mana-kill		3	3	light		1	1													0
+NormalSaphireRunewordArmor		1		belt										gsb	gsb					mana%		6	6	att-demon		12	28	mana-kill		4	4	light		1	1													0
+FlawlessSaphireRunewordArmor		0		belt										glb						mana%		4	4	att-demon		27	61	mana-kill		4	4	light		1	1													0
+FlawlessSaphireRunewordArmor		1		belt										glb	glb					mana%		8	8	att-demon		30	69	mana-kill		5	5	light		1	1													0
+PerfectSaphireRunewordArmor		0		belt										gpb						mana%		5	5	att-demon		38	87	mana-kill		5	5	light		1	1													0
+PerfectSaphireRunewordArmor		1		belt										gpb	gpb					mana%		10	10	att-demon		43	99	mana-kill		6	6	light		1	1													0
+ChippedSaphireRunewordShield		0		shld										gcb						abs-cold		1	1	enr		1	1	light		1	1																	0
+ChippedSaphireRunewordShield		1		shld										gcb	gcb					abs-cold		2	2	enr		2	2	light		1	1																	0
+ChippedSaphireRunewordShield		1		shld										gcb	gcb	gcb				abs-cold		3	3	enr		3	3	light		2	2																	0
+ChippedSaphireRunewordShield		1		shld										gcb	gcb	gcb	gcb			abs-cold		4	4	enr		4	4	light		3	3																	0
+ChippedSaphireRunewordShield		1		shld										gcb	gcb	gcb	gcb	gcb		abs-cold		5	5	enr		5	5	light		4	4																	0
+ChippedSaphireRunewordShield		1		shld										gcb	gcb	gcb	gcb	gcb	gcb	abs-cold		6	6	enr		6	6	light		5	5																	0
+FlawedSaphireRunewordShield		0		shld										gfb						abs-cold		2	2	enr		2	2	light		1	1																	0
+FlawedSaphireRunewordShield		1		shld										gfb	gfb					abs-cold		4	4	enr		4	4	light		1	1																	0
+FlawedSaphireRunewordShield		1		shld										gfb	gfb	gfb				abs-cold		6	6	enr		6	6	light		2	2																	0
+FlawedSaphireRunewordShield		1		shld										gfb	gfb	gfb	gfb			abs-cold		8	8	enr		8	8	light		3	3																	0
+FlawedSaphireRunewordShield		1		shld										gfb	gfb	gfb	gfb	gfb		abs-cold		10	10	enr		10	10	light		4	4																	0
+FlawedSaphireRunewordShield		1		shld										gfb	gfb	gfb	gfb	gfb	gfb	abs-cold		12	12	enr		12	12	light		5	5																	0
+NormalSaphireRunewordShield		0		shld										gsb						abs-cold		3	3	enr		3	3	light		1	1																	0
+NormalSaphireRunewordShield		1		shld										gsb	gsb					abs-cold		6	6	enr		6	6	light		1	1																	0
+NormalSaphireRunewordShield		1		shld										gsb	gsb	gsb				abs-cold		9	9	enr		9	9	light		2	2																	0
+NormalSaphireRunewordShield		1		shld										gsb	gsb	gsb	gsb			abs-cold		12	12	enr		12	12	light		3	3																	0
+NormalSaphireRunewordShield		1		shld										gsb	gsb	gsb	gsb	gsb		abs-cold		15	15	enr		15	15	light		4	4																	0
+NormalSaphireRunewordShield		1		shld										gsb	gsb	gsb	gsb	gsb	gsb	abs-cold		18	18	enr		18	18	light		5	5																	0
+FlawlessSaphireRunewordShield		0		shld										glb						abs-cold		4	4	enr		4	4	light		1	1																	0
+FlawlessSaphireRunewordShield		1		shld										glb	glb					abs-cold		8	8	enr		8	8	light		1	1																	0
+FlawlessSaphireRunewordShield		1		shld										glb	glb	glb				abs-cold		12	12	enr		12	12	light		2	2																	0
+FlawlessSaphireRunewordShield		1		shld										glb	glb	glb	glb			abs-cold		16	16	enr		16	16	light		3	3																	0
+FlawlessSaphireRunewordShield		1		shld										glb	glb	glb	glb	glb		abs-cold		20	20	enr		20	20	light		4	4																	0
+FlawlessSaphireRunewordShield		1		shld										glb	glb	glb	glb	glb	glb	abs-cold		24	24	enr		24	24	light		5	5																	0
+PerfectSaphireRunewordShield		0		shld										gpb						abs-cold		5	5	enr		5	5	light		1	1																	0
+PerfectSaphireRunewordShield		1		shld										gpb	gpb					abs-cold		10	10	enr		10	10	light		1	1																	0
+PerfectSaphireRunewordShield		1		shld										gpb	gpb	gpb				abs-cold		15	15	enr		15	15	light		2	2																	0
+PerfectSaphireRunewordShield		1		shld										gpb	gpb	gpb	gpb			abs-cold		20	20	enr		20	20	light		3	3																	0
+PerfectSaphireRunewordShield		1		shld										gpb	gpb	gpb	gpb	gpb		abs-cold		25	25	enr		25	25	light		4	4																	0
+PerfectSaphireRunewordShield		1		shld										gpb	gpb	gpb	gpb	gpb	gpb	abs-cold		30	30	enr		30	30	light		5	5																	0
+ChippedSaphireRunewordShield		0		boot										gcb						abs-cold		1	1	enr		1	1	light		1	1																	0
+ChippedSaphireRunewordShield		1		boot										gcb	gcb					abs-cold		2	2	enr		2	2	light		1	1																	0
+ChippedSaphireRunewordShield		1		boot										gcb	gcb	gcb				abs-cold		3	3	enr		3	3	light		2	2																	0
+ChippedSaphireRunewordShield		1		boot										gcb	gcb	gcb	gcb			abs-cold		4	4	enr		4	4	light		3	3																	0
+FlawedSaphireRunewordShield		0		boot										gfb						abs-cold		2	2	enr		2	2	light		1	1																	0
+FlawedSaphireRunewordShield		1		boot										gfb	gfb					abs-cold		4	4	enr		4	4	light		1	1																	0
+FlawedSaphireRunewordShield		1		boot										gfb	gfb	gfb				abs-cold		6	6	enr		6	6	light		2	2																	0
+FlawedSaphireRunewordShield		1		boot										gfb	gfb	gfb	gfb			abs-cold		8	8	enr		8	8	light		3	3																	0
+NormalSaphireRunewordShield		0		boot										gsb						abs-cold		3	3	enr		3	3	light		1	1																	0
+NormalSaphireRunewordShield		1		boot										gsb	gsb					abs-cold		6	6	enr		6	6	light		1	1																	0
+NormalSaphireRunewordShield		1		boot										gsb	gsb	gsb				abs-cold		9	9	enr		9	9	light		2	2																	0
+NormalSaphireRunewordShield		1		boot										gsb	gsb	gsb	gsb			abs-cold		12	12	enr		12	12	light		3	3																	0
+FlawlessSaphireRunewordShield		0		boot										glb						abs-cold		4	4	enr		4	4	light		1	1																	0
+FlawlessSaphireRunewordShield		1		boot										glb	glb					abs-cold		8	8	enr		8	8	light		1	1																	0
+FlawlessSaphireRunewordShield		1		boot										glb	glb	glb				abs-cold		12	12	enr		12	12	light		2	2																	0
+FlawlessSaphireRunewordShield		1		boot										glb	glb	glb	glb			abs-cold		16	16	enr		16	16	light		3	3																	0
+PerfectSaphireRunewordShield		0		boot										gpb						abs-cold		5	5	enr		5	5	light		1	1																	0
+PerfectSaphireRunewordShield		1		boot										gpb	gpb					abs-cold		10	10	enr		10	10	light		1	1																	0
+PerfectSaphireRunewordShield		1		boot										gpb	gpb	gpb				abs-cold		15	15	enr		15	15	light		2	2																	0
+PerfectSaphireRunewordShield		1		boot										gpb	gpb	gpb	gpb			abs-cold		20	20	enr		20	20	light		3	3																	0
+ChippedEmeraldRuneword		0		weap										gcg						dmg%		5	9	splash	proc_SplashDamage	100	1	pois-min		3	3	pois-max		9	14	pois-len		5	5	pierce-pois		1	1	extra-pois		1	1	0
+ChippedEmeraldRuneword		1		weap										gcg	gcg					dmg%		8	12	splash	proc_SplashDamage	100	1	pois-min		6	6	pois-max		18	27	pois-len		10	10	pierce-pois		1	1	extra-pois		1	1	0
+ChippedEmeraldRuneword		1		weap										gcg	gcg	gcg				dmg%		13	17	splash	proc_SplashDamage	100	1	pois-min		9	9	pois-max		27	41	pois-len		15	15	pierce-pois		1	2	extra-pois		1	2	0
+ChippedEmeraldRuneword		1		weap										gcg	gcg	gcg	gcg			dmg%		18	22	splash	proc_SplashDamage	100	1	pois-min		12	12	pois-max		36	54	pois-len		20	20	pierce-pois		2	2	extra-pois		2	2	0
+ChippedEmeraldRuneword		1		weap										gcg	gcg	gcg	gcg	gcg		dmg%		23	27	splash	proc_SplashDamage	100	1	pois-min		15	15	pois-max		45	68	pois-len		25	25	pierce-pois		2	3	extra-pois		2	3	0
+ChippedEmeraldRuneword		1		weap										gcg	gcg	gcg	gcg	gcg	gcg	dmg%		28	32	splash	proc_SplashDamage	100	1	pois-min		18	18	pois-max		54	81	pois-len		30	30	pierce-pois		2	3	extra-pois		2	3	0
+FlawedEmeraldRuneword		0		weap										gfg						dmg%		10	18	splash	proc_SplashDamage	100	1	pois-min		6	6	pois-max		18	27	pois-len		10	10	pierce-pois		2	2	extra-pois		2	2	0
+FlawedEmeraldRuneword		1		weap										gfg	gfg					dmg%		16	24	splash	proc_SplashDamage	100	1	pois-min		12	12	pois-max		36	54	pois-len		15	15	pierce-pois		2	3	extra-pois		2	3	0
+FlawedEmeraldRuneword		1		weap										gfg	gfg	gfg				dmg%		26	34	splash	proc_SplashDamage	100	1	pois-min		18	18	pois-max		54	81	pois-len		20	20	pierce-pois		3	4	extra-pois		3	4	0
+FlawedEmeraldRuneword		1		weap										gfg	gfg	gfg	gfg			dmg%		36	44	splash	proc_SplashDamage	100	1	pois-min		24	24	pois-max		72	108	pois-len		25	25	pierce-pois		3	4	extra-pois		3	4	0
+FlawedEmeraldRuneword		1		weap										gfg	gfg	gfg	gfg	gfg		dmg%		46	54	splash	proc_SplashDamage	100	1	pois-min		30	30	pois-max		90	135	pois-len		30	30	pierce-pois		4	5	extra-pois		4	5	0
+FlawedEmeraldRuneword		1		weap										gfg	gfg	gfg	gfg	gfg	gfg	dmg%		56	64	splash	proc_SplashDamage	100	1	pois-min		36	36	pois-max		108	162	pois-len		35	35	pierce-pois		4	6	extra-pois		4	6	0
+NormalEmeraldRuneword		0		weap										gsg						dmg%		15	27	splash	proc_SplashDamage	100	1	pois-min		10	10	pois-max		30	45	pois-len		15	15	pierce-pois		3	3	extra-pois		3	3	0
+NormalEmeraldRuneword		1		weap										gsg	gsg					dmg%		24	36	splash	proc_SplashDamage	100	1	pois-min		20	20	pois-max		60	90	pois-len		20	20	pierce-pois		4	4	extra-pois		4	4	0
+NormalEmeraldRuneword		1		weap										gsg	gsg	gsg				dmg%		39	51	splash	proc_SplashDamage	100	1	pois-min		30	30	pois-max		90	135	pois-len		25	25	pierce-pois		4	5	extra-pois		4	5	0
+NormalEmeraldRuneword		1		weap										gsg	gsg	gsg	gsg			dmg%		54	66	splash	proc_SplashDamage	100	1	pois-min		40	40	pois-max		120	180	pois-len		30	30	pierce-pois		5	7	extra-pois		5	7	0
+NormalEmeraldRuneword		1		weap										gsg	gsg	gsg	gsg	gsg		dmg%		69	81	splash	proc_SplashDamage	100	1	pois-min		50	50	pois-max		150	225	pois-len		35	35	pierce-pois		5	8	extra-pois		5	8	0
+NormalEmeraldRuneword		1		weap										gsg	gsg	gsg	gsg	gsg	gsg	dmg%		84	96	splash	proc_SplashDamage	100	1	pois-min		60	60	pois-max		180	270	pois-len		40	40	pierce-pois		6	9	extra-pois		6	9	0
+FlawlessEmeraldRuneword		0		weap										glg						dmg%		20	36	splash	proc_SplashDamage	100	1	pois-min		12	12	pois-max		36	54	pois-len		20	20	pierce-pois		4	4	extra-pois		4	4	0
+FlawlessEmeraldRuneword		1		weap										glg	glg					dmg%		32	48	splash	proc_SplashDamage	100	1	pois-min		24	24	pois-max		72	108	pois-len		25	25	pierce-pois		5	6	extra-pois		5	6	0
+FlawlessEmeraldRuneword		1		weap										glg	glg	glg				dmg%		52	68	splash	proc_SplashDamage	100	1	pois-min		36	36	pois-max		108	162	pois-len		30	30	pierce-pois		6	7	extra-pois		6	7	0
+FlawlessEmeraldRuneword		1		weap										glg	glg	glg	glg			dmg%		72	88	splash	proc_SplashDamage	100	1	pois-min		48	48	pois-max		144	216	pois-len		35	35	pierce-pois		6	9	extra-pois		6	9	0
+FlawlessEmeraldRuneword		1		weap										glg	glg	glg	glg	glg		dmg%		92	108	splash	proc_SplashDamage	100	1	pois-min		64	64	pois-max		192	288	pois-len		40	40	pierce-pois		7	10	extra-pois		7	10	0
+FlawlessEmeraldRuneword		1		weap										glg	glg	glg	glg	glg	glg	dmg%		112	128	splash	proc_SplashDamage	100	1	pois-min		75	75	pois-max		225	338	pois-len		45	45	pierce-pois		8	12	extra-pois		8	12	0
+PerfectEmeraldRuneword		0		weap										gpg						dmg%		25	45	splash	proc_SplashDamage	100	1	pois-min		30	30	pois-max		90	135	pois-len		25	25	pierce-pois		5	5	extra-pois		5	5	0
+PerfectEmeraldRuneword		1		weap										gpg	gpg					dmg%		40	60	splash	proc_SplashDamage	100	1	pois-min		45	45	pois-max		135	203	pois-len		30	30	pierce-pois		6	7	extra-pois		6	7	0
+PerfectEmeraldRuneword		1		weap										gpg	gpg	gpg				dmg%		65	85	splash	proc_SplashDamage	100	1	pois-min		60	60	pois-max		180	270	pois-len		35	35	pierce-pois		7	9	extra-pois		7	9	0
+PerfectEmeraldRuneword		1		weap										gpg	gpg	gpg	gpg			dmg%		90	110	splash	proc_SplashDamage	100	1	pois-min		75	75	pois-max		225	338	pois-len		40	40	pierce-pois		8	11	extra-pois		8	11	0
+PerfectEmeraldRuneword		1		weap										gpg	gpg	gpg	gpg	gpg		dmg%		115	135	splash	proc_SplashDamage	100	1	pois-min		90	90	pois-max		270	405	pois-len		45	45	pierce-pois		9	13	extra-pois		9	13	0
+PerfectEmeraldRuneword		1		weap										gpg	gpg	gpg	gpg	gpg	gpg	dmg%		140	160	splash	proc_SplashDamage	100	1	pois-min		100	100	pois-max		300	450	pois-len		50	50	pierce-pois		10	15	extra-pois		10	15	0
+ChippedEmeraldRuneword		0		glov										gcg						noheal		1	1	openwounds		3	3	pois-min		3	3	pois-max		9	14	pois-len		5	5	light		1	1					0
+ChippedEmeraldRuneword		1		glov										gcg	gcg					noheal		1	1	openwounds		6	6	pois-min		6	6	pois-max		18	27	pois-len		10	10	light		1	1					0
+ChippedEmeraldRuneword		1		glov										gcg	gcg	gcg				noheal		1	1	openwounds		9	9	pois-min		9	9	pois-max		27	41	pois-len		15	15	light		2	2					0
+ChippedEmeraldRuneword		1		glov										gcg	gcg	gcg	gcg			noheal		1	1	openwounds		12	12	pois-min		12	12	pois-max		36	54	pois-len		20	20	light		3	3					0
+FlawedEmeraldRuneword		0		glov										gfg						noheal		1	1	openwounds		6	6	pois-min		6	6	pois-max		18	27	pois-len		10	10	light		1	1					0
+FlawedEmeraldRuneword		1		glov										gfg	gfg					noheal		1	1	openwounds		12	12	pois-min		12	12	pois-max		36	54	pois-len		15	15	light		1	1					0
+FlawedEmeraldRuneword		1		glov										gfg	gfg	gfg				noheal		1	1	openwounds		18	18	pois-min		18	18	pois-max		54	81	pois-len		20	20	light		2	2					0
+FlawedEmeraldRuneword		1		glov										gfg	gfg	gfg	gfg			noheal		1	1	openwounds		24	24	pois-min		24	24	pois-max		72	108	pois-len		25	25	light		3	3					0
+NormalEmeraldRuneword		0		glov										gsg						noheal		1	1	openwounds		10	10	pois-min		10	10	pois-max		30	45	pois-len		15	15	light		1	1					0
+NormalEmeraldRuneword		1		glov										gsg	gsg					noheal		1	1	openwounds		20	20	pois-min		20	20	pois-max		60	90	pois-len		20	20	light		1	1					0
+NormalEmeraldRuneword		1		glov										gsg	gsg	gsg				noheal		1	1	openwounds		30	30	pois-min		30	30	pois-max		90	135	pois-len		25	25	light		2	2					0
+NormalEmeraldRuneword		1		glov										gsg	gsg	gsg	gsg			noheal		1	1	openwounds		40	40	pois-min		40	40	pois-max		120	180	pois-len		30	30	light		3	3					0
+FlawlessEmeraldRuneword		0		glov										glg						noheal		1	1	openwounds		12	12	pois-min		12	12	pois-max		36	54	pois-len		20	20	light		1	1					0
+FlawlessEmeraldRuneword		1		glov										glg	glg					noheal		1	1	openwounds		24	24	pois-min		24	24	pois-max		72	108	pois-len		25	25	light		1	1					0
+FlawlessEmeraldRuneword		1		glov										glg	glg	glg				noheal		1	1	openwounds		36	36	pois-min		36	36	pois-max		108	162	pois-len		30	30	light		2	2					0
+FlawlessEmeraldRuneword		1		glov										glg	glg	glg	glg			noheal		1	1	openwounds		48	48	pois-min		48	48	pois-max		144	216	pois-len		35	35	light		3	3					0
+PerfectEmeraldRuneword		0		glov										gpg						noheal		1	1	openwounds		30	30	pois-min		30	30	pois-max		90	135	pois-len		25	25	light		1	1					0
+PerfectEmeraldRuneword		1		glov										gpg	gpg					noheal		1	1	openwounds		45	45	pois-min		45	45	pois-max		135	203	pois-len		30	30	light		1	1					0
+PerfectEmeraldRuneword		1		glov										gpg	gpg	gpg				noheal		1	1	openwounds		60	60	pois-min		60	60	pois-max		180	270	pois-len		35	35	light		2	2					0
+PerfectEmeraldRuneword		1		glov										gpg	gpg	gpg	gpg			noheal		1	1	openwounds		75	75	pois-min		75	75	pois-max		225	338	pois-len		40	40	light		3	3					0
+ChippedEmeraldRunewordArmor		0		tors	cloa									gcg						cast2		4	6	light		1	1																					0
+ChippedEmeraldRunewordArmor		1		tors	cloa									gcg	gcg					cast2		8	13	light		1	1																					0
+ChippedEmeraldRunewordArmor		1		tors	cloa									gcg	gcg	gcg				cast2		12	19	light		2	2																					0
+ChippedEmeraldRunewordArmor		1		tors	cloa									gcg	gcg	gcg	gcg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+ChippedEmeraldRunewordArmor		1		tors	cloa									gcg	gcg	gcg	gcg	gcg		cast2		20	31	res-pois-len		25	25	light		4	4																	0
+ChippedEmeraldRunewordArmor		1		tors	cloa									gcg	gcg	gcg	gcg	gcg	gcg	cast2		24	38	res-pois-len		50	50	light		5	5																	0
+FlawedEmeraldRunewordArmor		0		tors	cloa									gfg						cast2		4	6	light		1	1																					0
+FlawedEmeraldRunewordArmor		1		tors	cloa									gfg	gfg					cast2		8	13	light		1	1																					0
+FlawedEmeraldRunewordArmor		1		tors	cloa									gfg	gfg	gfg				cast2		12	19	light		2	2																					0
+FlawedEmeraldRunewordArmor		1		tors	cloa									gfg	gfg	gfg	gfg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+FlawedEmeraldRunewordArmor		1		tors	cloa									gfg	gfg	gfg	gfg	gfg		cast2		20	31	res-pois-len		25	25	light		4	4																	0
+FlawedEmeraldRunewordArmor		1		tors	cloa									gfg	gfg	gfg	gfg	gfg	gfg	cast2		24	38	res-pois-len		50	50	light		5	5																	0
+NormalEmeraldRunewordArmor		0		tors	cloa									gsg						cast2		4	6	light		1	1																					0
+NormalEmeraldRunewordArmor		1		tors	cloa									gsg	gsg					cast2		8	13	light		1	1																					0
+NormalEmeraldRunewordArmor		1		tors	cloa									gsg	gsg	gsg				cast2		12	19	res-pois-len		25	25	light		2	2																	0
+NormalEmeraldRunewordArmor		1		tors	cloa									gsg	gsg	gsg	gsg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+NormalEmeraldRunewordArmor		1		tors	cloa									gsg	gsg	gsg	gsg	gsg		cast2		20	31	res-pois-len		50	50	light		4	4																	0
+NormalEmeraldRunewordArmor		1		tors	cloa									gsg	gsg	gsg	gsg	gsg	gsg	cast2		24	38	res-pois-len		50	50	light		5	5																	0
+FlawlessEmeraldRunewordArmor		0		tors	cloa									glg						cast2		4	6					light		1	1																	0
+FlawlessEmeraldRunewordArmor		1		tors	cloa									glg	glg					cast2		8	13	res-pois-len		25	25	light		1	1																	0
+FlawlessEmeraldRunewordArmor		1		tors	cloa									glg	glg	glg				cast2		12	19	res-pois-len		25	25	light		2	2																	0
+FlawlessEmeraldRunewordArmor		1		tors	cloa									glg	glg	glg	glg			cast2		16	25	res-pois-len		50	50	light		3	3																	0
+FlawlessEmeraldRunewordArmor		1		tors	cloa									glg	glg	glg	glg	glg		cast2		20	31	res-pois-len		50	50	light		4	4																	0
+FlawlessEmeraldRunewordArmor		1		tors	cloa									glg	glg	glg	glg	glg	glg	cast2		24	38	res-pois-len		75	75	light		5	5																	0
+PerfectEmeraldRunewordArmor		0		tors	cloa									gpg						cast2		4	6					light		1	1																	0
+PerfectEmeraldRunewordArmor		1		tors	cloa									gpg	gpg					cast2		8	13	res-pois-len		25	25	light		1	1																	0
+PerfectEmeraldRunewordArmor		1		tors	cloa									gpg	gpg	gpg				cast2		12	19	res-pois-len		50	50	light		2	2																	0
+PerfectEmeraldRunewordArmor		1		tors	cloa									gpg	gpg	gpg	gpg			cast2		16	25	res-pois-len		50	50	light		3	3																	0
+PerfectEmeraldRunewordArmor		1		tors	cloa									gpg	gpg	gpg	gpg	gpg		cast2		20	31	res-pois-len		75	75	light		4	4																	0
+PerfectEmeraldRunewordArmor		1		tors	cloa									gpg	gpg	gpg	gpg	gpg	gpg	cast2		24	38	res-pois-len		75	75	light		5	5																	0
+ChippedEmeraldRunewordArmor		0		helm										gcg						cast2		4	6	light		1	1																					0
+ChippedEmeraldRunewordArmor		1		helm										gcg	gcg					cast2		8	13	light		1	1																					0
+ChippedEmeraldRunewordArmor		1		helm										gcg	gcg	gcg				cast2		12	19	light		2	2																					0
+ChippedEmeraldRunewordArmor		1		helm										gcg	gcg	gcg	gcg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+FlawedEmeraldRunewordArmor		0		helm										gfg						cast2		4	6	light		1	1																					0
+FlawedEmeraldRunewordArmor		1		helm										gfg	gfg					cast2		8	13	light		1	1																					0
+FlawedEmeraldRunewordArmor		1		helm										gfg	gfg	gfg				cast2		12	19	light		2	2																					0
+FlawedEmeraldRunewordArmor		1		helm										gfg	gfg	gfg	gfg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+NormalEmeraldRunewordArmor		0		helm										gsg						cast2		4	6	light		1	1																					0
+NormalEmeraldRunewordArmor		1		helm										gsg	gsg					cast2		8	13	light		1	1																					0
+NormalEmeraldRunewordArmor		1		helm										gsg	gsg	gsg				cast2		12	19	res-pois-len		25	25	light		2	2																	0
+NormalEmeraldRunewordArmor		1		helm										gsg	gsg	gsg	gsg			cast2		16	25	res-pois-len		25	25	light		3	3																	0
+FlawlessEmeraldRunewordArmor		0		helm										glg						cast2		4	6	light		1	1																					0
+FlawlessEmeraldRunewordArmor		1		helm										glg	glg					cast2		8	13	res-pois-len		25	25	light		1	1																	0
+FlawlessEmeraldRunewordArmor		1		helm										glg	glg	glg				cast2		12	19	res-pois-len		25	25	light		2	2																	0
+FlawlessEmeraldRunewordArmor		1		helm										glg	glg	glg	glg			cast2		16	25	res-pois-len		50	50	light		3	3																	0
+PerfectEmeraldRunewordArmor		0		helm										gpg						cast2		4	6	light		1	1																					0
+PerfectEmeraldRunewordArmor		1		helm										gpg	gpg					cast2		8	13	res-pois-len		25	25	light		1	1																	0
+PerfectEmeraldRunewordArmor		1		helm										gpg	gpg	gpg				cast2		12	19	res-pois-len		50	50	light		2	2																	0
+PerfectEmeraldRunewordArmor		1		helm										gpg	gpg	gpg	gpg			cast2		16	25	res-pois-len		50	50	light		3	3																	0
+ChippedEmeraldRunewordArmor		0		belt										gcg						cast2		4	6	light		1	1																					0
+ChippedEmeraldRunewordArmor		1		belt										gcg	gcg					cast2		8	13	light		1	1																					0
+FlawedEmeraldRunewordArmor		0		belt										gfg						cast2		4	6	light		1	1																					0
+FlawedEmeraldRunewordArmor		1		belt										gfg	gfg					cast2		8	13	light		1	1																					0
+NormalEmeraldRunewordArmor		0		belt										gsg						cast2		4	6	light		1	1																					0
+NormalEmeraldRunewordArmor		1		belt										gsg	gsg					cast2		8	13	light		1	1																					0
+FlawlessEmeraldRunewordArmor		0		belt										glg						cast2		4	6	light		1	1																					0
+FlawlessEmeraldRunewordArmor		1		belt										glg	glg					cast2		8	13	res-pois-len		25	25																					0
+PerfectEmeraldRunewordArmor		0		belt										gpg						cast2		4	6	res-pois-len		25	25																					0
+PerfectEmeraldRunewordArmor		1		belt										gpg	gpg					cast2		8	13	res-pois-len		50	50																					0
+ChippedEmeraldRunewordShield		0		shld										gcg						move2		3	3	ac%/lvl	1	light		1	1																			0
+ChippedEmeraldRunewordShield		1		shld										gcg	gcg					move2		4	4	ac%/lvl	2	light		1	1																			0
+ChippedEmeraldRunewordShield		1		shld										gcg	gcg	gcg				move2		5	5	ac%/lvl	3	light		2	2																			0
+ChippedEmeraldRunewordShield		1		shld										gcg	gcg	gcg	gcg			move2		6	6	ac%/lvl	4	light		3	3																			0
+ChippedEmeraldRunewordShield		1		shld										gcg	gcg	gcg	gcg	gcg		move2		8	8	ac%/lvl	5	light		4	4																			0
+ChippedEmeraldRunewordShield		1		shld										gcg	gcg	gcg	gcg	gcg	gcg	move2		10	10	ac%/lvl	6	light		5	5																			0
+FlawedEmeraldRunewordShield		0		shld										gfg						move2		5	5	ac%/lvl	7	light		1	1																			0
+FlawedEmeraldRunewordShield		1		shld										gfg	gfg					move2		8	8	ac%/lvl	8	light		1	1																			0
+FlawedEmeraldRunewordShield		1		shld										gfg	gfg	gfg				move2		11	11	ac%/lvl	9	light		2	2																			0
+FlawedEmeraldRunewordShield		1		shld										gfg	gfg	gfg	gfg			move2		14	14	ac%/lvl	10	light		3	3																			0
+FlawedEmeraldRunewordShield		1		shld										gfg	gfg	gfg	gfg	gfg		move2		17	17	ac%/lvl	11	light		4	4																			0
+FlawedEmeraldRunewordShield		1		shld										gfg	gfg	gfg	gfg	gfg	gfg	move2		20	20	ac%/lvl	12	light		5	5																			0
+NormalEmeraldRunewordShield		0		shld										gsg						move2		10	10	ac%/lvl	13	light		1	1																			0
+NormalEmeraldRunewordShield		1		shld										gsg	gsg					move2		14	14	ac%/lvl	14	light		1	1																			0
+NormalEmeraldRunewordShield		1		shld										gsg	gsg	gsg				move2		18	18	ac%/lvl	15	light		2	2																			0
+NormalEmeraldRunewordShield		1		shld										gsg	gsg	gsg	gsg			move2		22	22	ac%/lvl	16	light		3	3																			0
+NormalEmeraldRunewordShield		1		shld										gsg	gsg	gsg	gsg	gsg		move2		26	26	ac%/lvl	17	light		4	4																			0
+NormalEmeraldRunewordShield		1		shld										gsg	gsg	gsg	gsg	gsg	gsg	move2		30	30	ac%/lvl	18	light		5	5																			0
+FlawlessEmeraldRunewordShield		0		shld										glg						move2		15	15	ac%/lvl	19	light		1	1																			0
+FlawlessEmeraldRunewordShield		1		shld										glg	glg					move2		20	20	ac%/lvl	20	light		1	1																			0
+FlawlessEmeraldRunewordShield		1		shld										glg	glg	glg				move2		25	25	ac%/lvl	21	light		2	2																			0
+FlawlessEmeraldRunewordShield		1		shld										glg	glg	glg	glg			move2		30	30	ac%/lvl	22	light		3	3																			0
+FlawlessEmeraldRunewordShield		1		shld										glg	glg	glg	glg	glg		move2		35	35	ac%/lvl	23	light		4	4																			0
+FlawlessEmeraldRunewordShield		1		shld										glg	glg	glg	glg	glg	glg	move2		40	40	ac%/lvl	24	light		5	5																			0
+PerfectEmeraldRunewordShield		0		shld										gpg						move2		20	20	ac%/lvl	25	light		1	1																			0
+PerfectEmeraldRunewordShield		1		shld										gpg	gpg					move2		26	26	ac%/lvl	26	light		1	1																			0
+PerfectEmeraldRunewordShield		1		shld										gpg	gpg	gpg				move2		32	32	ac%/lvl	27	light		2	2																			0
+PerfectEmeraldRunewordShield		1		shld										gpg	gpg	gpg	gpg			move2		38	38	ac%/lvl	28	light		3	3																			0
+PerfectEmeraldRunewordShield		1		shld										gpg	gpg	gpg	gpg	gpg		move2		44	44	ac%/lvl	29	light		4	4																			0
+PerfectEmeraldRunewordShield		1		shld										gpg	gpg	gpg	gpg	gpg	gpg	move2		50	50	ac%/lvl	30	light		5	5																			0
+ChippedEmeraldRunewordShield		0		boot										gcg						move2		3	3	ac%/lvl	1	light		1	1																			0
+ChippedEmeraldRunewordShield		1		boot										gcg	gcg					move2		4	4	ac%/lvl	2	light		1	1																			0
+ChippedEmeraldRunewordShield		1		boot										gcg	gcg	gcg				move2		5	5	ac%/lvl	3	light		2	2																			0
+ChippedEmeraldRunewordShield		1		boot										gcg	gcg	gcg	gcg			move2		6	6	ac%/lvl	4	light		3	3																			0
+FlawedEmeraldRunewordShield		0		boot										gfg						move2		5	5	ac%/lvl	5	light		1	1																			0
+FlawedEmeraldRunewordShield		1		boot										gfg	gfg					move2		8	8	ac%/lvl	6	light		1	1																			0
+FlawedEmeraldRunewordShield		1		boot										gfg	gfg	gfg				move2		11	11	ac%/lvl	7	light		2	2																			0
+FlawedEmeraldRunewordShield		1		boot										gfg	gfg	gfg	gfg			move2		14	14	ac%/lvl	8	light		3	3																			0
+NormalEmeraldRunewordShield		0		boot										gsg						move2		10	10	ac%/lvl	9	light		1	1																			0
+NormalEmeraldRunewordShield		1		boot										gsg	gsg					move2		14	14	ac%/lvl	10	light		1	1																			0
+NormalEmeraldRunewordShield		1		boot										gsg	gsg	gsg				move2		18	18	ac%/lvl	11	light		2	2																			0
+NormalEmeraldRunewordShield		1		boot										gsg	gsg	gsg	gsg			move2		22	22	ac%/lvl	12	light		3	3																			0
+FlawlessEmeraldRunewordShield		0		boot										glg						move2		15	15	ac%/lvl	13	light		1	1																			0
+FlawlessEmeraldRunewordShield		1		boot										glg	glg					move2		20	20	ac%/lvl	14	light		1	1																			0
+FlawlessEmeraldRunewordShield		1		boot										glg	glg	glg				move2		25	25	ac%/lvl	15	light		2	2																			0
+FlawlessEmeraldRunewordShield		1		boot										glg	glg	glg	glg			move2		30	30	ac%/lvl	16	light		3	3																			0
+PerfectEmeraldRunewordShield		0		boot										gpg						move2		20	20	ac%/lvl	17	light		1	1																			0
+PerfectEmeraldRunewordShield		1		boot										gpg	gpg					move2		26	26	ac%/lvl	18	light		1	1																			0
+PerfectEmeraldRunewordShield		1		boot										gpg	gpg	gpg				move2		32	32	ac%/lvl	19	light		2	2																			0
+PerfectEmeraldRunewordShield		1		boot										gpg	gpg	gpg	gpg			move2		38	38	ac%/lvl	20	light		3	3																			0
+ChippedRubyRuneword		0		weap										gcr						dmg%		14	17	lifesteal		1	2	dmg-fire		3	10	pierce-fire		1	1	extra-fire		1	1	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		1		weap										gcr	gcr					dmg%		16	20	lifesteal		2	4	dmg-fire		7	18	pierce-fire		1	1	extra-fire		1	1	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		1		weap										gcr	gcr	gcr				dmg%		18	23	lifesteal		3	6	dmg-fire		10	28	pierce-fire		1	1	extra-fire		1	2	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		1		weap										gcr	gcr	gcr	gcr			dmg%		20	26	lifesteal		4	8	dmg-fire		12	40	pierce-fire		2	2	extra-fire		2	2	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		1		weap										gcr	gcr	gcr	gcr	gcr		dmg%		22	29	lifesteal		5	10	dmg-fire		16	48	pierce-fire		2	2	extra-fire		2	3	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		1		weap										gcr	gcr	gcr	gcr	gcr	gcr	dmg%		24	32	lifesteal		6	12	dmg-fire		20	56	pierce-fire		2	2	extra-fire		2	3	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		0		weap										gfr						dmg%		28	34	lifesteal		3	5	dmg-fire		5	16	pierce-fire		2	2	extra-fire		2	2	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		1		weap										gfr	gfr					dmg%		32	40	lifesteal		3	6	dmg-fire		10	28	pierce-fire		2	2	extra-fire		2	3	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		1		weap										gfr	gfr	gfr				dmg%		36	46	lifesteal		4	8	dmg-fire		16	40	pierce-fire		3	3	extra-fire		3	4	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		1		weap										gfr	gfr	gfr	gfr			dmg%		40	52	lifesteal		5	10	dmg-fire		20	56	pierce-fire		3	3	extra-fire		3	4	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		1		weap										gfr	gfr	gfr	gfr	gfr		dmg%		44	58	lifesteal		6	12	dmg-fire		26	68	pierce-fire		4	4	extra-fire		4	5	splash	proc_SplashDamage	100	1					0
+FlawedRubyRuneword		1		weap										gfr	gfr	gfr	gfr	gfr	gfr	dmg%		48	64	lifesteal		7	14	dmg-fire		32	80	pierce-fire		4	4	extra-fire		4	6	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		0		weap										gsr						dmg%		42	51	lifesteal		4	7	dmg-fire		6	20	pierce-fire		3	3	extra-fire		3	3	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		1		weap										gsr	gsr					dmg%		48	60	lifesteal		5	9	dmg-fire		12	40	pierce-fire		4	4	extra-fire		4	4	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		1		weap										gsr	gsr	gsr				dmg%		54	69	lifesteal		6	11	dmg-fire		20	56	pierce-fire		4	4	extra-fire		4	5	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		1		weap										gsr	gsr	gsr	gsr			dmg%		60	78	lifesteal		7	13	dmg-fire		28	72	pierce-fire		5	5	extra-fire		5	7	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		1		weap										gsr	gsr	gsr	gsr	gsr		dmg%		66	87	lifesteal		8	15	dmg-fire		32	96	pierce-fire		5	5	extra-fire		5	8	splash	proc_SplashDamage	100	1					0
+NormalRubyRuneword		1		weap										gsr	gsr	gsr	gsr	gsr	gsr	dmg%		72	96	lifesteal		9	17	dmg-fire		40	112	pierce-fire		6	6	extra-fire		6	9	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		0		weap										glr						dmg%		56	68	lifesteal		4	8	dmg-fire		8	24	pierce-fire		4	4	extra-fire		4	4	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		1		weap										glr	glr					dmg%		64	80	lifesteal		5	10	dmg-fire		16	48	pierce-fire		5	5	extra-fire		5	6	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		1		weap										glr	glr	glr				dmg%		72	92	lifesteal		6	12	dmg-fire		24	72	pierce-fire		6	6	extra-fire		6	7	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		1		weap										glr	glr	glr	glr			dmg%		80	104	lifesteal		8	15	dmg-fire		36	88	pierce-fire		6	6	extra-fire		6	9	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		1		weap										glr	glr	glr	glr	glr		dmg%		88	116	lifesteal		9	18	dmg-fire		42	116	pierce-fire		7	7	extra-fire		7	10	splash	proc_SplashDamage	100	1					0
+FlawlessRubyRuneword		1		weap										glr	glr	glr	glr	glr	glr	dmg%		96	128	lifesteal		11	21	dmg-fire		52	136	pierce-fire		8	8	extra-fire		8	12	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		0		weap										gpr						dmg%		70	85	lifesteal		5	10	dmg-fire		10	28	pierce-fire		8	8	extra-fire		8	8	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		1		weap										gpr	gpr					dmg%		80	100	lifesteal		7	13	dmg-fire		20	56	pierce-fire		10	10	extra-fire		10	10	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		1		weap										gpr	gpr	gpr				dmg%		90	115	lifesteal		8	16	dmg-fire		30	84	pierce-fire		14	14	extra-fire		14	14	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		1		weap										gpr	gpr	gpr	gpr			dmg%		100	130	lifesteal		10	19	dmg-fire		40	112	pierce-fire		20	20	extra-fire		20	20	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		1		weap										gpr	gpr	gpr	gpr	gpr		dmg%		110	145	lifesteal		11	22	dmg-fire		52	136	pierce-fire		28	28	extra-fire		28	28	splash	proc_SplashDamage	100	1					0
+PerfectRubyRuneword		1		weap										gpr	gpr	gpr	gpr	gpr	gpr	dmg%		120	160	lifesteal		13	25	dmg-fire		64	160	pierce-fire		35	35	extra-fire		35	35	splash	proc_SplashDamage	100	1					0
+ChippedRubyRuneword		0		glov										gcr						lifesteal		1	1	dmg-fire		3	10	light		1	1																	0
+ChippedRubyRuneword		1		glov										gcr	gcr					lifesteal		3	3	dmg-fire		6	20	light		1	1																	0
+ChippedRubyRuneword		1		glov										gcr	gcr	gcr				lifesteal		5	5	dmg-fire		10	28	light		2	2																	0
+ChippedRubyRuneword		1		glov										gcr	gcr	gcr	gcr			lifesteal		7	7	dmg-fire		12	40	light		3	3																	0
+FlawedRubyRuneword		0		glov										gfr						lifesteal		3	3	dmg-fire		4	16	light		1	1																	0
+FlawedRubyRuneword		1		glov										gfr	gfr					lifesteal		5	5	dmg-fire		10	28	light		1	1																	0
+FlawedRubyRuneword		1		glov										gfr	gfr	gfr				lifesteal		7	7	dmg-fire		12	40	light		2	2																	0
+FlawedRubyRuneword		1		glov										gfr	gfr	gfr	gfr			lifesteal		9	9	dmg-fire		20	56	light		3	3																	0
+NormalRubyRuneword		0		glov										gsr						lifesteal		5	5	dmg-fire		6	20	light		1	1																	0
+NormalRubyRuneword		1		glov										gsr	gsr					lifesteal		7	7	dmg-fire		12	40	light		1	1																	0
+NormalRubyRuneword		1		glov										gsr	gsr	gsr				lifesteal		9	9	dmg-fire		20	56	light		2	2																	0
+NormalRubyRuneword		1		glov										gsr	gsr	gsr	gsr			lifesteal		11	11	dmg-fire		24	60	light		3	3																	0
+FlawlessRubyRuneword		0		glov										glr						lifesteal		7	7	dmg-fire		8	24	light		1	1																	0
+FlawlessRubyRuneword		1		glov										glr	glr					lifesteal		9	9	dmg-fire		16	48	light		1	1																	0
+FlawlessRubyRuneword		1		glov										glr	glr	glr				lifesteal		11	11	dmg-fire		24	72	light		2	2																	0
+FlawlessRubyRuneword		1		glov										glr	glr	glr	glr			lifesteal		13	13	dmg-fire		36	88	light		3	3																	0
+PerfectRubyRuneword		0		glov										gpr						lifesteal		8	8	dmg-fire		10	28	light		1	1																	0
+PerfectRubyRuneword		1		glov										gpr	gpr					lifesteal		10	10	dmg-fire		20	56	light		1	1																	0
+PerfectRubyRuneword		1		glov										gpr	gpr	gpr				lifesteal		12	12	dmg-fire		30	80	light		2	2																	0
+PerfectRubyRuneword		1		glov										gpr	gpr	gpr	gpr			lifesteal		15	15	dmg-fire		40	112	light		3	3																	0
+ChippedRubyRunewordArmor		0		tors	cloa									gcr						regen		2	2	hp%		1	1	light		1	1																	0
+ChippedRubyRunewordArmor		1		tors	cloa									gcr	gcr					regen		4	4	hp%		1	1	light		1	1																	0
+ChippedRubyRunewordArmor		1		tors	cloa									gcr	gcr	gcr				regen		6	6	hp%		1	1	light		2	2																	0
+ChippedRubyRunewordArmor		1		tors	cloa									gcr	gcr	gcr	gcr			regen		8	8	hp%		2	2	light		3	3																	0
+ChippedRubyRunewordArmor		1		tors	cloa									gcr	gcr	gcr	gcr	gcr		regen		10	10	hp%		2	2	light		4	4																	0
+ChippedRubyRunewordArmor		1		tors	cloa									gcr	gcr	gcr	gcr	gcr	gcr	regen		12	12	hp%		2	2	light		5	5																	0
+FlawedRubyRunewordArmor		0		tors	cloa									gfr						regen		4	4	hp%		2	2	light		1	1																	0
+FlawedRubyRunewordArmor		1		tors	cloa									gfr	gfr					regen		8	8	hp%		2	2	light		1	1																	0
+FlawedRubyRunewordArmor		1		tors	cloa									gfr	gfr	gfr				regen		12	12	hp%		3	3	light		2	2																	0
+FlawedRubyRunewordArmor		1		tors	cloa									gfr	gfr	gfr	gfr			regen		16	16	hp%		3	3	light		3	3																	0
+FlawedRubyRunewordArmor		1		tors	cloa									gfr	gfr	gfr	gfr	gfr		regen		20	20	hp%		4	4	light		4	4																	0
+FlawedRubyRunewordArmor		1		tors	cloa									gfr	gfr	gfr	gfr	gfr	gfr	regen		24	24	hp%		4	4	light		5	5																	0
+NormalRubyRunewordArmor		0		tors	cloa									gsr						regen		6	6	hp%		3	3	light		1	1																	0
+NormalRubyRunewordArmor		1		tors	cloa									gsr	gsr					regen		12	12	hp%		4	4	light		1	1																	0
+NormalRubyRunewordArmor		1		tors	cloa									gsr	gsr	gsr				regen		18	18	hp%		4	4	light		2	2																	0
+NormalRubyRunewordArmor		1		tors	cloa									gsr	gsr	gsr	gsr			regen		24	24	hp%		5	5	light		3	3																	0
+NormalRubyRunewordArmor		1		tors	cloa									gsr	gsr	gsr	gsr	gsr		regen		30	30	hp%		5	5	light		4	4																	0
+NormalRubyRunewordArmor		1		tors	cloa									gsr	gsr	gsr	gsr	gsr	gsr	regen		36	36	hp%		6	6	light		5	5																	0
+FlawlessRubyRunewordArmor		0		tors	cloa									glr						regen		8	8	hp%		4	4	light		1	1																	0
+FlawlessRubyRunewordArmor		1		tors	cloa									glr	glr					regen		16	16	hp%		5	5	light		1	1																	0
+FlawlessRubyRunewordArmor		1		tors	cloa									glr	glr	glr				regen		24	24	hp%		6	6	light		2	2																	0
+FlawlessRubyRunewordArmor		1		tors	cloa									glr	glr	glr	glr			regen		32	32	hp%		6	6	light		3	3																	0
+FlawlessRubyRunewordArmor		1		tors	cloa									glr	glr	glr	glr	glr		regen		40	40	hp%		7	7	light		4	4																	0
+FlawlessRubyRunewordArmor		1		tors	cloa									glr	glr	glr	glr	glr	glr	regen		48	48	hp%		8	8	light		5	5																	0
+PerfectRubyRunewordArmor		0		tors	cloa									gpr						regen		10	10	hp%		5	5	light		1	1																	0
+PerfectRubyRunewordArmor		1		tors	cloa									gpr	gpr					regen		20	20	hp%		6	6	light		1	1																	0
+PerfectRubyRunewordArmor		1		tors	cloa									gpr	gpr	gpr				regen		30	30	hp%		7	7	light		2	2																	0
+PerfectRubyRunewordArmor		1		tors	cloa									gpr	gpr	gpr	gpr			regen		40	40	hp%		8	8	light		3	3																	0
+PerfectRubyRunewordArmor		1		tors	cloa									gpr	gpr	gpr	gpr	gpr		regen		50	50	hp%		9	9	light		4	4																	0
+PerfectRubyRunewordArmor		1		tors	cloa									gpr	gpr	gpr	gpr	gpr	gpr	regen		60	60	hp%		10	10	light		5	5																	0
+ChippedRubyRunewordArmor		0		helm										gcr						regen		2	2																									0
+ChippedRubyRunewordArmor		1		helm										gcr	gcr					regen		4	4	hp%		1	1	light		1	1																	0
+ChippedRubyRunewordArmor		1		helm										gcr	gcr	gcr				regen		6	6	hp%		1	1	light		1	1																	0
+ChippedRubyRunewordArmor		1		helm										gcr	gcr	gcr	gcr			regen		8	8	hp%		1	1	light		2	2																	0
+FlawedRubyRunewordArmor		0		helm										gfr						regen		4	4	hp%		1	1	light		3	3																	0
+FlawedRubyRunewordArmor		1		helm										gfr	gfr					regen		8	8	hp%		1	1	light		1	1																	0
+FlawedRubyRunewordArmor		1		helm										gfr	gfr	gfr				regen		12	12	hp%		2	2	light		1	1																	0
+FlawedRubyRunewordArmor		1		helm										gfr	gfr	gfr	gfr			regen		16	16	hp%		2	2	light		2	2																	0
+NormalRubyRunewordArmor		0		helm										gsr						regen		6	6	hp%		1	1	light		3	3																	0
+NormalRubyRunewordArmor		1		helm										gsr	gsr					regen		12	12	hp%		2	2	light		1	1																	0
+NormalRubyRunewordArmor		1		helm										gsr	gsr	gsr				regen		18	18	hp%		2	2	light		1	1																	0
+NormalRubyRunewordArmor		1		helm										gsr	gsr	gsr	gsr			regen		24	24	hp%		3	3	light		2	2																	0
+FlawlessRubyRunewordArmor		0		helm										glr						regen		8	8	hp%		2	2	light		3	3																	0
+FlawlessRubyRunewordArmor		1		helm										glr	glr					regen		16	16	hp%		2	2	light		1	1																	0
+FlawlessRubyRunewordArmor		1		helm										glr	glr	glr				regen		24	24	hp%		3	3	light		1	1																	0
+FlawlessRubyRunewordArmor		1		helm										glr	glr	glr	glr			regen		32	32	hp%		4	4	light		2	2																	0
+PerfectRubyRunewordArmor		0		helm										gpr						regen		10	10	hp%		2	2	light		3	3																	0
+PerfectRubyRunewordArmor		1		helm										gpr	gpr					regen		20	20	hp%		3	3	light		1	1																	0
+PerfectRubyRunewordArmor		1		helm										gpr	gpr	gpr				regen		30	30	hp%		4	4	light		1	1																	0
+PerfectRubyRunewordArmor		1		helm										gpr	gpr	gpr	gpr			regen		40	40	hp%		5	5	light		2	2																	0
+ChippedRubyRunewordArmor		0		belt										gcr						regen		5	6	hp%		1	1	light		3	3																	0
+ChippedRubyRunewordArmor		1		belt										gcr	gcr					regen		8	10	hp%		2	2	light		1	1																	0
+FlawedRubyRunewordArmor		0		belt										gfr						regen		7	8	hp%		2	2	light		1	1																	0
+FlawedRubyRunewordArmor		1		belt										gfr	gfr					regen		12	15	hp%		3	3	light		1	1																	0
+NormalRubyRunewordArmor		0		belt										gsr						regen		8	10	hp%		3	3	light		1	1																	0
+NormalRubyRunewordArmor		1		belt										gsr	gsr					regen		15	18	hp%		4	4	light		1	1																	0
+FlawlessRubyRunewordArmor		0		belt										glr						regen		9	11	hp%		4	4	light		1	1																	0
+FlawlessRubyRunewordArmor		1		belt										glr	glr					regen		17	21	hp%		5	5	light		1	1																	0
+PerfectRubyRunewordArmor		0		belt										gpr						regen		11	14	hp%		5	5	light		1	1																	0
+PerfectRubyRunewordArmor		1		belt										gpr	gpr					regen		21	26	hp%		6	6	light		1	1																	0
+ChippedRubyRunewordShield		0		shld										gcr						abs-fire		1	1	vit		1	1	light		1	1																	0
+ChippedRubyRunewordShield		1		shld										gcr	gcr					abs-fire		2	2	vit		2	2	light		1	1																	0
+ChippedRubyRunewordShield		1		shld										gcr	gcr	gcr				abs-fire		3	3	vit		3	3	light		2	2																	0
+ChippedRubyRunewordShield		1		shld										gcr	gcr	gcr	gcr			abs-fire		4	4	vit		4	4	light		3	3																	0
+ChippedRubyRunewordShield		1		shld										gcr	gcr	gcr	gcr	gcr		abs-fire		5	5	vit		5	5	light		4	4																	0
+ChippedRubyRunewordShield		1		shld										gcr	gcr	gcr	gcr	gcr	gcr	abs-fire		6	6	vit		6	6	light		5	5																	0
+FlawedRubyRunewordShield		0		shld										gfr						abs-fire		2	2	vit		2	2	light		1	1																	0
+FlawedRubyRunewordShield		1		shld										gfr	gfr					abs-fire		4	4	vit		4	4	light		1	1																	0
+FlawedRubyRunewordShield		1		shld										gfr	gfr	gfr				abs-fire		6	6	vit		6	6	light		2	2																	0
+FlawedRubyRunewordShield		1		shld										gfr	gfr	gfr	gfr			abs-fire		8	8	vit		8	8	light		3	3																	0
+FlawedRubyRunewordShield		1		shld										gfr	gfr	gfr	gfr	gfr		abs-fire		10	10	vit		10	10	light		4	4																	0
+FlawedRubyRunewordShield		1		shld										gfr	gfr	gfr	gfr	gfr	gfr	abs-fire		12	12	vit		12	12	light		5	5																	0
+NormalRubyRunewordShield		0		shld										gsr						abs-fire		3	3	vit		3	3	light		1	1																	0
+NormalRubyRunewordShield		1		shld										gsr	gsr					abs-fire		6	6	vit		6	6	light		1	1																	0
+NormalRubyRunewordShield		1		shld										gsr	gsr	gsr				abs-fire		9	9	vit		9	9	light		2	2																	0
+NormalRubyRunewordShield		1		shld										gsr	gsr	gsr	gsr			abs-fire		12	12	vit		12	12	light		3	3																	0
+NormalRubyRunewordShield		1		shld										gsr	gsr	gsr	gsr	gsr		abs-fire		15	15	vit		15	15	light		4	4																	0
+NormalRubyRunewordShield		1		shld										gsr	gsr	gsr	gsr	gsr	gsr	abs-fire		18	18	vit		18	18	light		5	5																	0
+FlawlessRubyRunewordShield		0		shld										glr						abs-fire		4	4	vit		4	4	light		1	1																	0
+FlawlessRubyRunewordShield		1		shld										glr	glr					abs-fire		8	8	vit		8	8	light		1	1																	0
+FlawlessRubyRunewordShield		1		shld										glr	glr	glr				abs-fire		12	12	vit		12	12	light		2	2																	0
+FlawlessRubyRunewordShield		1		shld										glr	glr	glr	glr			abs-fire		16	16	vit		16	16	light		3	3																	0
+FlawlessRubyRunewordShield		1		shld										glr	glr	glr	glr	glr		abs-fire		20	20	vit		20	20	light		4	4																	0
+FlawlessRubyRunewordShield		1		shld										glr	glr	glr	glr	glr	glr	abs-fire		24	24	vit		24	24	light		5	5																	0
+PerfectRubyRunewordShield		0		shld										gpr						abs-fire		5	5	vit		5	5	light		1	1																	0
+PerfectRubyRunewordShield		1		shld										gpr	gpr					abs-fire		10	10	vit		10	10	light		1	1																	0
+PerfectRubyRunewordShield		1		shld										gpr	gpr	gpr				abs-fire		15	15	vit		15	15	light		2	2																	0
+PerfectRubyRunewordShield		1		shld										gpr	gpr	gpr	gpr			abs-fire		20	20	vit		20	20	light		3	3																	0
+PerfectRubyRunewordShield		1		shld										gpr	gpr	gpr	gpr	gpr		abs-fire		25	25	vit		25	25	light		4	4																	0
+PerfectRubyRunewordShield		1		shld										gpr	gpr	gpr	gpr	gpr	gpr	abs-fire		30	30	vit		30	30	light		5	5																	0
+ChippedRubyRunewordShield		0		boot										gcr						abs-fire		1	1	vit		1	1	light		1	1																	0
+ChippedRubyRunewordShield		1		boot										gcr	gcr					abs-fire		2	2	vit		2	2	light		1	1																	0
+ChippedRubyRunewordShield		1		boot										gcr	gcr	gcr				abs-fire		3	3	vit		3	3	light		2	2																	0
+ChippedRubyRunewordShield		1		boot										gcr	gcr	gcr	gcr			abs-fire		4	4	vit		4	4	light		3	3																	0
+FlawedRubyRunewordShield		0		boot										gfr						abs-fire		2	2	vit		2	2	light		1	1																	0
+FlawedRubyRunewordShield		1		boot										gfr	gfr					abs-fire		4	4	vit		4	4	light		1	1																	0
+FlawedRubyRunewordShield		1		boot										gfr	gfr	gfr				abs-fire		6	6	vit		6	6	light		2	2																	0
+FlawedRubyRunewordShield		1		boot										gfr	gfr	gfr	gfr			abs-fire		8	8	vit		8	8	light		3	3																	0
+NormalRubyRunewordShield		0		boot										gsr						abs-fire		3	3	vit		3	3	light		1	1																	0
+NormalRubyRunewordShield		1		boot										gsr	gsr					abs-fire		6	6	vit		6	6	light		1	1																	0
+NormalRubyRunewordShield		1		boot										gsr	gsr	gsr				abs-fire		9	9	vit		9	9	light		2	2																	0
+NormalRubyRunewordShield		1		boot										gsr	gsr	gsr	gsr			abs-fire		12	12	vit		12	12	light		3	3																	0
+FlawlessRubyRunewordShield		0		boot										glr						abs-fire		4	4	vit		4	4	light		1	1																	0
+FlawlessRubyRunewordShield		1		boot										glr	glr					abs-fire		8	8	vit		8	8	light		1	1																	0
+FlawlessRubyRunewordShield		1		boot										glr	glr	glr				abs-fire		12	12	vit		12	12	light		2	2																	0
+FlawlessRubyRunewordShield		1		boot										glr	glr	glr	glr			abs-fire		16	16	vit		16	16	light		3	3																	0
+PerfectRubyRunewordShield		0		boot										gpr						abs-fire		5	5	vit		5	5	light		1	1																	0
+PerfectRubyRunewordShield		1		boot										gpr	gpr					abs-fire		10	10	vit		10	10	light		1	1																	0
+PerfectRubyRunewordShield		1		boot										gpr	gpr	gpr				abs-fire		15	15	vit		15	15	light		2	2																	0
+PerfectRubyRunewordShield		1		boot										gpr	gpr	gpr	gpr			abs-fire		20	20	vit		20	20	light		3	3																	0
+ChippedDiamondRuneword		0		weap										gcw						deadly		4	5	crush		1	1	dmg%		10	15	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		1		weap										gcw	gcw					deadly		7	10	crush		1	2	dmg%		12	18	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		1		weap										gcw	gcw	gcw				deadly		10	15	crush		2	3	dmg%		14	21	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		1		weap										gcw	gcw	gcw	gcw			deadly		14	20	crush		3	4	dmg%		16	24	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		1		weap										gcw	gcw	gcw	gcw	gcw		deadly		17	25	crush		4	5	dmg%		18	27	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		1		weap										gcw	gcw	gcw	gcw	gcw	gcw	deadly		20	30	crush		4	6	dmg%		20	30	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		0		weap										gfw						deadly		7	10	crush		2	2	dmg%		20	30	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		1		weap										gfw	gfw					deadly		10	15	crush		2	3	dmg%		24	36	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		1		weap										gfw	gfw	gfw				deadly		14	20	crush		3	4	dmg%		28	42	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		1		weap										gfw	gfw	gfw	gfw			deadly		17	25	crush		4	5	dmg%		32	48	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		1		weap										gfw	gfw	gfw	gfw	gfw		deadly		20	30	crush		4	6	dmg%		36	54	splash	proc_SplashDamage	100	1													0
+FlawedDiamondRuneword		1		weap										gfw	gfw	gfw	gfw	gfw	gfw	deadly		24	35	crush		5	7	dmg%		40	60	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		0		weap										gsw						deadly		10	15	crush		2	3	dmg%		30	45	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		1		weap										gsw	gsw					deadly		14	20	crush		3	4	dmg%		36	54	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		1		weap										gsw	gsw	gsw				deadly		17	25	crush		4	5	dmg%		42	63	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		1		weap										gsw	gsw	gsw	gsw			deadly		20	30	crush		4	6	dmg%		48	72	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		1		weap										gsw	gsw	gsw	gsw	gsw		deadly		24	35	crush		5	7	dmg%		54	81	splash	proc_SplashDamage	100	1													0
+NormalDiamondRuneword		1		weap										gsw	gsw	gsw	gsw	gsw	gsw	deadly		27	40	crush		5	8	dmg%		60	90	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		0		weap										glw						deadly		14	20	crush		3	4	dmg%		40	60	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		1		weap										glw	glw					deadly		17	25	crush		4	5	dmg%		48	72	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		1		weap										glw	glw	glw				deadly		20	30	crush		4	6	dmg%		56	84	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		1		weap										glw	glw	glw	glw			deadly		24	35	crush		5	7	dmg%		64	96	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		1		weap										glw	glw	glw	glw	glw		deadly		27	40	crush		6	8	dmg%		72	108	splash	proc_SplashDamage	100	1													0
+FlawlessDiamondRuneword		1		weap										glw	glw	glw	glw	glw	glw	deadly		30	45	crush		6	9	dmg%		80	120	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		0		weap										gpw						deadly		17	25	crush		4	5	dmg%		50	75	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		1		weap										gpw	gpw					deadly		20	30	crush		4	6	dmg%		60	90	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		1		weap										gpw	gpw	gpw				deadly		24	35	crush		5	7	dmg%		70	105	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		1		weap										gpw	gpw	gpw	gpw			deadly		27	40	crush		5	8	dmg%		80	120	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		1		weap										gpw	gpw	gpw	gpw	gpw		deadly		30	45	crush		6	9	dmg%		90	135	splash	proc_SplashDamage	100	1													0
+PerfectDiamondRuneword		1		weap										gpw	gpw	gpw	gpw	gpw	gpw	deadly		34	50	crush		7	10	dmg%		100	150	splash	proc_SplashDamage	100	1													0
+ChippedDiamondRuneword		0		glov										gcw						crush		1	1	dmg-demon		30	30	light		1	1																	0
+ChippedDiamondRuneword		1		glov										gcw	gcw					crush		2	2	dmg-demon		60	60	light		1	1																	0
+ChippedDiamondRuneword		1		glov										gcw	gcw	gcw				crush		3	3	dmg-demon		90	90	light		2	2																	0
+ChippedDiamondRuneword		1		glov										gcw	gcw	gcw	gcw			crush		4	4	dmg-demon		120	120	light		3	3																	0
+FlawedDiamondRuneword		0		glov										gfw						crush		2	2	dmg-demon		42	42	light		1	1																	0
+FlawedDiamondRuneword		1		glov										gfw	gfw					crush		3	3	dmg-demon		84	84	light		1	1																	0
+FlawedDiamondRuneword		1		glov										gfw	gfw	gfw				crush		4	4	dmg-demon		126	126	light		2	2																	0
+FlawedDiamondRuneword		1		glov										gfw	gfw	gfw	gfw			crush		5	5	dmg-demon		168	168	light		3	3																	0
+NormalDiamondRuneword		0		glov										gsw						crush		3	3	dmg-demon		52	52	light		1	1																	0
+NormalDiamondRuneword		1		glov										gsw	gsw					crush		4	4	dmg-demon		104	104	light		1	1																	0
+NormalDiamondRuneword		1		glov										gsw	gsw	gsw				crush		5	5	dmg-demon		156	156	light		2	2																	0
+NormalDiamondRuneword		1		glov										gsw	gsw	gsw	gsw			crush		6	6	dmg-demon		208	208	light		3	3																	0
+FlawlessDiamondRuneword		0		glov										glw						crush		4	4	dmg-demon		66	66	light		1	1																	0
+FlawlessDiamondRuneword		1		glov										glw	glw					crush		5	5	dmg-demon		132	132	light		1	1																	0
+FlawlessDiamondRuneword		1		glov										glw	glw	glw				crush		6	6	dmg-demon		198	198	light		2	2																	0
+FlawlessDiamondRuneword		1		glov										glw	glw	glw	glw			crush		7	7	dmg-demon		264	264	light		3	3																	0
+PerfectDiamondRuneword		0		glov										gpw						crush		5	5	dmg-demon		80	80	light		1	1																	0
+PerfectDiamondRuneword		1		glov										gpw	gpw					crush		6	6	dmg-demon		160	160	light		1	1																	0
+PerfectDiamondRuneword		1		glov										gpw	gpw	gpw				crush		7	7	dmg-demon		240	240	light		2	2																	0
+PerfectDiamondRuneword		1		glov										gpw	gpw	gpw	gpw			crush		8	8	dmg-demon		320	320	light		3	3																	0
+ChippedDiamondRunewordArmor		0		tors	cloa									gcw						light		2	2	red-dmg		1	1	red-mag		1	1																	0
+ChippedDiamondRunewordArmor		1		tors	cloa									gcw	gcw					light		3	3	red-dmg		2	2	red-mag		2	2																	0
+ChippedDiamondRunewordArmor		1		tors	cloa									gcw	gcw	gcw				light		4	4	red-dmg		3	3	red-mag		3	3																	0
+ChippedDiamondRunewordArmor		1		tors	cloa									gcw	gcw	gcw	gcw			light		5	5	red-dmg		4	4	red-mag		4	4																	0
+ChippedDiamondRunewordArmor		1		tors	cloa									gcw	gcw	gcw	gcw	gcw		light		6	6	red-dmg		5	5	red-mag		5	5																	0
+ChippedDiamondRunewordArmor		1		tors	cloa									gcw	gcw	gcw	gcw	gcw	gcw	light		7	7	red-dmg		6	6	red-mag		6	6																	0
+FlawedDiamondRunewordArmor		0		tors	cloa									gfw						light		2	2	red-dmg		2	2	red-mag		2	2																	0
+FlawedDiamondRunewordArmor		1		tors	cloa									gfw	gfw					light		3	3	red-dmg		4	4	red-mag		4	4																	0
+FlawedDiamondRunewordArmor		1		tors	cloa									gfw	gfw	gfw				light		4	4	red-dmg		6	6	red-mag		6	6																	0
+FlawedDiamondRunewordArmor		1		tors	cloa									gfw	gfw	gfw	gfw			light		5	5	red-dmg		8	8	red-mag		8	8																	0
+FlawedDiamondRunewordArmor		1		tors	cloa									gfw	gfw	gfw	gfw	gfw		light		6	6	red-dmg		10	10	red-mag		10	10																	0
+FlawedDiamondRunewordArmor		1		tors	cloa									gfw	gfw	gfw	gfw	gfw	gfw	light		7	7	red-dmg		12	12	red-mag		12	12																	0
+NormalDiamondRunewordArmor		0		tors	cloa									gsw						light		3	3	red-dmg		3	3	red-mag		3	3																	0
+NormalDiamondRunewordArmor		1		tors	cloa									gsw	gsw					light		4	4	red-dmg		6	6	red-mag		6	6																	0
+NormalDiamondRunewordArmor		1		tors	cloa									gsw	gsw	gsw				light		5	5	red-dmg		9	9	red-mag		9	9																	0
+NormalDiamondRunewordArmor		1		tors	cloa									gsw	gsw	gsw	gsw			light		6	6	red-dmg		12	12	red-mag		12	12																	0
+NormalDiamondRunewordArmor		1		tors	cloa									gsw	gsw	gsw	gsw	gsw		light		7	7	red-dmg		15	15	red-mag		15	15																	0
+NormalDiamondRunewordArmor		1		tors	cloa									gsw	gsw	gsw	gsw	gsw	gsw	light		8	8	red-dmg		18	18	red-mag		18	18																	0
+FlawlessDiamondRunewordArmor		0		tors	cloa									glw						light		4	4	red-dmg		4	4	red-mag		4	4																	0
+FlawlessDiamondRunewordArmor		1		tors	cloa									glw	glw					light		5	5	red-dmg		8	8	red-mag		8	8																	0
+FlawlessDiamondRunewordArmor		1		tors	cloa									glw	glw	glw				light		6	6	red-dmg		12	12	red-mag		12	12																	0
+FlawlessDiamondRunewordArmor		1		tors	cloa									glw	glw	glw	glw			light		7	7	red-dmg		16	16	red-mag		16	16																	0
+FlawlessDiamondRunewordArmor		1		tors	cloa									glw	glw	glw	glw	glw		light		8	8	red-dmg		20	20	red-mag		20	20																	0
+FlawlessDiamondRunewordArmor		1		tors	cloa									glw	glw	glw	glw	glw	glw	light		9	9	red-dmg		24	24	red-mag		24	24																	0
+PerfectDiamondRunewordArmor		0		tors	cloa									gpw						light		5	5	red-dmg		5	5	red-mag		5	5																	0
+PerfectDiamondRunewordArmor		1		tors	cloa									gpw	gpw					light		6	6	red-dmg		10	10	red-mag		10	10																	0
+PerfectDiamondRunewordArmor		1		tors	cloa									gpw	gpw	gpw				light		7	7	red-dmg		15	15	red-mag		15	15																	0
+PerfectDiamondRunewordArmor		1		tors	cloa									gpw	gpw	gpw	gpw			light		8	8	red-dmg		20	20	red-mag		20	20																	0
+PerfectDiamondRunewordArmor		1		tors	cloa									gpw	gpw	gpw	gpw	gpw		light		9	9	red-dmg		25	25	red-mag		25	25																	0
+PerfectDiamondRunewordArmor		1		tors	cloa									gpw	gpw	gpw	gpw	gpw	gpw	light		10	10	red-dmg		30	30	red-mag		30	30																	0
+ChippedDiamondRunewordArmor		0		helm										gcw						light		2	2	red-dmg		1	1	red-mag		1	1																	0
+ChippedDiamondRunewordArmor		1		helm										gcw	gcw					light		3	3	red-dmg		2	2	red-mag		2	2																	0
+ChippedDiamondRunewordArmor		1		helm										gcw	gcw	gcw				light		4	4	red-dmg		3	3	red-mag		3	3																	0
+ChippedDiamondRunewordArmor		1		helm										gcw	gcw	gcw	gcw			light		5	5	red-dmg		4	4	red-mag		4	4																	0
+FlawedDiamondRunewordArmor		0		helm										gfw						light		2	2	red-dmg		2	2	red-mag		2	2																	0
+FlawedDiamondRunewordArmor		1		helm										gfw	gfw					light		3	3	red-dmg		4	4	red-mag		4	4																	0
+FlawedDiamondRunewordArmor		1		helm										gfw	gfw	gfw				light		4	4	red-dmg		6	6	red-mag		6	6																	0
+FlawedDiamondRunewordArmor		1		helm										gfw	gfw	gfw	gfw			light		5	5	red-dmg		8	8	red-mag		8	8																	0
+NormalDiamondRunewordArmor		0		helm										gsw						light		3	3	red-dmg		3	3	red-mag		3	3																	0
+NormalDiamondRunewordArmor		1		helm										gsw	gsw					light		4	4	red-dmg		6	6	red-mag		6	6																	0
+NormalDiamondRunewordArmor		1		helm										gsw	gsw	gsw				light		5	5	red-dmg		9	9	red-mag		9	9																	0
+NormalDiamondRunewordArmor		1		helm										gsw	gsw	gsw	gsw			light		6	6	red-dmg		12	12	red-mag		12	12																	0
+FlawlessDiamondRunewordArmor		0		helm										glw						light		4	4	red-dmg		4	4	red-mag		4	4																	0
+FlawlessDiamondRunewordArmor		1		helm										glw	glw					light		5	5	red-dmg		8	8	red-mag		8	8																	0
+FlawlessDiamondRunewordArmor		1		helm										glw	glw	glw				light		6	6	red-dmg		12	12	red-mag		12	12																	0
+FlawlessDiamondRunewordArmor		1		helm										glw	glw	glw	glw			light		7	7	red-dmg		16	16	red-mag		16	16																	0
+PerfectDiamondRunewordArmor		0		helm										gpw						light		5	5	red-dmg		5	5	red-mag		5	5																	0
+PerfectDiamondRunewordArmor		1		helm										gpw	gpw					light		6	6	red-dmg		10	10	red-mag		10	10																	0
+PerfectDiamondRunewordArmor		1		helm										gpw	gpw	gpw				light		7	7	red-dmg		15	15	red-mag		15	15																	0
+PerfectDiamondRunewordArmor		1		helm										gpw	gpw	gpw	gpw			light		8	8	red-dmg		20	20	red-mag		20	20																	0
+ChippedDiamondRunewordArmor		0		belt										gcw						light		2	2	red-dmg		1	1	red-mag		1	1																	0
+ChippedDiamondRunewordArmor		1		belt										gcw	gcw					light		3	3	red-dmg		2	2	red-mag		2	2																	0
+FlawedDiamondRunewordArmor		0		belt										gfw						light		2	2	red-dmg		2	2	red-mag		2	2																	0
+FlawedDiamondRunewordArmor		1		belt										gfw	gfw					light		3	3	red-dmg		4	4	red-mag		4	4																	0
+NormalDiamondRunewordArmor		0		belt										gsw						light		3	3	red-dmg		3	3	red-mag		3	3																	0
+NormalDiamondRunewordArmor		1		belt										gsw	gsw					light		4	4	red-dmg		6	6	red-mag		6	6																	0
+FlawlessDiamondRunewordArmor		0		belt										glw						light		4	4	red-dmg		4	4	red-mag		4	4																	0
+FlawlessDiamondRunewordArmor		1		belt										glw	glw					light		5	5	red-dmg		8	8	red-mag		8	8																	0
+PerfectDiamondRunewordArmor		0		belt										gpw						light		5	5	red-dmg		5	5	red-mag		5	5																	0
+PerfectDiamondRunewordArmor		1		belt										gpw	gpw					light		6	6	red-dmg		10	10	red-mag		10	10																	0
+ChippedDiamondRunewordShield		0		shld										gcw						block2		1	5	block		1	1	light		1	1																	0
+ChippedDiamondRunewordShield		1		shld										gcw	gcw					block2		2	10	block		1	3	light		1	1																	0
+ChippedDiamondRunewordShield		1		shld										gcw	gcw	gcw				block2		3	15	block		2	5	light		2	2																	0
+ChippedDiamondRunewordShield		1		shld										gcw	gcw	gcw	gcw			block2		4	20	block		3	7	light		3	3																	0
+ChippedDiamondRunewordShield		1		shld										gcw	gcw	gcw	gcw	gcw		block2		5	25	block		3	9	light		4	4																	0
+ChippedDiamondRunewordShield		1		shld										gcw	gcw	gcw	gcw	gcw	gcw	block2		6	30	block		4	11	light		5	5																	0
+FlawedDiamondRunewordShield		0		shld										gfw						block2		1	5	block		1	2	light		1	1																	0
+FlawedDiamondRunewordShield		1		shld										gfw	gfw					block2		2	10	block		2	4	light		1	1																	0
+FlawedDiamondRunewordShield		1		shld										gfw	gfw	gfw				block2		3	15	block		2	6	light		2	2																	0
+FlawedDiamondRunewordShield		1		shld										gfw	gfw	gfw	gfw			block2		4	20	block		3	9	light		3	3																	0
+FlawedDiamondRunewordShield		1		shld										gfw	gfw	gfw	gfw	gfw		block2		5	25	block		4	12	light		4	4																	0
+FlawedDiamondRunewordShield		1		shld										gfw	gfw	gfw	gfw	gfw	gfw	block2		6	30	block		5	15	light		5	5																	0
+NormalDiamondRunewordShield		0		shld										gsw						block2		2	5	block		1	3	light		1	1																	0
+NormalDiamondRunewordShield		1		shld										gsw	gsw					block2		4	10	block		2	6	light		1	1																	0
+NormalDiamondRunewordShield		1		shld										gsw	gsw	gsw				block2		6	15	block		3	9	light		2	2																	0
+NormalDiamondRunewordShield		1		shld										gsw	gsw	gsw	gsw			block2		8	20	block		4	12	light		3	3																	0
+NormalDiamondRunewordShield		1		shld										gsw	gsw	gsw	gsw	gsw		block2		10	25	block		5	15	light		4	4																	0
+NormalDiamondRunewordShield		1		shld										gsw	gsw	gsw	gsw	gsw	gsw	block2		12	30	block		6	18	light		5	5																	0
+FlawlessDiamondRunewordShield		0		shld										glw						block2		2	5	block		2	5	light		1	1																	0
+FlawlessDiamondRunewordShield		1		shld										glw	glw					block2		4	10	block		3	8	light		1	1																	0
+FlawlessDiamondRunewordShield		1		shld										glw	glw	glw				block2		6	15	block		4	11	light		2	2																	0
+FlawlessDiamondRunewordShield		1		shld										glw	glw	glw	glw			block2		8	20	block		5	14	light		3	3																	0
+FlawlessDiamondRunewordShield		1		shld										glw	glw	glw	glw	glw		block2		10	25	block		6	17	light		4	4																	0
+FlawlessDiamondRunewordShield		1		shld										glw	glw	glw	glw	glw	glw	block2		12	30	block		7	21	light		5	5																	0
+PerfectDiamondRunewordShield		0		shld										gpw						block2		3	5	block		3	8	light		1	1																	0
+PerfectDiamondRunewordShield		1		shld										gpw	gpw					block2		6	10	block		4	11	light		1	1																	0
+PerfectDiamondRunewordShield		1		shld										gpw	gpw	gpw				block2		9	15	block		5	14	light		2	2																	0
+PerfectDiamondRunewordShield		1		shld										gpw	gpw	gpw	gpw			block2		12	20	block		6	17	light		3	3																	0
+PerfectDiamondRunewordShield		1		shld										gpw	gpw	gpw	gpw	gpw		block2		15	25	block		7	21	light		4	4																	0
+PerfectDiamondRunewordShield		1		shld										gpw	gpw	gpw	gpw	gpw	gpw	block2		18	30	block		9	25	light		5	5																	0
+ChippedDiamondRunewordShield		0		boot										gcw						block2		5	5	block		1	1	light		1	1																	0
+ChippedDiamondRunewordShield		1		boot										gcw	gcw					block2		10	10	block		2	2	light		1	1																	0
+ChippedDiamondRunewordShield		1		boot										gcw	gcw	gcw				block2		15	15	block		4	4	light		2	2																	0
+ChippedDiamondRunewordShield		1		boot										gcw	gcw	gcw	gcw			block2		20	20	block		5	5	light		3	3																	0
+FlawedDiamondRunewordShield		0		boot										gfw						block2		5	5	block		2	2	light		1	1																	0
+FlawedDiamondRunewordShield		1		boot										gfw	gfw					block2		10	10	block		3	3	light		1	1																	0
+FlawedDiamondRunewordShield		1		boot										gfw	gfw	gfw				block2		15	15	block		5	5	light		2	2																	0
+FlawedDiamondRunewordShield		1		boot										gfw	gfw	gfw	gfw			block2		20	20	block		6	6	light		3	3																	0
+NormalDiamondRunewordShield		0		boot										gsw						block2		5	5	block		3	3	light		1	1																	0
+NormalDiamondRunewordShield		1		boot										gsw	gsw					block2		10	10	block		4	4	light		1	1																	0
+NormalDiamondRunewordShield		1		boot										gsw	gsw	gsw				block2		15	15	block		6	6	light		2	2																	0
+NormalDiamondRunewordShield		1		boot										gsw	gsw	gsw	gsw			block2		20	20	block		8	8	light		3	3																	0
+FlawlessDiamondRunewordShield		0		boot										glw						block2		5	5	block		3	3	light		1	1																	0
+FlawlessDiamondRunewordShield		1		boot										glw	glw					block2		10	10	block		5	5	light		1	1																	0
+FlawlessDiamondRunewordShield		1		boot										glw	glw	glw				block2		15	15	block		7	7	light		2	2																	0
+FlawlessDiamondRunewordShield		1		boot										glw	glw	glw	glw			block2		20	20	block		9	9	light		3	3																	0
+PerfectDiamondRunewordShield		0		boot										gpw						block2		5	5	block		4	4	light		1	1																	0
+PerfectDiamondRunewordShield		1		boot										gpw	gpw					block2		10	10	block		6	6	light		1	1																	0
+PerfectDiamondRunewordShield		1		boot										gpw	gpw	gpw				block2		15	15	block		8	8	light		2	2																	0
+PerfectDiamondRunewordShield		1		boot										gpw	gpw	gpw	gpw			block2		20	20	block		10	10	light		3	3																	0
+ChippedTopazRuneword		0		weap										gcy						stupidity		3	3	dmg-ltng		1	8	pierce-ltng		1	1	extra-ltng		1	2	swing2		0	1	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		1		weap										gcy	gcy					stupidity		6	6	dmg-ltng		1	16	pierce-ltng		2	2	extra-ltng		1	2	swing2		1	1	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		1		weap										gcy	gcy	gcy				stupidity		9	9	dmg-ltng		1	24	pierce-ltng		3	3	extra-ltng		1	3	swing2		1	2	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		1		weap										gcy	gcy	gcy	gcy			stupidity		12	12	dmg-ltng		1	32	pierce-ltng		4	4	extra-ltng		2	4	swing2		2	2	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		1		weap										gcy	gcy	gcy	gcy	gcy		stupidity		15	15	dmg-ltng		1	40	pierce-ltng		5	5	extra-ltng		2	4	swing2		2	3	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		1		weap										gcy	gcy	gcy	gcy	gcy	gcy	stupidity		18	18	dmg-ltng		1	48	pierce-ltng		6	6	extra-ltng		3	5	swing2		2	3	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		0		weap										gfy						stupidity		6	6	dmg-ltng		1	12	pierce-ltng		2	2	extra-ltng		1	4	swing2		1	2	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		1		weap										gfy	gfy					stupidity		12	12	dmg-ltng		1	24	pierce-ltng		3	3	extra-ltng		2	5	swing2		2	3	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		1		weap										gfy	gfy	gfy				stupidity		18	18	dmg-ltng		1	36	pierce-ltng		4	4	extra-ltng		3	6	swing2		2	4	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		1		weap										gfy	gfy	gfy	gfy			stupidity		24	24	dmg-ltng		1	48	pierce-ltng		5	5	extra-ltng		4	7	swing2		3	4	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		1		weap										gfy	gfy	gfy	gfy	gfy		stupidity		30	30	dmg-ltng		1	60	pierce-ltng		6	6	extra-ltng		5	9	swing2		4	5	splash	proc_SplashDamage	100	1					0
+FlawedTopazRuneword		1		weap										gfy	gfy	gfy	gfy	gfy	gfy	stupidity		36	36	dmg-ltng		1	72	pierce-ltng		7	7	extra-ltng		6	10	swing2		5	6	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		0		weap										gsy						stupidity		10	10	dmg-ltng		1	16	pierce-ltng		3	3	extra-ltng		2	6	swing2		1	3	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		1		weap										gsy	gsy					stupidity		20	20	dmg-ltng		1	32	pierce-ltng		4	4	extra-ltng		3	7	swing2		2	4	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		1		weap										gsy	gsy	gsy				stupidity		30	30	dmg-ltng		1	48	pierce-ltng		5	5	extra-ltng		4	9	swing2		4	5	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		1		weap										gsy	gsy	gsy	gsy			stupidity		40	40	dmg-ltng		1	64	pierce-ltng		6	6	extra-ltng		5	11	swing2		5	7	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		1		weap										gsy	gsy	gsy	gsy	gsy		stupidity		50	50	dmg-ltng		1	80	pierce-ltng		7	7	extra-ltng		7	13	swing2		6	8	splash	proc_SplashDamage	100	1					0
+NormalTopazRuneword		1		weap										gsy	gsy	gsy	gsy	gsy	gsy	stupidity		60	60	dmg-ltng		1	96	pierce-ltng		8	8	extra-ltng		9	15	swing2		7	9	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		0		weap										gly						stupidity		12	12	dmg-ltng		1	20	pierce-ltng		4	4	extra-ltng		2	8	swing2		2	4	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		1		weap										gly	gly					stupidity		24	24	dmg-ltng		1	40	pierce-ltng		5	5	extra-ltng		4	10	swing2		3	6	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		1		weap										gly	gly	gly				stupidity		36	36	dmg-ltng		1	60	pierce-ltng		6	6	extra-ltng		6	12	swing2		5	7	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		1		weap										gly	gly	gly	gly			stupidity		48	48	dmg-ltng		1	80	pierce-ltng		7	7	extra-ltng		7	14	swing2		6	9	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		1		weap										gly	gly	gly	gly	gly		stupidity		64	64	dmg-ltng		1	100	pierce-ltng		8	8	extra-ltng		10	18	swing2		8	10	splash	proc_SplashDamage	100	1					0
+FlawlessTopazRuneword		1		weap										gly	gly	gly	gly	gly	gly	stupidity		75	75	dmg-ltng		1	120	pierce-ltng		9	9	extra-ltng		12	20	swing2		10	12	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		0		weap										gpy						stupidity		30	30	dmg-ltng		1	24	pierce-ltng		10	10	extra-ltng		10	10	swing2		5	5	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		1		weap										gpy	gpy					stupidity		45	45	dmg-ltng		1	48	pierce-ltng		14	14	extra-ltng		14	14	swing2		7	7	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		1		weap										gpy	gpy	gpy				stupidity		60	60	dmg-ltng		1	72	pierce-ltng		19	19	extra-ltng		19	19	swing2		9	9	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		1		weap										gpy	gpy	gpy	gpy			stupidity		75	75	dmg-ltng		1	96	pierce-ltng		24	24	extra-ltng		24	24	swing2		11	11	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		1		weap										gpy	gpy	gpy	gpy	gpy		stupidity		90	90	dmg-ltng		1	120	pierce-ltng		28	28	extra-ltng		28	28	swing2		13	13	splash	proc_SplashDamage	100	1					0
+PerfectTopazRuneword		1		weap										gpy	gpy	gpy	gpy	gpy	gpy	stupidity		100	100	dmg-ltng		1	144	pierce-ltng		35	35	extra-ltng		30	30	swing2		15	15	splash	proc_SplashDamage	100	1					0
+ChippedTopazRuneword		0		glov										gcy						stupidity		3	3	dmg-ltng		1	8	pierce-ltng		1	1	light		1	1													0
+ChippedTopazRuneword		1		glov										gcy	gcy					stupidity		6	6	dmg-ltng		1	16	pierce-ltng		2	2	light		1	1													0
+ChippedTopazRuneword		1		glov										gcy	gcy	gcy				stupidity		9	9	dmg-ltng		1	24	pierce-ltng		3	3	light		2	2													0
+ChippedTopazRuneword		1		glov										gcy	gcy	gcy	gcy			stupidity		12	12	dmg-ltng		1	32	pierce-ltng		4	4	light		3	3													0
+FlawedTopazRuneword		0		glov										gfy						stupidity		6	6	dmg-ltng		1	12	pierce-ltng		2	2	light		1	1													0
+FlawedTopazRuneword		1		glov										gfy	gfy					stupidity		12	12	dmg-ltng		1	24	pierce-ltng		3	3	light		1	1													0
+FlawedTopazRuneword		1		glov										gfy	gfy	gfy				stupidity		18	18	dmg-ltng		1	36	pierce-ltng		4	4	light		2	2													0
+FlawedTopazRuneword		1		glov										gfy	gfy	gfy	gfy			stupidity		24	24	dmg-ltng		1	48	pierce-ltng		5	5	light		3	3													0
+NormalTopazRuneword		0		glov										gsy						stupidity		10	10	dmg-ltng		1	16	pierce-ltng		3	3	light		1	1													0
+NormalTopazRuneword		1		glov										gsy	gsy					stupidity		20	20	dmg-ltng		1	32	pierce-ltng		4	4	light		1	1													0
+NormalTopazRuneword		1		glov										gsy	gsy	gsy				stupidity		30	30	dmg-ltng		1	48	pierce-ltng		5	5	light		2	2													0
+NormalTopazRuneword		1		glov										gsy	gsy	gsy	gsy			stupidity		40	40	dmg-ltng		1	64	pierce-ltng		6	6	light		3	3													0
+FlawlessTopazRuneword		0		glov										gly						stupidity		12	12	dmg-ltng		1	20	pierce-ltng		4	4	light		1	1													0
+FlawlessTopazRuneword		1		glov										gly	gly					stupidity		24	24	dmg-ltng		1	40	pierce-ltng		5	5	light		1	1													0
+FlawlessTopazRuneword		1		glov										gly	gly	gly				stupidity		36	36	dmg-ltng		1	60	pierce-ltng		6	6	light		2	2													0
+FlawlessTopazRuneword		1		glov										gly	gly	gly	gly			stupidity		48	48	dmg-ltng		1	80	pierce-ltng		7	7	light		3	3													0
+PerfectTopazRuneword		0		glov										gpy						stupidity		30	30	dmg-ltng		1	24	pierce-ltng		5	5	light		1	1													0
+PerfectTopazRuneword		1		glov										gpy	gpy					stupidity		45	45	dmg-ltng		1	48	pierce-ltng		6	6	light		1	1													0
+PerfectTopazRuneword		1		glov										gpy	gpy	gpy				stupidity		60	60	dmg-ltng		1	72	pierce-ltng		7	7	light		2	2													0
+PerfectTopazRuneword		1		glov										gpy	gpy	gpy	gpy			stupidity		75	75	dmg-ltng		1	96	pierce-ltng		8	8	light		3	3													0
+ChippedTopazRunewordArmor		0		tors	cloa									gcy						light		2	2																									0
+ChippedTopazRunewordArmor		1		tors	cloa									gcy	gcy					light		3	3																									0
+ChippedTopazRunewordArmor		1		tors	cloa									gcy	gcy	gcy				light		4	4																									0
+ChippedTopazRunewordArmor		1		tors	cloa									gcy	gcy	gcy	gcy			light		5	5																									0
+ChippedTopazRunewordArmor		1		tors	cloa									gcy	gcy	gcy	gcy	gcy		light		6	6																									0
+ChippedTopazRunewordArmor		1		tors	cloa									gcy	gcy	gcy	gcy	gcy	gcy	light		7	7																									0
+FlawedTopazRunewordArmor		0		tors	cloa									gfy						light		2	2																									0
+FlawedTopazRunewordArmor		1		tors	cloa									gfy	gfy					light		3	3																									0
+FlawedTopazRunewordArmor		1		tors	cloa									gfy	gfy	gfy				light		4	4																									0
+FlawedTopazRunewordArmor		1		tors	cloa									gfy	gfy	gfy	gfy			light		5	5																									0
+FlawedTopazRunewordArmor		1		tors	cloa									gfy	gfy	gfy	gfy	gfy		light		6	6																									0
+FlawedTopazRunewordArmor		1		tors	cloa									gfy	gfy	gfy	gfy	gfy	gfy	light		7	7																									0
+NormalTopazRunewordArmor		0		tors	cloa									gsy						light		3	3																									0
+NormalTopazRunewordArmor		1		tors	cloa									gsy	gsy					light		4	4																									0
+NormalTopazRunewordArmor		1		tors	cloa									gsy	gsy	gsy				light		5	5																									0
+NormalTopazRunewordArmor		1		tors	cloa									gsy	gsy	gsy	gsy			light		6	6																									0
+NormalTopazRunewordArmor		1		tors	cloa									gsy	gsy	gsy	gsy	gsy		light		7	7																									0
+NormalTopazRunewordArmor		1		tors	cloa									gsy	gsy	gsy	gsy	gsy	gsy	light		8	8																									0
+FlawlessTopazRunewordArmor		0		tors	cloa									gly						light		4	4																									0
+FlawlessTopazRunewordArmor		1		tors	cloa									gly	gly					light		5	5																									0
+FlawlessTopazRunewordArmor		1		tors	cloa									gly	gly	gly				light		6	6																									0
+FlawlessTopazRunewordArmor		1		tors	cloa									gly	gly	gly	gly			light		7	7																									0
+FlawlessTopazRunewordArmor		1		tors	cloa									gly	gly	gly	gly	gly		light		8	8																									0
+FlawlessTopazRunewordArmor		1		tors	cloa									gly	gly	gly	gly	gly	gly	light		9	9																									0
+PerfectTopazRunewordArmor		0		tors	cloa									gpy						light		5	5																									0
+PerfectTopazRunewordArmor		1		tors	cloa									gpy	gpy					light		6	6																									0
+PerfectTopazRunewordArmor		1		tors	cloa									gpy	gpy	gpy				light		7	7																									0
+PerfectTopazRunewordArmor		1		tors	cloa									gpy	gpy	gpy	gpy			light		8	8																									0
+PerfectTopazRunewordArmor		1		tors	cloa									gpy	gpy	gpy	gpy	gpy		light		9	9																									0
+PerfectTopazRunewordArmor		1		tors	cloa									gpy	gpy	gpy	gpy	gpy	gpy	light		10	10																									0
+ChippedTopazRunewordArmor		0		helm										gcy						light		2	2																									0
+ChippedTopazRunewordArmor		1		helm										gcy	gcy					light		3	3																									0
+ChippedTopazRunewordArmor		1		helm										gcy	gcy	gcy				light		4	4																									0
+ChippedTopazRunewordArmor		1		helm										gcy	gcy	gcy	gcy			light		5	5																									0
+FlawedTopazRunewordArmor		0		helm										gfy						light		2	2																									0
+FlawedTopazRunewordArmor		1		helm										gfy	gfy					light		3	3																									0
+FlawedTopazRunewordArmor		1		helm										gfy	gfy	gfy				light		4	4																									0
+FlawedTopazRunewordArmor		1		helm										gfy	gfy	gfy	gfy			light		5	5																									0
+NormalTopazRunewordArmor		0		helm										gsy						light		3	3																									0
+NormalTopazRunewordArmor		1		helm										gsy	gsy					light		4	4																									0
+NormalTopazRunewordArmor		1		helm										gsy	gsy	gsy				light		5	5																									0
+NormalTopazRunewordArmor		1		helm										gsy	gsy	gsy	gsy			light		6	6																									0
+FlawlessTopazRunewordArmor		0		helm										gly						light		4	4																									0
+FlawlessTopazRunewordArmor		1		helm										gly	gly					light		5	5																									0
+FlawlessTopazRunewordArmor		1		helm										gly	gly	gly				light		6	6																									0
+FlawlessTopazRunewordArmor		1		helm										gly	gly	gly	gly			light		7	7																									0
+PerfectTopazRunewordArmor		0		helm										gpy						light		5	5																									0
+PerfectTopazRunewordArmor		1		helm										gpy	gpy					light		6	6																									0
+PerfectTopazRunewordArmor		1		helm										gpy	gpy	gpy				light		7	7																									0
+PerfectTopazRunewordArmor		1		helm										gpy	gpy	gpy	gpy			light		8	8																									0
+ChippedTopazRunewordArmor		0		belt										gcy						light		2	2																									0
+ChippedTopazRunewordArmor		1		belt										gcy	gcy					light		3	3																									0
+FlawedTopazRunewordArmor		0		belt										gfy						light		2	2																									0
+FlawedTopazRunewordArmor		1		belt										gfy	gfy					light		3	3																									0
+NormalTopazRunewordArmor		0		belt										gsy						light		3	3																									0
+NormalTopazRunewordArmor		1		belt										gsy	gsy					light		4	4																									0
+FlawlessTopazRunewordArmor		0		belt										gly						light		4	4																									0
+FlawlessTopazRunewordArmor		1		belt										gly	gly					light		5	5																									0
+PerfectTopazRunewordArmor		0		belt										gpy						light		5	5																									0
+PerfectTopazRunewordArmor		1		belt										gpy	gpy					light		6	6																									0
+ChippedTopazRunewordShield		0		shld										gcy						abs-ltng		1	1	mag%		1	1	light		1	1																	0
+ChippedTopazRunewordShield		1		shld										gcy	gcy					abs-ltng		2	2	mag%		2	2	light		1	1																	0
+ChippedTopazRunewordShield		1		shld										gcy	gcy	gcy				abs-ltng		3	3	mag%		3	3	light		2	2																	0
+ChippedTopazRunewordShield		1		shld										gcy	gcy	gcy	gcy			abs-ltng		4	4	mag%		4	4	light		3	3																	0
+ChippedTopazRunewordShield		1		shld										gcy	gcy	gcy	gcy	gcy		abs-ltng		5	5	mag%		5	5	light		4	4																	0
+ChippedTopazRunewordShield		1		shld										gcy	gcy	gcy	gcy	gcy	gcy	abs-ltng		6	6	mag%		6	6	light		5	5																	0
+FlawedTopazRunewordShield		0		shld										gfy						abs-ltng		2	2	mag%		2	2	light		1	1																	0
+FlawedTopazRunewordShield		1		shld										gfy	gfy					abs-ltng		4	4	mag%		4	4	light		1	1																	0
+FlawedTopazRunewordShield		1		shld										gfy	gfy	gfy				abs-ltng		6	6	mag%		6	6	light		2	2																	0
+FlawedTopazRunewordShield		1		shld										gfy	gfy	gfy	gfy			abs-ltng		8	8	mag%		8	8	light		3	3																	0
+FlawedTopazRunewordShield		1		shld										gfy	gfy	gfy	gfy	gfy		abs-ltng		10	10	mag%		10	10	light		4	4																	0
+FlawedTopazRunewordShield		1		shld										gfy	gfy	gfy	gfy	gfy	gfy	abs-ltng		12	12	mag%		12	12	light		5	5																	0
+NormalTopazRunewordShield		0		shld										gsy						abs-ltng		3	3	mag%		3	3	light		1	1																	0
+NormalTopazRunewordShield		1		shld										gsy	gsy					abs-ltng		6	6	mag%		6	6	light		1	1																	0
+NormalTopazRunewordShield		1		shld										gsy	gsy	gsy				abs-ltng		9	9	mag%		9	9	light		2	2																	0
+NormalTopazRunewordShield		1		shld										gsy	gsy	gsy	gsy			abs-ltng		12	12	mag%		12	12	light		3	3																	0
+NormalTopazRunewordShield		1		shld										gsy	gsy	gsy	gsy	gsy		abs-ltng		15	15	mag%		15	15	light		4	4																	0
+NormalTopazRunewordShield		1		shld										gsy	gsy	gsy	gsy	gsy	gsy	abs-ltng		18	18	mag%		18	18	light		5	5																	0
+FlawlessTopazRunewordShield		0		shld										gly						abs-ltng		4	4	mag%		4	4	light		1	1																	0
+FlawlessTopazRunewordShield		1		shld										gly	gly					abs-ltng		8	8	mag%		8	8	light		1	1																	0
+FlawlessTopazRunewordShield		1		shld										gly	gly	gly				abs-ltng		12	12	mag%		12	12	light		2	2																	0
+FlawlessTopazRunewordShield		1		shld										gly	gly	gly	gly			abs-ltng		16	16	mag%		16	16	light		3	3																	0
+FlawlessTopazRunewordShield		1		shld										gly	gly	gly	gly	gly		abs-ltng		20	20	mag%		20	20	light		4	4																	0
+FlawlessTopazRunewordShield		1		shld										gly	gly	gly	gly	gly	gly	abs-ltng		24	24	mag%		24	24	light		5	5																	0
+PerfectTopazRunewordShield		0		shld										gpy						abs-ltng		5	5	mag%		5	5	light		1	1																	0
+PerfectTopazRunewordShield		1		shld										gpy	gpy					abs-ltng		10	10	mag%		10	10	light		1	1																	0
+PerfectTopazRunewordShield		1		shld										gpy	gpy	gpy				abs-ltng		15	15	mag%		15	15	light		2	2																	0
+PerfectTopazRunewordShield		1		shld										gpy	gpy	gpy	gpy			abs-ltng		20	20	mag%		20	20	light		3	3																	0
+PerfectTopazRunewordShield		1		shld										gpy	gpy	gpy	gpy	gpy		abs-ltng		25	25	mag%		25	25	light		4	4																	0
+PerfectTopazRunewordShield		1		shld										gpy	gpy	gpy	gpy	gpy	gpy	abs-ltng		30	30	mag%		30	30	light		5	5																	0
+ChippedTopazRunewordShield		0		boot										gcy						abs-ltng		1	2	mag%		1	1	light		1	1																	0
+ChippedTopazRunewordShield		1		boot										gcy	gcy					abs-ltng		2	4	mag%		2	2	light		1	1																	0
+ChippedTopazRunewordShield		1		boot										gcy	gcy	gcy				abs-ltng		3	6	mag%		3	3	light		2	2																	0
+ChippedTopazRunewordShield		1		boot										gcy	gcy	gcy	gcy			abs-ltng		4	8	mag%		4	4	light		3	3																	0
+FlawedTopazRunewordShield		0		boot										gfy						abs-ltng		2	4	mag%		2	2	light		1	1																	0
+FlawedTopazRunewordShield		1		boot										gfy	gfy					abs-ltng		3	6	mag%		4	4	light		1	1																	0
+FlawedTopazRunewordShield		1		boot										gfy	gfy	gfy				abs-ltng		4	8	mag%		6	6	light		2	2																	0
+FlawedTopazRunewordShield		1		boot										gfy	gfy	gfy	gfy			abs-ltng		5	10	mag%		8	8	light		3	3																	0
+NormalTopazRunewordShield		0		boot										gsy						abs-ltng		3	6	mag%		3	3	light		1	1																	0
+NormalTopazRunewordShield		1		boot										gsy	gsy					abs-ltng		4	8	mag%		6	6	light		1	1																	0
+NormalTopazRunewordShield		1		boot										gsy	gsy	gsy				abs-ltng		5	10	mag%		9	9	light		2	2																	0
+NormalTopazRunewordShield		1		boot										gsy	gsy	gsy	gsy			abs-ltng		6	12	mag%		12	12	light		3	3																	0
+FlawlessTopazRunewordShield		0		boot										gly						abs-ltng		4	8	mag%		4	4	light		1	1																	0
+FlawlessTopazRunewordShield		1		boot										gly	gly					abs-ltng		5	10	mag%		8	8	light		1	1																	0
+FlawlessTopazRunewordShield		1		boot										gly	gly	gly				abs-ltng		6	12	mag%		12	12	light		2	2																	0
+FlawlessTopazRunewordShield		1		boot										gly	gly	gly	gly			abs-ltng		7	14	mag%		16	16	light		3	3																	0
+PerfectTopazRunewordShield		0		boot										gpy						abs-ltng		5	10	mag%		5	5	light		1	1																	0
+PerfectTopazRunewordShield		1		boot										gpy	gpy					abs-ltng		6	12	mag%		10	10	light		1	1																	0
+PerfectTopazRunewordShield		1		boot										gpy	gpy	gpy				abs-ltng		7	14	mag%		15	15	light		2	2																	0
+PerfectTopazRunewordShield		1		boot										gpy	gpy	gpy	gpy			abs-ltng		8	16	mag%		20	20	light		3	3																	0
+ChippedSkullRuneword		0		weap										skc						reduce-ac		3	3	slow		5	5	dmg%		11	17	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		1		weap										skc	skc					reduce-ac		6	6	slow		10	10	dmg%		15	18	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		1		weap										skc	skc	skc				reduce-ac		9	9	slow		15	15	dmg%		18	28	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		1		weap										skc	skc	skc	skc			reduce-ac		12	12	slow		20	20	dmg%		22	33	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		1		weap										skc	skc	skc	skc	skc		reduce-ac		15	15	slow		25	25	dmg%		26	39	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		1		weap										skc	skc	skc	skc	skc	skc	reduce-ac		18	18	slow		30	30	dmg%		29	44	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		0		weap										skf						reduce-ac		6	6	slow		10	10	dmg%		14	21	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		1		weap										skf	skf					reduce-ac		12	12	slow		15	15	dmg%		18	23	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		1		weap										skf	skf	skf				reduce-ac		18	18	slow		20	20	dmg%		23	35	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		1		weap										skf	skf	skf	skf			reduce-ac		24	24	slow		25	25	dmg%		28	41	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		1		weap										skf	skf	skf	skf	skf		reduce-ac		30	30	slow		30	30	dmg%		32	48	splash	proc_SplashDamage	100	1													0
+FlawedSkullRuneword		1		weap										skf	skf	skf	skf	skf	skf	reduce-ac		36	36	slow		35	35	dmg%		37	55	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		0		weap										sku						reduce-ac		10	10	slow		15	15	dmg%		17	26	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		1		weap										sku	sku					reduce-ac		20	20	slow		20	20	dmg%		23	29	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		1		weap										sku	sku	sku				reduce-ac		30	30	slow		25	25	dmg%		29	43	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		1		weap										sku	sku	sku	sku			reduce-ac		40	40	slow		30	30	dmg%		35	52	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		1		weap										sku	sku	sku	sku	sku		reduce-ac		50	50	slow		35	35	dmg%		40	60	splash	proc_SplashDamage	100	1													0
+NormalSkullRuneword		1		weap										sku	sku	sku	sku	sku	sku	reduce-ac		60	60	slow		40	40	dmg%		46	69	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		0		weap										skl						reduce-ac		12	12	slow		20	20	dmg%		24	36	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		1		weap										skl	skl					reduce-ac		24	24	slow		25	25	dmg%		32	40	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		1		weap										skl	skl	skl				reduce-ac		36	36	slow		30	30	dmg%		40	60	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		1		weap										skl	skl	skl	skl			reduce-ac		48	48	slow		35	35	dmg%		48	72	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		1		weap										skl	skl	skl	skl	skl		reduce-ac		64	64	slow		40	40	dmg%		56	84	splash	proc_SplashDamage	100	1													0
+FlawlessSkullRuneword		1		weap										skl	skl	skl	skl	skl	skl	reduce-ac		75	75	slow		45	45	dmg%		64	96	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		0		weap										skz						reduce-ac		30	30	slow		25	25	dmg%		30	45	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		1		weap										skz	skz					reduce-ac		45	45	slow		30	30	dmg%		40	50	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		1		weap										skz	skz	skz				reduce-ac		60	60	slow		35	35	dmg%		50	75	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		1		weap										skz	skz	skz	skz			reduce-ac		75	75	slow		40	40	dmg%		60	90	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		1		weap										skz	skz	skz	skz	skz		reduce-ac		90	90	slow		45	45	dmg%		70	105	splash	proc_SplashDamage	100	1													0
+PerfectSkullRuneword		1		weap										skz	skz	skz	skz	skz	skz	reduce-ac		100	100	slow		50	50	dmg%		80	120	splash	proc_SplashDamage	100	1													0
+ChippedSkullRuneword		0		glov										skc						reduce-ac		1	2	slow		1	3	light		1	1																	0
+ChippedSkullRuneword		1		glov										skc	skc					reduce-ac		3	4	slow		2	7	light		1	1																	0
+ChippedSkullRuneword		1		glov										skc	skc	skc				reduce-ac		4	6	slow		3	10	light		2	2																	0
+ChippedSkullRuneword		1		glov										skc	skc	skc	skc			reduce-ac		5	8	slow		3	13	light		3	3																	0
+FlawedSkullRuneword		0		glov										skf						reduce-ac		3	4	slow		3	7	light		1	1																	0
+FlawedSkullRuneword		1		glov										skf	skf					reduce-ac		5	8	slow		4	10	light		1	1																	0
+FlawedSkullRuneword		1		glov										skf	skf	skf				reduce-ac		8	12	slow		5	13	light		2	2																	0
+FlawedSkullRuneword		1		glov										skf	skf	skf	skf			reduce-ac		11	16	slow		7	17	light		3	3																	0
+NormalSkullRuneword		0		glov										sku						reduce-ac		5	7	slow		4	10	light		1	1																	0
+NormalSkullRuneword		1		glov										sku	sku					reduce-ac		9	13	slow		6	13	light		1	1																	0
+NormalSkullRuneword		1		glov										sku	sku	sku				reduce-ac		13	20	slow		8	17	light		2	2																	0
+NormalSkullRuneword		1		glov										sku	sku	sku	sku			reduce-ac		18	27	slow		10	20	light		3	3																	0
+FlawlessSkullRuneword		0		glov										skl						reduce-ac		5	8	slow		5	13	light		1	1																	0
+FlawlessSkullRuneword		1		glov										skl	skl					reduce-ac		11	16	slow		8	17	light		1	1																	0
+FlawlessSkullRuneword		1		glov										skl	skl	skl				reduce-ac		16	24	slow		11	20	light		2	2																	0
+FlawlessSkullRuneword		1		glov										skl	skl	skl	skl			reduce-ac		21	32	slow		13	23	light		3	3																	0
+PerfectSkullRuneword		0		glov										skz						reduce-ac		13	20	slow		7	17	light		1	1																	0
+PerfectSkullRuneword		1		glov										skz	skz					reduce-ac		20	30	slow		10	20	light		1	1																	0
+PerfectSkullRuneword		1		glov										skz	skz	skz				reduce-ac		27	40	slow		13	23	light		2	2																	0
+PerfectSkullRuneword		1		glov										skz	skz	skz	skz			reduce-ac		33	50	slow		17	27	light		3	3																	0
+ChippedSkullRunewordArmor		0		tors	cloa									skc						all-stats		1	1	hp%		1	1	mana%		1	1	light		1	1													0
+ChippedSkullRunewordArmor		1		tors	cloa									skc	skc					all-stats		1	1	hp%		2	2	mana%		2	2	light		1	1													0
+ChippedSkullRunewordArmor		1		tors	cloa									skc	skc	skc				all-stats		1	1	hp%		3	3	mana%		3	3	light		2	2													0
+ChippedSkullRunewordArmor		1		tors	cloa									skc	skc	skc	skc			all-stats		2	2	hp%		4	4	mana%		4	4	light		3	3													0
+ChippedSkullRunewordArmor		1		tors	cloa									skc	skc	skc	skc	skc		all-stats		2	2	hp%		5	5	mana%		5	5	light		4	4													0
+ChippedSkullRunewordArmor		1		tors	cloa									skc	skc	skc	skc	skc	skc	all-stats		2	2	hp%		6	6	mana%		6	6	light		5	5													0
+FlawedSkullRunewordArmor		0		tors	cloa									skf						all-stats		3	3	hp%		2	2	mana%		2	2	light		1	1													0
+FlawedSkullRunewordArmor		1		tors	cloa									skf	skf					all-stats		3	3	hp%		3	3	mana%		3	3	light		1	1													0
+FlawedSkullRunewordArmor		1		tors	cloa									skf	skf	skf				all-stats		3	3	hp%		4	4	mana%		4	4	light		2	2													0
+FlawedSkullRunewordArmor		1		tors	cloa									skf	skf	skf	skf			all-stats		4	4	hp%		5	5	mana%		5	5	light		3	3													0
+FlawedSkullRunewordArmor		1		tors	cloa									skf	skf	skf	skf	skf		all-stats		4	4	hp%		6	6	mana%		6	6	light		4	4													0
+FlawedSkullRunewordArmor		1		tors	cloa									skf	skf	skf	skf	skf	skf	all-stats		4	4	hp%		7	7	mana%		7	7	light		5	5													0
+NormalSkullRunewordArmor		0		tors	cloa									sku						all-stats		5	5	hp%		3	3	mana%		3	3	light		1	1													0
+NormalSkullRunewordArmor		1		tors	cloa									sku	sku					all-stats		5	5	hp%		4	4	mana%		4	4	light		1	1													0
+NormalSkullRunewordArmor		1		tors	cloa									sku	sku	sku				all-stats		5	5	hp%		5	5	mana%		5	5	light		2	2													0
+NormalSkullRunewordArmor		1		tors	cloa									sku	sku	sku	sku			all-stats		6	6	hp%		6	6	mana%		6	6	light		3	3													0
+NormalSkullRunewordArmor		1		tors	cloa									sku	sku	sku	sku	sku		all-stats		6	6	hp%		7	7	mana%		7	7	light		4	4													0
+NormalSkullRunewordArmor		1		tors	cloa									sku	sku	sku	sku	sku	sku	all-stats		6	6	hp%		8	8	mana%		8	8	light		5	5													0
+FlawlessSkullRunewordArmor		0		tors	cloa									skl						all-stats		7	7	hp%		4	4	mana%		4	4	light		1	1													0
+FlawlessSkullRunewordArmor		1		tors	cloa									skl	skl					all-stats		7	7	hp%		5	5	mana%		5	5	light		1	1													0
+FlawlessSkullRunewordArmor		1		tors	cloa									skl	skl	skl				all-stats		7	7	hp%		6	6	mana%		6	6	light		2	2													0
+FlawlessSkullRunewordArmor		1		tors	cloa									skl	skl	skl	skl			all-stats		8	8	hp%		7	7	mana%		7	7	light		3	3													0
+FlawlessSkullRunewordArmor		1		tors	cloa									skl	skl	skl	skl	skl		all-stats		8	8	hp%		8	8	mana%		8	8	light		4	4													0
+FlawlessSkullRunewordArmor		1		tors	cloa									skl	skl	skl	skl	skl	skl	all-stats		8	8	hp%		9	9	mana%		9	9	light		5	5													0
+PerfectSkullRunewordArmor		0		tors	cloa									skz						all-stats		9	9	hp%		5	5	mana%		5	5	light		1	1													0
+PerfectSkullRunewordArmor		1		tors	cloa									skz	skz					all-stats		9	9	hp%		6	6	mana%		6	6	light		1	1													0
+PerfectSkullRunewordArmor		1		tors	cloa									skz	skz	skz				all-stats		9	9	hp%		7	7	mana%		7	7	light		2	2													0
+PerfectSkullRunewordArmor		1		tors	cloa									skz	skz	skz	skz			all-stats		10	10	hp%		8	8	mana%		8	8	light		3	3													0
+PerfectSkullRunewordArmor		1		tors	cloa									skz	skz	skz	skz	skz		all-stats		10	10	hp%		9	9	mana%		9	9	light		4	4													0
+PerfectSkullRunewordArmor		1		tors	cloa									skz	skz	skz	skz	skz	skz	all-stats		10	10	hp%		10	10	mana%		10	10	light		5	5													0
+ChippedSkullRunewordArmor		0		helm										skc						all-stats		1	1	hp%		2	2	mana%		2	2	light		1	1													0
+ChippedSkullRunewordArmor		1		helm										skc	skc					all-stats		1	1	hp%		2	2	mana%		2	2	light		1	1													0
+ChippedSkullRunewordArmor		1		helm										skc	skc	skc				all-stats		2	2	hp%		2	2	mana%		2	2	light		2	2													0
+ChippedSkullRunewordArmor		1		helm										skc	skc	skc	skc			all-stats		2	2	hp%		2	2	mana%		2	2	light		3	3													0
+FlawedSkullRunewordArmor		0		helm										skf						all-stats		3	3	hp%		3	3	mana%		3	3	light		1	1													0
+FlawedSkullRunewordArmor		1		helm										skf	skf					all-stats		3	3	hp%		3	3	mana%		3	3	light		1	1													0
+FlawedSkullRunewordArmor		1		helm										skf	skf	skf				all-stats		4	4	hp%		3	3	mana%		3	3	light		2	2													0
+FlawedSkullRunewordArmor		1		helm										skf	skf	skf	skf			all-stats		4	4	hp%		3	3	mana%		3	3	light		3	3													0
+NormalSkullRunewordArmor		0		helm										sku						all-stats		5	5	hp%		4	4	mana%		4	4	light		1	1													0
+NormalSkullRunewordArmor		1		helm										sku	sku					all-stats		5	5	hp%		4	4	mana%		4	4	light		1	1													0
+NormalSkullRunewordArmor		1		helm										sku	sku	sku				all-stats		6	6	hp%		4	4	mana%		4	4	light		2	2													0
+NormalSkullRunewordArmor		1		helm										sku	sku	sku	sku			all-stats		6	6	hp%		4	4	mana%		4	4	light		3	3													0
+FlawlessSkullRunewordArmor		0		helm										skl						all-stats		7	7	hp%		5	5	mana%		5	5	light		1	1													0
+FlawlessSkullRunewordArmor		1		helm										skl	skl					all-stats		7	7	hp%		5	5	mana%		5	5	light		1	1													0
+FlawlessSkullRunewordArmor		1		helm										skl	skl	skl				all-stats		8	8	hp%		5	5	mana%		5	5	light		2	2													0
+FlawlessSkullRunewordArmor		1		helm										skl	skl	skl	skl			all-stats		8	8	hp%		5	5	mana%		5	5	light		3	3													0
+PerfectSkullRunewordArmor		0		helm										skz						all-stats		9	9	hp%		6	6	mana%		6	6	light		1	1													0
+PerfectSkullRunewordArmor		1		helm										skz	skz					all-stats		9	9	hp%		6	6	mana%		6	6	light		1	1													0
+PerfectSkullRunewordArmor		1		helm										skz	skz	skz				all-stats		10	10	hp%		6	6	mana%		6	6	light		2	2													0
+PerfectSkullRunewordArmor		1		helm										skz	skz	skz	skz			all-stats		10	10	hp%		6	6	mana%		6	6	light		3	3													0
+ChippedSkullRunewordArmor		0		belt										skc						all-stats		1	1	hp%		1	1	mana%		1	1	light		1	1													0
+ChippedSkullRunewordArmor		1		belt										skc	skc					all-stats		2	2	hp%		2	2	mana%		2	2	light		1	1													0
+FlawedSkullRunewordArmor		0		belt										skf						all-stats		2	2	hp%		2	2	mana%		2	2	light		1	1													0
+FlawedSkullRunewordArmor		1		belt										skf	skf					all-stats		3	3	hp%		3	3	mana%		3	3	light		1	1													0
+NormalSkullRunewordArmor		0		belt										sku						all-stats		3	3	hp%		3	3	mana%		3	3	light		1	1													0
+NormalSkullRunewordArmor		1		belt										sku	sku					all-stats		4	4	hp%		4	4	mana%		4	4	light		1	1													0
+FlawlessSkullRunewordArmor		0		belt										skl						all-stats		4	4	hp%		4	4	mana%		4	4	light		1	1													0
+FlawlessSkullRunewordArmor		1		belt										skl	skl					all-stats		5	5	hp%		5	5	mana%		5	5	light		1	1													0
+PerfectSkullRunewordArmor		0		belt										skz						all-stats		5	5	hp%		5	5	mana%		5	5	light		1	1													0
+PerfectSkullRunewordArmor		1		belt										skz	skz					all-stats		6	6	hp%		6	6	mana%		6	6	light		1	1													0
+ChippedSkullRunewordShield		0		shld										skc						red-dmg%		1	1	ac%		6	12	light		1	1																	0
+ChippedSkullRunewordShield		1		shld										skc	skc					red-dmg%		1	2	ac%		12	24	light		1	1																	0
+ChippedSkullRunewordShield		1		shld										skc	skc	skc				red-dmg%		1	3	ac%		18	36	light		2	2																	0
+ChippedSkullRunewordShield		1		shld										skc	skc	skc	skc			red-dmg%		2	4	ac%		21	42	light		3	3																	0
+ChippedSkullRunewordShield		1		shld										skc	skc	skc	skc	skc		red-dmg%		2	5	ac%		27	54	light		4	4																	0
+ChippedSkullRunewordShield		1		shld										skc	skc	skc	skc	skc	skc	red-dmg%		2	6	ac%		33	66	light		5	5																	0
+FlawedSkullRunewordShield		0		shld										skf						red-dmg%		1	2	ac%		8	15	light		1	1																	0
+FlawedSkullRunewordShield		1		shld										skf	skf					red-dmg%		2	4	ac%		15	30	light		1	1																	0
+FlawedSkullRunewordShield		1		shld										skf	skf	skf				red-dmg%		2	6	ac%		23	45	light		2	2																	0
+FlawedSkullRunewordShield		1		shld										skf	skf	skf	skf			red-dmg%		3	8	ac%		30	60	light		3	3																	0
+FlawedSkullRunewordShield		1		shld										skf	skf	skf	skf	skf		red-dmg%		4	10	ac%		38	75	light		4	4																	0
+FlawedSkullRunewordShield		1		shld										skf	skf	skf	skf	skf	skf	red-dmg%		4	12	ac%		45	90	light		5	5																	0
+NormalSkullRunewordShield		0		shld										sku						red-dmg%		1	3	ac%		9	18	light		1	1																	0
+NormalSkullRunewordShield		1		shld										sku	sku					red-dmg%		2	6	ac%		18	36	light		1	1																	0
+NormalSkullRunewordShield		1		shld										sku	sku	sku				red-dmg%		3	9	ac%		27	54	light		2	2																	0
+NormalSkullRunewordShield		1		shld										sku	sku	sku	sku			red-dmg%		4	12	ac%		36	72	light		3	3																	0
+NormalSkullRunewordShield		1		shld										sku	sku	sku	sku	sku		red-dmg%		5	15	ac%		45	90	light		4	4																	0
+NormalSkullRunewordShield		1		shld										sku	sku	sku	sku	sku	sku	red-dmg%		6	18	ac%		54	108	light		5	5																	0
+FlawlessSkullRunewordShield		0		shld										skl						red-dmg%		2	4	ac%		11	21	light		1	1																	0
+FlawlessSkullRunewordShield		1		shld										skl	skl					red-dmg%		3	8	ac%		21	42	light		1	1																	0
+FlawlessSkullRunewordShield		1		shld										skl	skl	skl				red-dmg%		4	12	ac%		32	63	light		2	2																	0
+FlawlessSkullRunewordShield		1		shld										skl	skl	skl	skl			red-dmg%		6	16	ac%		42	84	light		3	3																	0
+FlawlessSkullRunewordShield		1		shld										skl	skl	skl	skl	skl		red-dmg%		7	20	ac%		53	105	light		4	4																	0
+FlawlessSkullRunewordShield		1		shld										skl	skl	skl	skl	skl	skl	red-dmg%		8	24	ac%		63	126	light		5	5																	0
+PerfectSkullRunewordShield		0		shld										skz						red-dmg%		2	5	ac%		12	24	light		1	1																	0
+PerfectSkullRunewordShield		1		shld										skz	skz					red-dmg%		4	10	ac%		24	48	light		1	1																	0
+PerfectSkullRunewordShield		1		shld										skz	skz	skz				red-dmg%		5	15	ac%		36	72	light		2	2																	0
+PerfectSkullRunewordShield		1		shld										skz	skz	skz	skz			red-dmg%		7	20	ac%		48	96	light		3	3																	0
+PerfectSkullRunewordShield		1		shld										skz	skz	skz	skz	skz		red-dmg%		9	25	ac%		60	120	light		4	4																	0
+PerfectSkullRunewordShield		1		shld										skz	skz	skz	skz	skz	skz	red-dmg%		10	30	ac%		72	144	light		5	5																	0
+ChippedSkullRunewordShield		0		boot										skc						red-dmg%		2	2	ac%		10	15	light		1	1																	0
+ChippedSkullRunewordShield		1		boot										skc	skc					red-dmg%		4	4	ac%		20	30	light		1	1																	0
+ChippedSkullRunewordShield		1		boot										skc	skc	skc				red-dmg%		6	6	ac%		30	45	light		2	2																	0
+ChippedSkullRunewordShield		1		boot										skc	skc	skc	skc			red-dmg%		8	8	ac%		40	60	light		3	3																	0
+FlawedSkullRunewordShield		0		boot										skf						red-dmg%		3	3	ac%		20	30	light		1	1																	0
+FlawedSkullRunewordShield		1		boot										skf	skf					red-dmg%		5	5	ac%		30	45	light		1	1																	0
+FlawedSkullRunewordShield		1		boot										skf	skf	skf				red-dmg%		7	7	ac%		40	60	light		2	2																	0
+FlawedSkullRunewordShield		1		boot										skf	skf	skf	skf			red-dmg%		9	9	ac%		50	75	light		3	3																	0
+NormalSkullRunewordShield		0		boot										sku						red-dmg%		4	4	ac%		30	45	light		1	1																	0
+NormalSkullRunewordShield		1		boot										sku	sku					red-dmg%		6	6	ac%		40	60	light		1	1																	0
+NormalSkullRunewordShield		1		boot										sku	sku	sku				red-dmg%		8	8	ac%		50	75	light		2	2																	0
+NormalSkullRunewordShield		1		boot										sku	sku	sku	sku			red-dmg%		10	10	ac%		60	90	light		3	3																	0
+FlawlessSkullRunewordShield		0		boot										skl						red-dmg%		5	5	ac%		40	60	light		1	1																	0
+FlawlessSkullRunewordShield		1		boot										skl	skl					red-dmg%		7	7	ac%		50	75	light		1	1																	0
+FlawlessSkullRunewordShield		1		boot										skl	skl	skl				red-dmg%		9	9	ac%		60	90	light		2	2																	0
+FlawlessSkullRunewordShield		1		boot										skl	skl	skl	skl			red-dmg%		12	12	ac%		70	105	light		3	3																	0
+PerfectSkullRunewordShield		0		boot										skz						red-dmg%		6	6	ac%		50	75	light		1	1																	0
+PerfectSkullRunewordShield		1		boot										skz	skz					red-dmg%		9	9	ac%		60	90	light		1	1																	0
+PerfectSkullRunewordShield		1		boot										skz	skz	skz				red-dmg%		12	12	ac%		70	105	light		2	2																	0
+PerfectSkullRunewordShield		1		boot										skz	skz	skz	skz			red-dmg%		15	15	ac%		80	120	light		3	3																	0
