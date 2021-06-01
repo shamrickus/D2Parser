@@ -1,6 +1,6 @@
 from baseParser import BaseParser
 
-class MonStat(BaseParser):
+class MonStatParser(BaseParser):
     def __init__(self, line):
         self.id = ""
         self.name = ""

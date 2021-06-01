@@ -2,7 +2,7 @@ from baseParser import BaseParser
 from property import Property
 
 _slots = ["Weapon", "Armor", "Shield"]
-class Socketable(BaseParser):
+class GemsParser(BaseParser):
     def __str__(self):
         out = "name: {}, letter: {}, transform: {}, code: {}, mods: {}, gem: {}, rune: {}\r\n\t".format(self.name, self.letter, self.transform, self.code, self.mods, self.isGem(), self.isRune())
         for type in self._props:
@@ -95,7 +95,7 @@ class Socketable(BaseParser):
 
 
 if __name__ == "__main__":
-    Items = BaseParser.read(Socketable)
+    Items = BaseParser.read(GemsParser)
     gems = open("gems.ts", "w")
     gems.write("export const gems = [")
     runes = open("runes.ts", "w")

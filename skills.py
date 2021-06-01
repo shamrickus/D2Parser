@@ -2,7 +2,7 @@
 from baseParser import BaseParser
 
 
-class Skill(BaseParser):
+class SkillParser(BaseParser):
     def __init__(self, line):
         self.skill = ""
         self.id = 0

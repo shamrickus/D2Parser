@@ -1,60 +1,6 @@
 from baseEquipment import BaseEquipment
-from baseParser import BaseParser
 
-
-class Set(BaseParser):
-    def __init__(self, line):
-        BaseParser.__init__(self, line)
-
-class SetItem(BaseEquipment):
-    def __init__(self, line):
-        self.lvl = "0"
-        self.lvlReq = "0"
-        self.enabled = "1"
-        self.set = ""
-
-        BaseEquipment.__init__(self, line)
-
-    def parse(self, parser):
-        self.name = self.raw["index"]
-        self.lvl = self.raw["lvl"]
-        self.lvlReq = self.raw["lvlreq"]
-        self.set = self.raw["set"]
-
-        self.parseProperties(9, "prop{}", "par{}", "min{}", "max{}", parser)
-        # TODO Set props
-
-    def verify(self):
-        return self.name and self.enabled == "1"
-
-    @staticmethod
-    def getName():
-        return "setitems"
-
-class Uniq(BaseEquipment):
-    def __init__(self, line):
-        self.lvl = "0"
-        self.lvlReq = "0"
-        self.enabled = "1"
-
-        BaseEquipment.__init__(self, line)
-
-    def parse(self, parser):
-        self.name = self.raw["index"]
-        self.lvl = self.raw["lvl"]
-        self.lvlReq = self.raw["lvlreq"]
-        self.enabled = self.raw["enabled"]
-
-        self.parseProperties(12, "prop{}", "par{}", "min{}", "max{}", parser)
-
-    def verify(self):
-        return self.name and self.enabled == "1"
-
-    @staticmethod
-    def getName():
-        return "uniqueitems"
-
-class Runeword(BaseEquipment):
+class RunewordParser(BaseEquipment):
     def __init__(self, line):
         self.name = ""
         self.complete = 0

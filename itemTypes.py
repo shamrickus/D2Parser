@@ -1,6 +1,6 @@
 from baseParser import BaseParser
 
-class ItemType(BaseParser):
+class ItemTypeParser(BaseParser):
     def __init__(self, line):
         self.name = ""
         self.code = ""

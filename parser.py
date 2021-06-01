@@ -6,24 +6,24 @@ import urllib.request
 from typing import Type, Tuple
 
 from baseParser import BaseParser
-from monstat import MonStat
+from monstat import MonStatParser
 from property import Property
 from property import PropertyParse
-from skills import Skill
+from skills import SkillParser
 from utils import isdebugging
 
 getSkillId = (lambda par, skills: [skill for skill in skills if skill.id == par])
 getSkillSkill = (lambda par, skills: [skill for skill in skills if skill.skill.lower() == par.lower()])
 getMonster = (lambda x, monsters: [mon for mon in monsters if mon.id == x.par])
 class Parser:
-	skills: [Skill] = []
+	skills: [SkillParser] = []
 	definedProperties: [PropertyParse] = []
-	monsters: [MonStat] = []
+	monsters: [MonStatParser] = []
 
 	def __init__(self):
-		self.skills = self.read(Skill)
+		self.skills = self.read(SkillParser)
 		self.definedProperties = self.read(PropertyParse)
-		self.monsters = self.read(MonStat)
+		self.monsters = self.read(MonStatParser)
 
 	def read(self, cls: Type[BaseParser], dl=False) -> [BaseParser]:
 		return BaseParserCreator.read(cls, self, dl)
@@ -41,7 +41,7 @@ class Parser:
 		cls = classes.keys()[0]
 		return "Random Level {} {} skill".format(property.par, cls)
 
-	def getSk(self, skillId) -> Skill:
+	def getSk(self, skillId) -> SkillParser:
 		skill = getSkillId(skillId, self.skills)
 		if not skill:
 			skill = getSkillSkill(skillId, self.skills)

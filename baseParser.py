@@ -8,13 +8,16 @@ class BaseParser:
 
 	@staticmethod
 	def getName():
-		return "ERROR"
+		raise NotImplementedError()
 
 	def verify(self):
-		return True
+		raise NotImplementedError()
 
 	def json(self):
-		return "ERROR"
+		raise NotImplementedError()
+
+	def parse(self, parser):
+		raise NotImplementedError()
 
 	def format(self, list):
 		return "[\"" + "\",\"".join(x for x in list) + "\"]"
