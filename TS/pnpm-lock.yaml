@@ -5,7 +5,6 @@ specifiers:
   '@types/node': ^16.4.2
   eslint: ^7.31.0
   mocha: ^9.0.2
-  promise: ^8.1.0
   rxjs: ^7.2.0
   ts-node: ^10.1.0
   typescript: ^4.3.5
@@ -15,7 +14,6 @@ dependencies:
   '@types/node': 16.4.2
   eslint: 7.31.0
   mocha: 9.0.2
-  promise: 8.1.0
   rxjs: 7.2.0
   ts-node: 10.1.0_7b2a1fd2d6b16598e64b6bb8de7c75bd
   typescript: 4.3.5
@@ -183,10 +181,6 @@ packages:
 
   /argparse/2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-    dev: false
-
-  /asap/2.0.6:
-    resolution: {integrity: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=}
     dev: false
 
   /astral-regex/2.0.0:
@@ -906,12 +900,6 @@ packages:
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
-    dev: false
-
-  /promise/8.1.0:
-    resolution: {integrity: sha512-W04AqnILOL/sPRXziNicCjSNRruLAuIHEOVBazepu0545DDNGYHz7ar9ZgZ1fMU8/MA4mVxp5rkBWRi6OXIy3Q==}
-    dependencies:
-      asap: 2.0.6
     dev: false
 
   /punycode/2.1.1:
