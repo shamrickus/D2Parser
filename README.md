@@ -1,4 +1,7 @@
+[![D2Parser Tests](https://github.com/shamrickus/D2Parser/actions/workflows/tests.yml/badge.svg)](https://github.com/shamrickus/D2Parser/actions/workflows/tests.yml)
+
 # D2Parser
+
 Takes in Diablo II source files and parses them into Typescript using python. Currently hard coded around the mod 
 [Glory of Nephilim](http://gloryofnephilim.org), but should be accurate for vanilla D2.
 
