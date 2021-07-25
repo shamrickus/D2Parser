@@ -27,6 +27,6 @@ class BaseEquipment(BaseParser):
 				self.props.append(Property(self.raw[propFmtStr.format(str(i))], self.raw[parFmtStr.format(str(i))],
 										   self.raw[minFmtStr.format(str(i))], self.raw[maxFmtStr.format(str(i))]))
 		if self.verify():
-			if isdebugging() or True:
+			if isdebugging():
 				print(self.name)
 			parser.parse(self.props)

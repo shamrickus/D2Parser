@@ -1,7 +1,6 @@
 
 from baseParser import BaseParser
 
-
 class SkillParser(BaseParser):
     def __init__(self, line):
         self.skill = ""

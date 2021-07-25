@@ -1,3 +1,6 @@
+import os
+import sys
+
 from gems import GemsParser
 from itemTypes import ItemTypeParser
 from parseAggregate import ParseAggregate
@@ -7,7 +10,11 @@ from setItem import SetItemParser
 from unique import UniqueParser
 
 if __name__ == "__main__":
-	psr = Parser()
+	if len(sys.argv) != 2:
+		print("main.py DIRECTORY")
+		sys.exit(1)
+
+	psr = Parser(sys.argv[1])
 	print("Loading Item Types")
 	types = psr.read(ItemTypeParser)
 	typesByCode = dict()

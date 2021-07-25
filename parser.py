@@ -19,14 +19,16 @@ class Parser:
 	skills: [SkillParser] = []
 	definedProperties: [PropertyParse] = []
 	monsters: [MonStatParser] = []
+	version: str = ""
 
-	def __init__(self):
+	def __init__(self, version: str):
 		self.skills = self.read(SkillParser)
 		self.definedProperties = self.read(PropertyParse)
 		self.monsters = self.read(MonStatParser)
+		self.version = version
 
 	def read(self, cls: Type[BaseParser], dl=False) -> [BaseParser]:
-		return BaseParserCreator.read(cls, self, dl)
+		return BaseParserCreator.read(cls, self, self.version, dl)
 
 	def findInCommon(self, property: Property) -> str:
 		classes = {}
@@ -490,19 +492,26 @@ def generateRange(prop, append=""):
 
 class BaseParserCreator:
 	@staticmethod
-	def read(cls: Type[BaseParser], parser: Parser, dl=False) -> [BaseParser]:
+	def read(cls: Type[BaseParser], parser: Parser, version: str, dl=False) -> [BaseParser]:
 		items = []
-		with open(os.path.join(os.getcwd(), "versions", "gon", cls.getName()+".txt"), 'r') as file:
-			reader = csv.DictReader(file, delimiter='\t')
-			for line in reader:
-				item = cls(dict(line))
-				item.parse(parser)
-				if (item.verify()):
-					items.append(item)
-					if (dl):
-						BaseParserCreator.Download(item)
-				else:
-					print("bad ({})".format(item.name) + str(item))
+		path = os.path.join(os.getcwd(), "versions", version, cls.getName()+".txt")
+		try:
+			with open(path, 'r') as file:
+				reader = csv.DictReader(file, delimiter='\t')
+				for line in reader:
+					item = cls(dict(line))
+					item.parse(parser)
+					if item.verify():
+						items.append(item)
+						if dl:
+							BaseParserCreator.Download(item)
+					else:
+						print("bad ({})".format(item.name) + str(item))
+		except FileNotFoundError:
+			print("Unable to find %s" % path)
+			sys.exit()
+
+
 		return items
 
 	@staticmethod
