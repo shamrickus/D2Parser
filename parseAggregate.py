@@ -27,7 +27,9 @@ class ParseAggregate:
 					item.add(runeProp, self.parser)
 
 	def writeJSON(self):
-		with open(os.getcwd() + self.cls.getName().replace("csv", "ts"), "w") as file:
+		if not os.path.exists(os.path.join(os.getcwd(), "Generated")):
+			os.mkdir(os.path.join(os.getcwd(), "Generated"))
+		with open(os.path.join(os.getcwd(), "Generated", self.cls.getName()+ ".ts"), "w") as file:
 			file.write("[")
 			for item in self.items:
 				file.write(item.json() + ",")

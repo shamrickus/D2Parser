@@ -58,9 +58,12 @@ class GemsParser(BaseParser):
         self.transform = self.raw["transform"]
         self.code = self.raw["code"]
         self.mods = int(self.raw["nummods"])
-        if(self.valid() and self.isRune()):
-            self.mods = 2
-        elif(self.valid and self.isGem()):
+        if self.verify():
+            if self.isRune():
+                self.mods = 2
+            elif self.isGem():
+                self.mods = self.mods
+        elif self.verify() and self.isGem():
             self.mods = self.mods
         for slot in _slots:
             for i in range(1, self.mods + 1):
@@ -79,8 +82,8 @@ class GemsParser(BaseParser):
                 self._props[slot].append(prop)
             parser.parse(self._props[slot])
 
-    def valid(self):
-        return self.name != None
+    def verify(self):
+        return self.name != ""
 
     def fileName(self):
         if self.isRune():

@@ -21,3 +21,6 @@ class BaseParser:
 
 	def format(self, list):
 		return "[\"" + "\",\"".join(x for x in list) + "\"]"
+
+	def formatObj(self, listObj):
+		return "[" + ', '.join(x for x in listObj) + "]"

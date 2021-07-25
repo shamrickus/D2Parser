@@ -60,4 +60,6 @@ if __name__ == "__main__":
 	replaceItems(setAgg)
 	itemAggregate.parse(runes)
 
+	itemAggregate.writeJSON()
+
 	d = 2

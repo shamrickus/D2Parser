@@ -10,6 +10,9 @@ class MonStatParser(BaseParser):
         self.id = self.raw["hcIdx"]
         self.name = self.raw["NameStr"]
 
+    def verify(self):
+        return self.id != "" and self.name != ""
+
     @staticmethod
     def getName():
         return "monstats"

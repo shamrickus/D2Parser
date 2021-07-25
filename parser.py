@@ -6,7 +6,7 @@ import urllib.request
 from typing import Type, Tuple
 
 from baseParser import BaseParser
-from monstat import MonStatParser
+from monstatparser import MonStatParser
 from property import Property
 from property import PropertyParse
 from skills import SkillParser
@@ -22,10 +22,10 @@ class Parser:
 	version: str = ""
 
 	def __init__(self, version: str):
+		self.version = version
 		self.skills = self.read(SkillParser)
 		self.definedProperties = self.read(PropertyParse)
 		self.monsters = self.read(MonStatParser)
-		self.version = version
 
 	def read(self, cls: Type[BaseParser], dl=False) -> [BaseParser]:
 		return BaseParserCreator.read(cls, self, self.version, dl)
@@ -506,7 +506,10 @@ class BaseParserCreator:
 						if dl:
 							BaseParserCreator.Download(item)
 					else:
-						print("bad ({})".format(item.name) + str(item))
+						try:
+							print("bad ({})".format(item.name) + str(item))
+						except:
+							print("bad (%s)" % str(item))
 		except FileNotFoundError:
 			print("Unable to find %s" % path)
 			sys.exit()

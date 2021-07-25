@@ -8,6 +8,9 @@ class PropertyParse(BaseParser):
 	def parse(self, parser):
 		self.code = self.raw["code"]
 
+	def verify(self):
+		return self.code != ""
+
 	@staticmethod
 	def getName():
 		return "properties"

@@ -1,0 +1,28 @@
+{
+  "name": "d2parser-tests",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamrickus/D2Parser.git"
+  },
+  "author": "Steve Hamrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamrickus/D2Parser/issues"
+  },
+  "homepage": "https://github.com/shamrickus/D2Parser#readme",
+  "dependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.2",
+    "eslint": "^7.31.0",
+    "mocha": "^9.0.2",
+    "rxjs": "^7.2.0",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}

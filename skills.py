@@ -18,6 +18,9 @@ class SkillParser(BaseParser):
     def __str__(self):
         return "Name:{}, Id:{}, Char: {}".format(self.skill,self.id,self.char)
 
+    def verify(self):
+        return self.skill and self.id
+
     @staticmethod
     def getName():
         return "Skills"

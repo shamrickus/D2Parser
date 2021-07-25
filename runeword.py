@@ -30,7 +30,7 @@ class RunewordParser(BaseEquipment):
     def json(self):
         runes = self.format([str(x) for x in self.runes])
         props = self.format([str(x.parsed) for x in self.props])
-        types = self.format([x.json() for x in self.itypes])
+        types = self.formatObj([x.json() for x in self.itypes])
         out = "{" + \
               "\"Name\":\"{}\",\"classRestriction\": null, \"Runes\":{},\"Version\":\"{}\",\"Properties\":{},\"Type\":{}".format(self.name, runes, "TEST", props, types) + \
               "}"
