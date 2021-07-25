@@ -3,11 +3,11 @@ name: D2Parser Tests
 on:
   push:
     paths:
-      - *
+      - "**"
   create:
   pull_request:
     paths:
-      - *
+      - "**"
     types: [opened, reopened, ready_for_review, synchronize]
 
 jobs:
