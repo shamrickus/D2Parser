@@ -62,8 +62,8 @@ class Property:
 
 	def mult(self, amount: int):
 		if self.min.isnumeric():
-			self.min = str(round((int(self.min)*amount), 1))
+			self.min = str(round((int(self.min)*amount), 2))
 		if self.max.isnumeric():
-			self.max = str(round(int(self.max)*amount, 1))
+			self.max = str(round(int(self.max)*amount, 2))
 		if self.par.isnumeric():
-			self.par = str(round(int(self.par)*amount, 1))
+			self.par = str(round(int(self.par)*amount, 2))

@@ -1,8 +1,10 @@
+import codecs
 import csv
 import os
 import re
 import sys
 import urllib.request
+import logging
 from typing import Type, Tuple
 
 from baseParser import BaseParser
@@ -10,7 +12,10 @@ from monstatparser import MonStatParser
 from property import Property
 from property import PropertyParse
 from skills import SkillParser
-from utils import isdebugging
+from utils import isdebugging, getFileInsensitive
+from urllib.error import URLError
+
+logger = logging.getLogger(__name__)
 
 getSkillId = (lambda par, skills: [skill for skill in skills if skill.id == par])
 getSkillSkill = (lambda par, skills: [skill for skill in skills if skill.skill.lower() == par.lower()])
@@ -35,24 +40,46 @@ class Parser:
 		skillBeg = int(property.min)
 		skillEnd = int(property.max)
 		for skillI in range(skillBeg, skillEnd):
-			sk = self.getSk(skillI)
+			sk = self.getSk(str(skillI))[0]
 			if sk.char not in classes and len(classes) == 0:
 				classes[sk.char] = True
+			elif sk.char in classes and len(classes) == 1:
+				pass
 			else:
+				# TODO
 				return "Random Level {} skill ({} possibilities)".format(property.par, skillEnd-skillBeg)
-		cls = classes.keys()[0]
-		return "Random Level {} {} skill".format(property.par, cls)
+		cls = list(classes.keys())[0]
+		return "Random Level {} {} Skill".format(property.par, self.charAbbrvToFull(cls))
+
+	def charAbbrvToFull(self, abbv: str) -> str:
+		if abbv == "pal":
+			return "Paladin"
+		elif abbv == "ass":
+			return "Assassin"
+		elif abbv == "sor":
+			return "Sorceress"
+		elif abbv == "ama":
+			return "Amazon"
+		elif abbv == "dru":
+			return "Druid"
+		elif abbv == "bar":
+			return "Barbarian"
+		elif abbv == "nec":
+			return "Necromancer"
+		else:
+			logger.error("Unknown char abbv %s" % abbv)
+			sys.exit()
 
 	def getSk(self, skillId) -> SkillParser:
 		skill = getSkillId(skillId, self.skills)
 		if not skill:
 			skill = getSkillSkill(skillId, self.skills)
 		if not skill:
-			print("Unable to get skill for property {}".format(skillId))
+			logger.error("Unable to get skill for property {}".format(skillId))
 			sys.exit()
 		return skill
 
-	def parseSkill(self, property) -> str:
+	def parseSkillOnEvent(self, property) -> str:
 		global skills
 		if property.prop == "skill-rand":
 			return self.findInCommon(property)
@@ -63,7 +90,7 @@ class Parser:
 			if(len(skill)):
 				skill = skill[0]
 				#TODO
-				return "+{} to {} ({} Only)".format(generateRange(property), skill.skill, skill.char)
+				return "+{} to {} ({} Only)".format(generateRange(property), skill.skill, self.charAbbrvToFull(skill.char))
 			else:
 				return "+{} to {} (Class Only)".format(generateRange(property), property.par)
 		elif property.prop == "att-skill":
@@ -80,7 +107,7 @@ class Parser:
 		elif property.prop == "death-skill":
 			when = "Die"
 		else:
-			print("Unknown skill property {}".format(property.prop))
+			logger.error("Unknown skill property {}".format(property.prop))
 			sys.exit()
 		return "{}% Chance To Cast Level {} {} When you {}".format(property.min, property.max, property.par, when)
 
@@ -89,21 +116,29 @@ class Parser:
 			monster = getMonster(property, self.monsters)[0]
 			return "{} Reanimate As: {}".format(generateRange(property, "%"), monster)
 		else:
-			print("Unknown reanimate {}".format(property.prop))
+			logger.error("Unknown reanimate {}".format(property.prop))
 			sys.exit()
+
+	def parseCharges(self, property) -> str:
+		skills = self.getSk(property.par)
+		if(len(skills) != 1):
+			logger.error("Got %s skills" % len(skills))
+			sys.exit()
+		else:
+			return "Level %s %s (%s Charges)" % (property.max, skills[0].skill, property.min)
 
 	def validateProperty(self, property: Property) -> str:
 		x = property
 		matched = 0
 		if x.prop.startswith("*"):
 			if isdebugging():
-				print("Got star prop " + x.prop)
+				logger.info("Got star prop " + x.prop)
 			x.prop = x.prop[1:]
 		for prop in self.definedProperties:
-			if prop.code == x.prop:
+			if prop.code == x.prop.lower():
 				matched += 1
 		if matched != 1:
-			print("Property {} is not valid".format(property.prop))
+			logger.error("Property {} is not valid".format(property.prop))
 			sys.exit()
 
 	def parse(self, properties: [Property]):
@@ -123,13 +158,25 @@ class Parser:
 			dot = re.compile("(pois|cold)-len")
 			self.validateProperty(property)
 			if property.prop is None:
-				print("cant")
+				logger.error("cant")
 			elif property.prop == "dmg":
 				parsed = "{} Damage".format(generateRange(property))
 			elif property.prop == "dmg%":
 				parsed = "{} Enhanced Damage".format(generateRange(property, "%"))
 			elif property.prop == "dmg%/lvl":
 				parsed = "{} Enhanced Damage (Based on Character Level)".format(generateRange(property, "%"))
+			elif property.prop == "stamdrain":
+				parsed = "%s Slower stamina drain" % generateRange(property, "%")
+			elif property.prop == "stam":
+				parsed = "+%s to Maximum Stamina" % generateRange(property)
+			elif property.prop == "stam/lvl":
+				property.mult(1/8)
+				parsed = "+%s to Maximum Stamina (Based on Character Level)" % generateRange(property)
+			elif property.prop == "regen-stam":
+				parsed ="Heal Stamina Plus %s" % generateRange(property, "%")
+			elif property.prop == "regen-stam/lvl":
+				property.mult(1/8)
+				parsed = "Heal Stamina Plus %s (Based on Character Level)" % generateRange(property)
 			elif re.match(dot, property.prop):
 				property.mult(1/25)
 				if property.prop.startswith("cold"):
@@ -139,7 +186,7 @@ class Parser:
 				parsed = "This should not be seen"
 			elif re.match(star, property.prop):
 
-				print("Got star property: {}".format(property.prop))
+				logger.error("Got star property: {}".format(property.prop))
 			elif re.match(red, property.prop):
 				ret = "{}Damage Reduced By {}"
 				if property.prop == "red-mag":
@@ -165,7 +212,7 @@ class Parser:
 				if property.prop == "res-pois-len":
 					parsed = "Poison Length Reduced by {}".format(generateRange(property, "%"))
 				else:
-					print("Unknown reduce length {}".format(property.prop))
+					logger.error("Unknown reduce length {}".format(property.prop))
 					sys.exit()
 			elif re.match(res, property.prop):
 				if property.prop == "res-all":
@@ -201,7 +248,7 @@ class Parser:
 					elif property.prop == "dmg-elem":
 						parsed = "+{} Fire/Cold/Lightning Damage".format(generateRange(property))
 					else:
-						ret = "Adds " + generateRange(property)
+						ret = "Adds " + generateRange(property) + " "
 						if (property.prop == "dmg-ltng"):
 							ret += "Lightning"
 						elif (property.prop == "dmg-cold"):
@@ -215,7 +262,7 @@ class Parser:
 						elif (property.prop == "dmg-norm"):
 							pass
 						else:
-							print("Unknown add damage: {}".format(property.prop))
+							logger.error("Unknown add damage: {}".format(property.prop))
 							sys.exit()
 						parsed = ret  + " Damage"
 			elif re.match(extra, property.prop):
@@ -230,16 +277,21 @@ class Parser:
 				parsed = "+{} To {} Skill Damage".format(generateRange(property), type)
 
 			elif property.prop in ["skill", "kill-skill", "levelup-skill", "death-skill", "att-skill", "oskill", "skill-rand"]:
-				parsed = self.parseSkill(property)
+				parsed = self.parseSkillOnEvent(property)
+			elif property.prop == "randclassskill":
+				# TODO
+				parsed = "+3 To All Character Skills (Varies)"
 			elif property.prop == "reanimate":
 				self.parseReanimate(property)
 			elif property.prop == "fireskill":
 				parsed = "+{} To Fire Skills".format(generateRange(property))
 			elif property.prop == "skilltab":
-				parsed = "+{} To Skill Tab {} (TODO)".format(generateRange(property), property.par)
+				# TODO
+				parsed = "+{} To Skill Tab {}".format(generateRange(property), property.par)
 			elif property.prop in ["sor", 'nec', 'bar', 'pal', 'ass', 'dru', 'ama']:
-				#TODO
-				parsed = "+{} To Char skill".format(generateRange(property))
+				parsed = "+%s To All %s Skills" % (generateRange(property), self.charAbbrvToFull(property.prop))
+			elif property.prop == "charged":
+				parsed = self.parseCharges(property)
 			elif property.prop == "res-all":
 				parsed = "All Resistances +{}".format(generateRange(property))
 			elif property.prop == "aura":
@@ -248,7 +300,7 @@ class Parser:
 				parsed = "{} Increased Attack Speed".format(generateRange(property, "%"))
 			elif property.prop == "all-stats":
 				parsed = "+{} To All Attributes".format(generateRange(property))
-			elif property.prop == "light":
+			elif property.prop.lower() == "light":
 				parsed = "+{} To Light Radius".format(generateRange(property))
 			elif property.prop == "stupidity":
 				parsed = "Hit Blinds Target"
@@ -270,6 +322,8 @@ class Parser:
 				parsed = "Ethereal"
 			elif property.prop == "indestruct":
 				parsed = "Indestructible"
+			elif property.prop == "dur":
+				parsed = "+%s Increased Durability" % generateRange(property)
 			elif property.prop == "rep-dur":
 				parsed = "Repairs Durability {} in 4 Seconds".format(property.par)
 			elif property.prop == "knock":
@@ -398,8 +452,13 @@ class Parser:
 				parsed = "{} Chance of Open Wounds".format(generateRange(property, "%"))
 			elif property.prop == "crush":
 				parsed = "{} Chance of Crushing Blow".format(generateRange(property, "%"))
+			elif property.prop == "light-thorns":
+				parsed = "Attacker Takes Lightning Damage of %s" % generateRange(property)
 			elif property.prop == "thorns":
 				parsed = "Attacker Takes Damage of {}".format(generateRange(property))
+			elif property.prop == "thorns/lvl":
+				property.mult(1/8)
+				parsed = "Attacker Takes Damage of %s (Based on Character Level)" % generateRange(property)
 			elif property.prop == "rip":
 				parsed = "Slain Monsters Rest in Peace"
 			elif property.prop == "move2":
@@ -435,14 +494,16 @@ class Parser:
 				parsed = "Fires Level {} Magic Arrows/Bolts".format(generateRange(property))
 			elif property.prop == "ac-hth":
 				parsed = "+{} Defense vs. Melee".format(generateRange(property))
+			elif property.prop == "sock":
+				parsed = "Socketed (%s)" % generateRange(property)
 			elif property.prop == "bloody":
 				# TODO not visible
 				parsed = "Extra Blood {}".format(generateRange(property))
 			else:
-				print("Unable to parse " + str(property))
+				logger.error("Unable to parse " + str(property))
 				sys.exit()
 			if parsed == "":
-				print("Property {} did not get parsed!".format(property.prop))
+				logger.error("Property {} did not get parsed!".format(property.prop))
 				sys.exit()
 			property.parsed = parsed
 			properties[k] = property
@@ -459,7 +520,7 @@ class Parser:
 				properties.remove(minProp[0])
 				properties.remove(maxProp[0])
 			elif len(props) != 0:
-				print("Mismatched number of poison properties " + len(props))
+				logger.error("Mismatched number of %s properties %s" % (typ, len(props)))
 
 		mergeDmgProps(poisonDmgProps, "Poison")
 		mergeDmgProps(coldDmgProps, "Cold")
@@ -478,7 +539,7 @@ def tagToString(prop) -> str:
 	elif "mag" in prop:
 		return "Magic"
 	else:
-		print("Unknown prop " + prop)
+		logger.error("Unknown prop " + prop)
 		sys.exit()
 
 
@@ -494,9 +555,10 @@ class BaseParserCreator:
 	@staticmethod
 	def read(cls: Type[BaseParser], parser: Parser, version: str, dl=False) -> [BaseParser]:
 		items = []
-		path = os.path.join(os.getcwd(), "versions", version, cls.getName()+".txt")
+		dir = os.path.join(os.getcwd(), "versions", version)
+		path = os.path.join(dir, getFileInsensitive(dir, cls.getName()+".txt"))
 		try:
-			with open(path, 'r') as file:
+			with codecs.open(path, 'r', encoding='utf-8', errors='ignore') as file:
 				reader = csv.DictReader(file, delimiter='\t')
 				for line in reader:
 					item = cls(dict(line))
@@ -507,11 +569,11 @@ class BaseParserCreator:
 							BaseParserCreator.Download(item)
 					else:
 						try:
-							print("bad ({})".format(item.name) + str(item))
+							logger.debug("bad [%s] (%s) %s" % (cls.getName(), item.name, item))
 						except:
-							print("bad (%s)" % str(item))
+							logger.debug("bad [%s] %s" % (cls.getName(), str(item)))
 		except FileNotFoundError:
-			print("Unable to find %s" % path)
+			logger.error("Unable to find %s" % path)
 			sys.exit()
 
 
@@ -519,6 +581,9 @@ class BaseParserCreator:
 
 	@staticmethod
 	def Download(cls: Type[BaseParser]):
+		import socket
+		dfto = socket.getdefaulttimeout()
+		socket.setdefaulttimeout(1)
 		name = cls.fileName()
 		url = "http://classic.battle.net/images/battle/diablo2exp/images/{}".format(name) + "/{}.gif"
 		gemName = cls.Name().replace(" ", "")
@@ -528,8 +593,11 @@ class BaseParserCreator:
 				os.mkdir(os.path.join('Images', name))
 			except:
 				pass
-			imgName = os.path.join("Images", name, cls.FileName)
+			imgName = os.path.join("Images", name, cls.FileName())
 			urllib.request.urlretrieve(nurl, imgName)
 			cls.img = imgName
+		except URLError as e:
+			logger.error("timedout getting %s" % nurl)
 		except Exception:
-			print("Unable to parse {} url {}".format(gemName, nurl))
+			logger.error("Unable to parse {} url {}".format(gemName, nurl))
+		socket.setdefaulttimeout(dfto)

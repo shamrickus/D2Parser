@@ -29,7 +29,15 @@ describe("D2Parser Tests", () => {
 
     it("run for GoN", async () => {
         await runExec("cd .. && python main.py gon").toPromise().then(async (next: string | undefined) => {
-            console.debug(next);
+            strictEqual(fs.existsSync("../Generated/runes.ts"), true);
+            strictEqual(false, ts.createProgram(["../Generated/runes.ts"], {}).emit().emitSkipped);
+        }).catch((error: string) => {
+            fail(error);
+        });
+    });
+
+    it("run for D2Lod", async () => {
+        await runExec("cd .. && python main.py d2lod").toPromise().then(async (next: string | undefined) => {
             strictEqual(fs.existsSync("../Generated/runes.ts"), true);
             strictEqual(false, ts.createProgram(["../Generated/runes.ts"], {}).emit().emitSkipped);
         }).catch((error: string) => {

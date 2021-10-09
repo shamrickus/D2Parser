@@ -1,7 +1,10 @@
+import logging
+
 from baseParser import BaseParser
 from property import Property
 from utils import isdebugging
 
+logger = logging.getLogger(__name__)
 
 class BaseEquipment(BaseParser):
 	name: str
@@ -28,5 +31,5 @@ class BaseEquipment(BaseParser):
 										   self.raw[minFmtStr.format(str(i))], self.raw[maxFmtStr.format(str(i))]))
 		if self.verify():
 			if isdebugging():
-				print(self.name)
+				logger.debug(self.name)
 			parser.parse(self.props)

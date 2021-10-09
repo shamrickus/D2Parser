@@ -1,5 +1,6 @@
 import os
 import sys
+import logging
 
 from gems import GemsParser
 from itemTypes import ItemTypeParser
@@ -10,12 +11,16 @@ from setItem import SetItemParser
 from unique import UniqueParser
 
 if __name__ == "__main__":
+	logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+	logger = logging.getLogger("main")
+
 	if len(sys.argv) != 2:
-		print("main.py DIRECTORY")
+		logger.error("main.py DIRECTORY")
 		sys.exit(1)
 
+
 	psr = Parser(sys.argv[1])
-	print("Loading Item Types")
+	logger.info("Loading Item Types")
 	types = psr.read(ItemTypeParser)
 	typesByCode = dict()
 	for t in types:
@@ -23,19 +28,19 @@ if __name__ == "__main__":
 	master = "weap"
 	weapon = typesByCode[master]
 
-	print("Loading Gems/Runes")
-	gems = psr.read(GemsParser, True)
-	print("Downloading Images")
+	logger.info("Loading Gems/Runes")
+	gems = psr.read(GemsParser)
+	logger.info("Downloading Images")
 
-	print("Loading Runewords")
+	logger.info("Loading Runewords")
 	items = psr.read(RunewordParser)
 	itemAggregate = ParseAggregate(items, RunewordParser, psr)
 
-	print("Loading Uniq")
+	logger.info("Loading Uniq")
 	otherItems = psr.read(UniqueParser)
 	itmAggregate = ParseAggregate(otherItems, UniqueParser, psr)
 
-	print("Loading Set")
+	logger.info("Loading Set")
 	setItems = psr.read(SetItemParser)
 	setAgg = ParseAggregate(setItems, SetItemParser, psr)
 

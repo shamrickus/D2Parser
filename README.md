@@ -12,7 +12,8 @@ Takes in Diablo II source files and parses them into Typescript using python. Cu
 
 ## Running
 * `python main.py VERSION` 
-  * For Glory of Nephilim it is `python main.py gon`
+  * Glory of Nephilim: `python main.py gon`
+  * D2LoD (1.14) : `python main.py d2lod`
   
 ## Tests
 Tests are written in typescript to allow for easy parsing of the generated ts files. 
@@ -24,8 +25,7 @@ Tests are written in typescript to allow for easy parsing of the generated ts fi
 
 ### Running
     pnpm install
-  
-    pnpm run test` or `npx mocha
+    pnpm run test
 
 ## Directory Overview
 * /versions `// Contains source files for specific game versions`
