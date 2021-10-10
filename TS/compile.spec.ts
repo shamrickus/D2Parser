@@ -28,18 +28,18 @@ describe("D2Parser Tests", () => {
     });
 
     it("run for GoN", async () => {
-        await runExec("cd .. && python main.py gon").toPromise().then(async (next: string | undefined) => {
-            strictEqual(fs.existsSync("../Generated/runes.ts"), true);
-            strictEqual(false, ts.createProgram(["../Generated/runes.ts"], {}).emit().emitSkipped);
+        await runExec("cd .. && python main.py gon latest").toPromise().then(async (next: string | undefined) => {
+            strictEqual(fs.existsSync("../Generated/gon/latest/runewords.ts"), true);
+            strictEqual(false, ts.createProgram(["../Generated/gon/latest/runewordss.ts"], {}).emit().emitSkipped);
         }).catch((error: string) => {
             fail(error);
         });
     });
 
     it("run for D2Lod", async () => {
-        await runExec("cd .. && python main.py d2lod").toPromise().then(async (next: string | undefined) => {
-            strictEqual(fs.existsSync("../Generated/runes.ts"), true);
-            strictEqual(false, ts.createProgram(["../Generated/runes.ts"], {}).emit().emitSkipped);
+        await runExec("cd .. && python main.py d2lod 114").toPromise().then(async (next: string | undefined) => {
+            strictEqual(fs.existsSync("../Generated/d2lod/114/runewords.ts"), true);
+            strictEqual(false, ts.createProgram(["../Generated/d2lod/114/runewords.ts"], {}).emit().emitSkipped);
         }).catch((error: string) => {
             fail(error);
         });

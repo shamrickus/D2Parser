@@ -14,12 +14,23 @@ if __name__ == "__main__":
 	logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 	logger = logging.getLogger("main")
 
-	if len(sys.argv) != 2:
-		logger.error("main.py DIRECTORY")
-		sys.exit(1)
+	mods = {}
+	for modName in os.listdir(os.path.join(os.getcwd(), "versions")):
+		mods[modName] = []
+		for version in os.listdir(os.path.join(os.getcwd(), "versions", modName)):
+			mods[modName].append(version)
 
+	logger.info("Mods detected")
+	for modName in mods.keys():
+		logger.info('%s' % modName)
+		for version in mods[modName]:
+			logger.info("\t%s" % version)
 
-	psr = Parser(sys.argv[1])
+	psr: Parser = None
+	if len(sys.argv) == 3:
+		psr = Parser(sys.argv[1], sys.argv[2])
+	else:
+		psr = Parser(list(mods.keys())[0], mods[list(mods.keys())[0]][0])
 	logger.info("Loading Item Types")
 	types = psr.read(ItemTypeParser)
 	typesByCode = dict()
@@ -30,7 +41,6 @@ if __name__ == "__main__":
 
 	logger.info("Loading Gems/Runes")
 	gems = psr.read(GemsParser)
-	logger.info("Downloading Images")
 
 	logger.info("Loading Runewords")
 	items = psr.read(RunewordParser)
@@ -65,6 +75,6 @@ if __name__ == "__main__":
 	replaceItems(setAgg)
 	itemAggregate.parse(runes)
 
-	itemAggregate.writeJSON()
+	itemAggregate.writeJSON(items[0].getOutputName())
 
 	d = 2

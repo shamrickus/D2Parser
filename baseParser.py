@@ -6,11 +6,18 @@ class BaseParser:
 		for prop in line:
 			self.raw[headerParse(prop)] = line[prop]
 
+	def setMod(self, modName: str, version: str):
+		self.modName = modName
+		self.version = version
+
 	@staticmethod
 	def getName():
 		raise NotImplementedError()
 
 	def verify(self):
+		raise NotImplementedError()
+
+	def getOutputName(self):
 		raise NotImplementedError()
 
 	def json(self):

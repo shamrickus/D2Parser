@@ -26,14 +26,15 @@ class Parser:
 	monsters: [MonStatParser] = []
 	version: str = ""
 
-	def __init__(self, version: str):
+	def __init__(self, modName: str, version: str):
+		self.modName = modName
 		self.version = version
 		self.skills = self.read(SkillParser)
 		self.definedProperties = self.read(PropertyParse)
 		self.monsters = self.read(MonStatParser)
 
 	def read(self, cls: Type[BaseParser], dl=False) -> [BaseParser]:
-		return BaseParserCreator.read(cls, self, self.version, dl)
+		return BaseParserCreator.read(cls, self, self.modName, self.version, dl)
 
 	def findInCommon(self, property: Property) -> str:
 		classes = {}
@@ -553,9 +554,9 @@ def generateRange(prop, append=""):
 
 class BaseParserCreator:
 	@staticmethod
-	def read(cls: Type[BaseParser], parser: Parser, version: str, dl=False) -> [BaseParser]:
+	def read(cls: Type[BaseParser], parser: Parser, modName: str, version: str, dl=False) -> [BaseParser]:
 		items = []
-		dir = os.path.join(os.getcwd(), "versions", version)
+		dir = os.path.join(os.getcwd(), "versions", modName, version)
 		path = os.path.join(dir, getFileInsensitive(dir, cls.getName()+".txt"))
 		try:
 			with codecs.open(path, 'r', encoding='utf-8', errors='ignore') as file:
@@ -564,6 +565,7 @@ class BaseParserCreator:
 					item = cls(dict(line))
 					item.parse(parser)
 					if item.verify():
+						item.setMod(modName, version)
 						items.append(item)
 						if dl:
 							BaseParserCreator.Download(item)

@@ -26,10 +26,11 @@ class ParseAggregate:
 				for runeProp in rune._props[type]:
 					item.add(runeProp, self.parser)
 
-	def writeJSON(self):
-		if not os.path.exists(os.path.join(os.getcwd(), "Generated")):
-			os.mkdir(os.path.join(os.getcwd(), "Generated"))
-		with open(os.path.join(os.getcwd(), "Generated", self.cls.getName()+ ".ts"), "w") as file:
+	def writeJSON(self, name: str):
+		dir = os.path.join(os.getcwd(), "Generated", self.parser.modName, self.parser.version)
+		if not os.path.exists(dir):
+			os.makedirs(dir)
+		with open(os.path.join(dir, name + ".ts"), "w") as file:
 			file.write("[")
 			for item in self.items:
 				file.write(item.json() + ",")

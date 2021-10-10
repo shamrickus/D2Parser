@@ -37,6 +37,8 @@ class RunewordParser(BaseEquipment):
 
         return out
 
+    def getOutputName(self):
+        return "runewords"
 
     @staticmethod
     def getName():

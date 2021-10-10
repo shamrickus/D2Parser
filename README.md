@@ -2,8 +2,7 @@
 
 # D2Parser
 
-Takes in Diablo II source files and parses them into Typescript using python. Currently hard coded around the mod 
-[Glory of Nephilim](http://gloryofnephilim.org), but should be accurate for vanilla D2.
+Takes in Diablo II source files and parses them into Typescript using python.
 
 ## Prerequisites 
 * Python 3.9
@@ -11,9 +10,9 @@ Takes in Diablo II source files and parses them into Typescript using python. Cu
     * Install dependencies `python -m pip install -r requirements.txt` 
 
 ## Running
-* `python main.py VERSION` 
-  * Glory of Nephilim: `python main.py gon`
-  * D2LoD (1.14) : `python main.py d2lod`
+* `python main.py MOD VERSION` 
+  * Glory of Nephilim: `python main.py gon latest`
+  * D2LoD (1.14) : `python main.py d2lod 114`
   
 ## Tests
 Tests are written in typescript to allow for easy parsing of the generated ts files. 
